@@ -1,0 +1,258 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Prices3 from '~/components/widgets/Pricing3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Pricing',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText
+    tagline="Website laten maken"
+    title="Goedkoop een website laten maken? Wij van <span class='text-accent dark:text-white highlight'> Magick Media</span> helpen je graag verder!"
+    subtitle="Welkom bij Magick Media, de digitale genieën van Tilburg! Goedkoop een website of webshop laten maken doe je bij ons, zonder concessies aan kwaliteit."
+  />
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Wat je van ons kunt verwachten"
+    subtitle="Doordat je website door ons laat maken, ben je verzekerd van een aantal belangrijke punten die nodig zijn voor een kwalitatief goede website."
+    columns={2}
+    items={[
+      {
+        title: 'Gebruiksvriendelijk',
+        description: 'Wij maken niet alleen mooie website, maar zorgen er ook voor dat de bezoeker gemakkelijk kan vinden waar hij of zij naar zoekt.',
+        icon: 'tabler:mood-smile-beam',
+      },
+      {
+        title: 'Makkelijk schaalbaar',
+        description: 'We bouwen je website zo op, dat het erg makkelijk is om je website uit te breiden met meerdere pagina&lsquo;s of blogpost .',
+        icon: 'tabler:copy',
+      },
+      {
+        title: 'Laatste technieken',
+        description: 'Om er voor te zorgen dat je website voldoet aan de laatste kwaliteitsstandaarden, gebruiken wij de nieuwste technieken bij het ontwikkelen van jouw website.',
+        icon: 'tabler:cpu',
+      },
+      {
+        title: '100% responsive',
+        description: 'In ons ontwerp wordt er rekening gehouden dat je website op verschillende schermgroottes bekeken gaat worden. Je website is dus 100% responsive.',
+        icon: 'tabler:devices',
+      },
+      {
+        title: 'Snelle laadtijd',
+        description: `Niks is vervelender dan lang moeten wachten totdat de website die je bezoekt geladen is. Een langzame website zorgt ervoor dat veel bezoekers de website verlaten. Wij zorgen ervoor dat je website snel is, zodat de bezoeker niet lang hoeft te wachten.`,
+        icon: 'tabler:brand-speedtest',
+      },
+      {
+        title: 'Persoonlijke support',
+        description: 'Wij vinden het belangrijk om met iedere klant persoonlijk contact te hebben. Daarom reageren we vaak al binnen een werkdag op je vragen en helpen we je graag verder.',
+        icon: 'tabler:headset',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+  
+  
+  <!-- Pricing2 Widget ******************* -->
+
+  <Prices3
+    title="Tarieven"
+    subtitle="Kies een pakket die bij jou past"
+    prices={[
+      {
+        title: 'Starter',
+        subtitle: 'Voor starters hebben we een speciale aanbieding',
+        price: 99,
+        period: 'eenmalig',
+        items: [
+          { 
+            description: 'Bij hostingpakket van €49,99 p/m',
+          }, 
+          {
+            description: 'Vormgeving naar smaak',
+          },
+          {
+            description: 'Wordpress CMS',
+          },
+          {
+            description: "Tot wel 5 pagina's",
+          },
+        ],
+        callToAction: {
+          target: '_blank',
+          text: 'Interesse',
+          href: '#',
+          
+        },
+        hasRibbon: true,
+        ribbonTitle: 'Actie',
+      },
+      {
+        title: 'Premium',
+        subtitle: 'Geschikt voor het middel/ kleine bedrijven en ZZPers',
+        price: 499,
+        period: 'eenmalig',
+        items: [
+          { 
+            description: 'Bij hostingpakket van €49,99 p/m',
+          }, 
+          {
+            description: 'Vormgeving naar smaak',
+          },
+          {
+            description: 'Wordpress CMS',
+          },
+          {
+            description: "Tot wel 5 pagina's",
+          },
+        ],
+        callToAction: {
+          target: '_blank',
+          text: 'Interesse',
+          href: '#',
+        },
+      },
+      {
+        title: 'Pro',
+        subtitle: 'Geschikt voor de gevestigde ondernemer',
+        price: 4999,
+        period: 'vanafprijs',
+        items: [
+          {
+            description: 'Bij hostingpakket van €49,99 p/m',
+          },
+          {
+            description: 'Razendsnel, uiterst geschikt voor SEO',
+          },
+          {
+            description: 'Koppeling met CMS (backend) mogelijk',
+          },
+          {
+            description: 'Na intake, offerte op maat',
+          }
+        ],
+        callToAction: {
+          text: 'Offerte aanvragen',
+          href: '/contact',
+        },
+      }
+    ]}
+  />
+
+  <!-- Steps Widget ****************** -->
+
+  <Steps
+    title="Jouw website snel online met deze 8 stappen "
+    tagline="ons proces"
+    isReversed={true}
+    items={[
+      {
+        title: 'Kennismaking en intake',
+        icon: 'tabler:number-1',
+      },
+      {
+        title: 'Offerte met scope',
+        icon: 'tabler:number-2',
+      },
+      {
+        title: 'Ontwikkeling van de website, met dummy tekst en afbeeldingen',
+        icon: 'tabler:number-3',
+      },
+      {
+        title: 'Goedkeuring van het ontwerp door de klant',
+        icon: 'tabler:number-4',
+      },
+      {
+        title: 'Eerste factuur van de website en start hostingcontract',
+        icon: 'tabler:number-5',
+      },
+      {
+        title: 'Het aanleveren van de teksten en het toevoegen van de (juiste) afbeeldingen',
+        icon: 'tabler:number-6',
+      },
+      {
+        title: 'Goedkeuring op de inhoud van de website',
+        icon: 'tabler:number-7',
+      },
+      {
+        title: 'Livegang',
+        icon: 'tabler:number-8',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+      alt: 'Steps image',
+    }}
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+<!-- FAQs Widget ******************* -->
+
+<FAQs
+title="Wat klanten wilde weten"
+subtitle="Het is belangrijk dat al uw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact' title='Contact opnemen met Magick Media' class='text-accent dark:text-white highlight'>contact</a> met ons op."
+tagline="Veelgestelde vragen"
+classes={{ container: 'max-w-6xl' }}
+items={[
+  {
+    title: 'Is een hosting en onderhoud pakket perse nodig?',
+    description:
+      "Door ons <a href='/hostingpakket' title='Meer informatie over ons hostingpakket' class='text-accent dark:text-white highlight'>hostingpakket</a>  kunnen wij er voor blijven zorgen dat je website optimaal blijft presteren. Hoewel wij het niet aanraden, kunnen wij ook een website voor je maken zonder hostingpakket. In dat geval gelden andere prijzen dan hierboven aangegeven.",
+  },
+  {
+    title: 'Waarom factureren jullie al bij stap 5?',
+    description:
+    'In deze stap is de website technisch eigenlijk al klaar en wachten we alleen nog op de inhoud (teksten en afbeeldingen). Na deze stap zijn we afhankelijk van de klant die deze teksten en afbeeldingen aanleverd. Helaas zien we te vaak dat het best lang kan duren voordat we inhoud krijgen aangeleverd. Vaak omdat de klant het erg druk heeft, wat natuurlijk erg fijn is :). Om hier financieel niet afhankelijk van te zijn, hebben we er voor gekozen om al bij stap 5 te factureren.',
+  },
+  {
+    title: 'Kan ik zelf aanpassingen doen aan de website?',
+    description:
+      "Dat is niet nodig! Wij passen met liefde de website voor je aan, als dat nodig is. Het enige wat jij hoeft te doen, is een bericht te sturen met de aanpassing! Zijn het grote aanpassingen? Bij meer dan 30 minuten werk per maand, werken wij met ons uurtarief. Dit doen wij omdat wij een volledige ontzorging belangrijk vinden. Omdat jij het al druk genoeg hebt met ondernemen!",
+  },
+  {
+    title: "Ben ik voor 100% de eigenaar van de website die jullie voor mij maken?",
+    description:
+      "Ja, nadat je de eenmalige kosten hebt betaald voor je website ben je hiervan 100% de eigenaar van. De enige uitzondering is de aanbieding voor Starters. In deze aanbieding ben je de eigenaar van het product nadat je abonnement minimaal twee jaar oud is bij ons. Wil je toch eerder weg? Dan kun je je product altijd afkopen. Het is wel belangrijk om te weten dat voor de Wordpress website betaalde plugins worden gebruikt, daar betalen wij dus jaarlijks voor. Mocht je je site willen overnemen, dan zijn deze kosten ook voor eigen beheer. ",
+  },
+  {
+    title: "Moet ik de domeinregistratie zelf doen?",
+    description:
+      "Als je al een domein hebt gekocht, sluiten we de nieuwe website graag daar op aan. Heb je dit niet? Dan regelen wij graag de domeinnaam voor je. Geen extra kosten aan verbonden, alleen de kosten die wij betalen bij het aanschaffen van de domeinnaam.",
+  },
+  {
+    title: "Hoe lang duurt het gemiddeld om een website te laten ontwikkelen?",
+    description:
+      "Bij het Pro pakket lukt het ons om gemiddeld binnen een maand de website live te hebben, mits er aan de klant kant geen vertraging is met het geven van feedback en opleveren van de inhoud (teksten en afbeeldingen). Bij het Pro pakket is het afhankelijk van de groote van de website. De kleinst mogelijk website is in ongeveer twee maanden live.",
+  },
+  {
+    title: "Waarom zou ik voor Pro kiezen in plaatst van Premium?",
+    description:
+      "Voor de meeste ondernemers is het Premium pakket ruim voldoende. Ook bij het Premium pakket krijg je een, voor het menselijk oog, snelle website. Wil je echt het verschil gaan maken op SEO gebied of wil je qua vormgeving net dat stapje extra? Dan is een Pro pakket aan te raden. De snelheid van deze website is razendsnel, wat belangrijk is voor SEO. En dan praten we over milisecondes, iets waar Google wel naar kijkt, maar het menselijk oog niet echt merkt.",
+  }
+]}
+/>
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    title="Klaar voor een  <span class='text-accent dark:text-white highlight'>Magische</span> website?"
+    subtitle="Wacht niet langer en neem contact met ons op.</br> Wij gaan graag voor jou aan de slag!"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contact',
+        href: '/contact',
+      },
+    ]}
+  />
+</Layout>

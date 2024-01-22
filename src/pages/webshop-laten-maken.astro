@@ -1,0 +1,314 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Prices3 from '~/components/widgets/Pricing3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Hero from '~/components/widgets/Hero.astro';
+
+const metadata = {
+  title: 'Magick Media - Webshop laten maken.',
+};
+---
+
+<Layout metadata={metadata}>
+
+  <!-- Hero Widget ******************* -->
+  <Hero
+    tagline="Webshop laten maken"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Interesse',
+        href: '/contact',
+      },
+      { text: 'Tarieven', href: '#tarieven' },
+    ]}
+  >
+    <Fragment slot="title">
+      Een professionele webshop laten maken? <span class='text-accent dark:text-white highlight'> Magick Media</span> regelt het!
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="sm:inline">
+        Naast een profesionele webshop die aan alle kwaliteitseisen voldoet, betaal je bij ons ook nooit teveel!
+        </span>
+    </Fragment>
+  </Hero>
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Wat je van ons kunt verwachten"
+    subtitle="De webshop die wij voor je maken, kan meteen gebruikt worden om je eerste producten te verkopen. Daarnaast ben je bij ons verzekerd van deze aspecten die zorgen voor een goede webshop."
+    columns={2}
+    items={[
+      {
+        title: 'Gebruikersgemak',
+        description: 'Wij zorgen ervoor dat de bezoeker precies kan vinden waar hij/zij naar zoekt. Zodat het aankoop proces vlot verloopt en er geen inkomsten verloren gaan.',
+        icon: 'tabler:mood-smile-beam',
+      },
+      {
+        title: 'Uitbreidbaar',
+        description: 'Wij zorgen ervoor dat je gemakkelijk producten kunt toevoegen aan we webshop. Zo is deze makkelijk schaalbaar.',
+        icon: 'tabler:copy',
+      },
+      {
+        title: 'Geavanceerde technologieën',
+        description: 'Omdat jouw webshop aan de hoogste kwaliteitsstandaarden moet voldoen, gebruiken wij geavanceerde technologieën bij het ontwikkeling van de webshop. ',
+        icon: 'tabler:cpu',
+      },
+      {
+        title: 'Responsiveness',
+        description: 'Wij houden er rekening mee dat je webshop op verschillende schermgroottes goed moet functioneren. Jouw webshop is dus 100% responsive.',
+        icon: 'tabler:devices',
+      },
+      {
+        title: 'Optimale snelheid',
+        description: `Een langzame webshop kan er voor zorgen dat de bezoekers weggaan. Daarom zorgen wij er voor dat de webshop snel laadt.`,
+        icon: 'tabler:brand-speedtest',
+      },
+      {
+        title: 'Direct contact',
+        description: 'Zoals je wellicht al weet vinden wij persoonlijk klantcontact extreem belangrijk. Daarom streven wij er na om met iedere klant persoonlijk contact te hebben en onderhouden, zodat jij precies weet bij wie je moet zijn als je vragen hebt.',
+        icon: 'tabler:headset',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+  
+  
+  <!-- Pricing2 Widget ******************* -->
+
+  <Prices3
+    id="tarieven"
+    title="Tarieven"
+    subtitle="Kies een pakket die bij jou past"
+    prices={[
+      {
+        title: 'Starter',
+        subtitle: 'Voor starters hebben we een speciale aanbieding',
+        price: 0,
+        period: 'eenmalig',
+        items: [
+          { 
+            description: 'Bij hostingpakket van €49,99 p/m',
+          }, 
+          {
+            description: 'Vormgeving naar smaak',
+          },
+          {
+            description: 'Wordpress CMS (incl. WooCommerce)',
+          },
+          {
+            description: "Exclusief het toevoegen van producten",
+          },
+        ],
+        callToAction: {
+          target: '_blank',
+          text: 'Interesse',
+          href: '/contact',
+        },
+        hasRibbon: true,
+        ribbonTitle: 'Actie',
+      },
+      {
+        title: 'Premium',
+        subtitle: 'Geschikt voor het middel/ kleine bedrijven en ZZPers',
+        price: 799,
+        period: 'eenmalig',
+        items: [
+          { 
+            description: 'Bij hostingpakket van €49,99 p/m',
+          }, 
+          {
+            description: 'Vormgeving naar smaak',
+          },
+          {
+            description: 'Wordpress CMS (incl. WooCommerce)',
+          },
+          {
+            description: "Exclusief het toevoegen van producten",
+          },
+        ],
+        callToAction: {
+          target: '_blank',
+          text: 'Interesse',
+          href: '/contact',
+        },
+      },
+      {
+        title: 'Pro',
+        subtitle: 'Geschikt voor de gevestigde ondernemer',
+        price: 7999,
+        period: 'vanafprijs',
+        items: [
+          {
+            description: 'Bij hostingpakket van €49,99 p/m',
+          },
+          {
+            description: 'Razendsnel, uiterst geschikt voor SEO',
+          },
+          {
+            description: 'Koppeling met CMS (backend) mogelijk',
+          },
+          {
+            description: 'Exclusief het toevoegen van producten',
+          },
+          {
+            description: 'Na intake, offerte op maat',
+          }
+        ],
+        callToAction: {
+          text: 'Offerte aanvragen',
+          href: '/contact', 
+        },
+        isPrimary: false
+      }
+    ]}
+  />
+
+  <!-- Steps Widget ****************** -->
+
+  <Steps
+    title="Jouw webshop snel live in deze 8 stappen "
+    tagline="ons proces"
+    isReversed={true}
+    items={[
+      {
+        title: 'Intakegesprek',
+        icon: 'tabler:number-1',
+      },
+      {
+        title: 'Offerte op maat',
+        icon: 'tabler:number-2',
+      },
+      {
+        title: 'Ontwikkeling van de webshop, met dummy tekst en afbeeldingen',
+        icon: 'tabler:number-3',
+      },
+      {
+        title: 'Goedkeuring van het ontwerp door de klant',
+        icon: 'tabler:number-4',
+      },
+      {
+        title: 'Eerste factuur van de webshop en start hostingcontract',
+        icon: 'tabler:number-5',
+      },
+      {
+        title: 'Het aanleveren van de teksten en het toevoegen van de (juiste) afbeeldingen',
+        icon: 'tabler:number-6',
+      },
+      {
+        title: 'Goedkeuring op de inhoud van de webshop',
+        icon: 'tabler:number-7',
+      },
+      {
+        title: 'Livegang',
+        icon: 'tabler:number-8',
+      },
+    ]}
+    image={{
+      src: 'src/assets/images/website-laten-maken-proces.jpg',
+      alt: 'Webshop laten maken proces',
+    }}
+  />
+
+ <!-- Testimonials Widget *********** -->
+
+<Testimonials
+title="Wat onze klanten zeggen"
+testimonials={[
+  {
+    testimonial: `Super tevreden!! Duidelijke communicatie en no noncense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍`,
+    name: 'Belinda',
+    job: 'Webshop Eigenaar',
+  },
+  {
+    testimonial: `Mick beheert naar tevredenheid onze website waarvoor dank.`,
+    name: 'Leroy',
+    job: 'Boekhouder',
+  },
+  {
+    testimonial: `Super fijne samenwerking met Mick van Magick Media. Vooral de persoonlijke communicatie vind ik erg fijn.`,
+    name: 'Dena',
+    job: 'Affiliate Marketeer',
+  },
+]}
+/>
+
+<!-- HighlightedPosts Widget ******* -->
+
+<BlogLatestPosts
+title="Onze laatste blogposts"
+/>
+
+<!-- CallToAction Widget *********** -->
+
+<CallToAction
+title="Klaar voor een  <span class='text-accent dark:text-white highlight'>Magische</span> webshop?"
+subtitle="Wacht niet langer en neem contact met ons op.</br> Wij gaan graag voor jou aan de slag!"
+actions={[
+  {
+    variant: 'primary',
+    text: 'Contact',
+    href: '/contact',
+  },
+]}
+/>
+
+<!-- FAQs Widget ******************* -->
+
+<FAQs
+title="Wat klanten vroegen"
+subtitle="Bij vragen kun je natuurlijk altijd <a href='/contact' title='contact met Magick Media' class='text-primary dark:text-white highlight'>contact</a> met ons opnemen. Daarnaast hebben we de veelgestelde vragen over een webshop voor jou op een rijtje gezet."
+tagline="Veelgestelde vragen"
+classes={{ container: 'max-w-6xl' }}
+items={[
+  {
+    title: 'Is het afnemen van een hostingpakket verplicht?',
+    description:
+      "Wij streven er naar om onze klanten een volledige ontzorging te bieden van het onderhoud van hun webshop. Met ons <a href='/hostingpakket' title='hostingpakket' class='text-primary dark:text-white highlight'>hostingpakket</a>  kunnen wij daarvoor zorgen. Daarom raden wij het niet aan om een webshop zonder hostingpakket te nemen, al is het dus wel mogelijk. Dan gelden er andere prijzen dan je hierboven ziet.",
+  },
+  {
+    title: 'Waarom wordt er al een factuur verstuurd bij stap 5?',
+    description:
+    'In deze fase is de technische ontwikkeling van de webshop eigenlijk al voltooid, en wachten we alleen nog op de inhoud (teksten en afbeeldingen). Na deze stap zijn we afhankelijk van de klant die deze inhoud aanlevert. Helaas zien we vaak dat het enige tijd kan duren voordat we de benodigde informatie ontvangen, vaak omdat de klant het erg druk heeft, wat natuurlijk begrijpelijk is :). Om niet financieel afhankelijk te zijn van deze wachttijd, hebben we besloten om al bij stap 5 te factureren.',
+  },
+  {
+    title: 'Kan ik zelf aanpassingen doen aan de webshop?',
+    description:
+      "Een voordeel van ons hosting en beheer pakket is dat dit dus niet hoeft. We nemen graag de aanpassingen aan de webshop voor je uit handen, als dat nodig is. Het enige wat je hoeft te doen, is ons een bericht sturen met de gewenste wijzigingen! Als het om aanzienlijke aanpassingen gaat, hanteren wij ons uurtarief voor werk dat meer dan 30 minuten per maand in beslag neemt. Dit doen we om ervoor te zorgen dat je volledig ontzorgd wordt, aangezien we begrijpen dat je al druk genoeg bent met ondernemen!",
+  },
+  {
+    title: "Is het zo dat ik volledig eigenaar ben van de webshop?",
+    description:
+      "Ja, zodra de eenmalige kosten voor je webshop zijn voldaan, ben je volledig eigenaar ervan. Er is echter een uitzondering op deze regel voor de Startersaanbieding. In dit geval wordt je officieel eigenaar van het product nadat je abonnement minimaal twee jaar actief is bij ons. Als je eerder wilt vertrekken, heb je de mogelijkheid om je product eerder af te kopen. Het is van belang om te vermelden dat er voor de WordPress-website betaalde plugins worden gebruikt waar wij jaarlijks voor betalen. Als je ervoor kiest om je site over te nemen, zijn deze kosten voor eigen beheer.",
+  },
+  {
+    title: "Ben ik verantwoordelijk voor de registratie van het domein?",
+    description:
+      "Als je nog geen domein hebt, regelen wij dit graag voor je. Hierbij worden alleen de kosten doorberekend die wij maken bij het aanschaffen van de domeinnaam, zonder extra kosten. Als je al een domein hebt aangeschaft, integreren we graag de nieuwe webshop daarmee.",
+  },
+  {
+    title: "Hoe lang duurt het om een webshop te laten maken?",
+    description:
+      "Bij het Premium pakket lukt het ons om gemiddeld binnen twee maanden de webshop klaar te hebben, Daarna kunnen de producten worden toegevoegd. De livegang is afhankelijk van het aantal producten die toegevoegd gaan worden. Voor het Pro pakket is het afhankelijk van de wensen. Meestal duurt het maken van een Pro webshop al snel 3 maanden",
+  },
+  {
+    title: "Welk pakket raadt je aan?",
+    description:
+      "Voor de meeste webshops is het Premium-pakket ruim voldoende. Een Premium webshop voldoet aan onze hoge kwaliteitseisen. Als je echter echt het verschil wilt maken op het gebied van SEO of als je een extra uniek ontwerp verlangt, is het Pro-pakket een aanrader. Deze website heeft een razendsnelle laadtijd, wat cruciaal is voor SEO. We spreken hier over milliseconden, een aspect waar Google aandacht aan besteedt, maar dat vaak niet merkbaar is voor het menselijk oog.",
+  },
+  {
+    title: "Houden jullie ook rekening met SEO?",
+    description:
+      "In het Premium-pakket worden plugins geïnstalleerd om de website sneller te maken. Deze snelheid valt echter niet te vergelijken met de snelheid van een website uit het Pro-pakket. In het Pro-pakket wordt er technisch rekening gehouden met SEO. Dit betekent dat we de website zo optimaliseren dat deze razendsnel is en technisch goed in elkaar zit. Als je met je webshop bovenaan in Google wilt komen, zijn naast de technische aspecten nog andere factoren belangrijk. Technische SEO alleen is niet voldoende om te kunnen concurreren op geliefde zoekwoorden. Wij kunnen je helpen bij het ontwikkelen en implementeren van een volledige SEO-strategie. Voor meer informatie hierover kun je terecht op onze pagina <a href='/zoekmachine-optimalisatie-seo' title='Meer informatie over Zoekmachine Optimalisatie SEO'class='text-primary dark:text-white highlight'>Zoekmachine optimalisatie (SEO)</a>"
+  }
+]}
+/>
+  
+</Layout>

@@ -1,0 +1,213 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+
+const metadata = {
+  title: 'MagickMedia - Online Marketing Bureau.',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Meer Over Ons',
+        href: '/over-ons',
+      },
+      { text: 'Diensten', href: '#diensten' },
+    ]}
+    image={{ src: '~/assets/images/hero.png', alt: 'AstroWind Hero Image' }}
+  >
+    <Fragment slot="title">
+      Maximaliseer je Online Succes met <span class="text-accent dark:text-white highlight"> Magick Media</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="sm:inline">
+        Magisch in Webontwikkeling, SEO, SEA, Affiliate Marketing, Hosting en Grafisch Ontwerp van jouw Media Uitingen!
+        </span>
+    </Fragment>
+  </Hero>
+
+  <!-- Note Widget ******************* -->
+
+  <Note />
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="diensten"
+    tagline="Diensten"
+    title="Waar wij onze klanten mee helpen"
+    subtitle="Bij Magick Media zijn wij gespecialiseerd in de volgende dingen. Meer informatie vind je op de pagina van de desbetreffende dienst."
+    items={[
+      {
+        title: 'Website ontwikkeling',
+        description:
+          "Vanaf €499,- bouwen we al een professionele én goedkope website. Dit doe we met enkele Wordpress templates die we naar jouw smaak inrichten. Wil je toch een uitgebreidere website? Vraag dan naar een offerte op maat! <a href='/website-laten-maken' title='Meer informatie over een website laten maken door Magick Media' class='text-accent dark:text-white highlight'>Meer info...</a>",
+        icon: 'tabler:code',
+      },
+      {
+        title: 'Webshop ontwikkeling',
+        description:
+          "Al vanaf €799 maken we een professionele webshop voor jou! Deze webshop is meteen te gebruiken, inclusief betaalsysteem. Alleen het toevoegen van de producten in de webshop zit niet bij deze prijs inbegrepen, maar helpen we je natuurlijk graag mee. <a href='/webshop-laten-maken' title='Meer informatie over een webshop laten maken door Magick Media' class='text-accent dark:text-white highlight'>Meer info...</a>",
+        icon: 'tabler:shopping-cart',
+      },
+      {
+        title: 'Zoekmachine Optimalisatie (SEO)',
+        description:
+          "Wij weten hoe belangrijk het is om goed gevonden te worden in zoekmachines als Google. Met deze dienstverlening bouwen wij aan jouw online zichtbaarheid, zodat jij goed gevonden gaat worden door jouw doelgroep. <a href='/zoekmachine-optimalisatie-seo' title='Meer informatie over zoekmachine optimalisatie door Magick Media' class='text-accent dark:text-white highlight'>Meer info...</a>",
+        icon: 'tabler:seo',
+      },
+      {
+        title: 'Google Ads (SEA)',
+        description:
+          "Waar je met SEO nog afhankelijk bent van je concurrenten en het feit hoe Google je website indexeert, kun je met Google Ads meteen bovenaan komen in de zoekresultaten. Wij zorgen ervoor dat je advertenties in Google goed draaien en dat je de juiste conversies eruit haalt. De advertenties moeten tenslotte iets opleveren :). <a href='/google-ads-sea' title='Meer informatie over Google Ads SEA door Magick Media' class='text-accent dark:text-white highlight'>Meer info...</a>",
+        icon: 'tabler:badge-ad',
+      },
+      {
+        title: 'Hosting & Onderhoud',
+        description:
+          "Onze servers zijn uitgerust met SSD-schijven, waardoor wij hoogwaardige hosting van topkwaliteit kunnen leveren. Dit resulteert in een supersnelle website, wat de vindbaarheid ten goede komt. Bovendien ontvang je kosteloos een SSL-certificaat voor je website of webshop. Omdat wij begrijpen dat jij als ondernemer al druk genoeg bent, nemen wij graag het onderhoud van jouw website of webshop uit handen. <a href='/hosting-en-onderhoud'  title='Meer informatie over hosting en onderhoud door Magick Media' class='text-accent dark:text-white highlight'>Meer info...</a>",
+        icon: 'tabler:server',
+      },
+      {
+        title: 'Grafisch Ontwerp',
+        description:
+          "Voor iedere onderneming is het belangrijk om naamsbekendheid te creeëren. Om je doelgroep op een juiste manier aan te spreken, helpen wij je graag met het design van je media uitingen. Naast het ontwerpen van je website kunnen wij je dus ook helpen met het ontwerpen van je visitiekaartjes, briefpapier, flyers, etc. <a href='/grafisch-ontwerp' title='Meer informatie over grafisch ontwerp door Magick Media' class='text-accent dark:text-white highlight'>Meer info...</a>",
+        icon: 'tabler:vector',
+      },
+    ]}
+  />
+
+  <Steps
+    title="Benieuwd wat wij allemaal voor <span class='text-accent dark:text-white highlight'>jou</span> kunnen betekenen? Ontvang advies op maat"
+    items={[
+      {
+        title: 'Stap 1: <span class="font-medium">Contact</span>',
+        description:
+          "Allereerst moeten we natuurlijk weten dat je hulp kunt gebruiken bij jouw online marketing uitingen. Neem daarom <a href='/contact' title='Klant worden bij Magick Media' class='text-accent dark:text-white highlight'>contact</a> met ons op, zodat we naar stap 2 kunnen overgaan.",
+        icon: 'tabler:at',
+      },
+      {
+        title: 'Stap 2: <span class="font-medium">Intake</em>',
+        description:
+          "Nadat je contact met ons hebt opgenomen, plannen we een kennismaking en intake gesprek in. Vaak vindt deze online plaatst via Teams of Google Meet. In dit gesprek komen wij achter je behoeften en hebben wij de input om advies op maat te leveren.",
+        icon: 'tabler:video',
+      },
+      {
+        title: 'Stap 3: <span class="font-medium">Advies op maat</span>',
+        description:
+          'Na ons intake gesprek sturen wij altijd ons advies op maat in de vorm van een offerte per mail. Zo heb jij de tijd om eens rustig na te denken over ons aanbod. Samen komen we hier tot de beste aanpak voor jouw online marketing succes.',
+        icon: 'tabler:gift',
+      },
+      {
+        title: 'Start!',
+        description:
+          'Nadat we je goedkeuring hebben, gaan we snel voor jou aan de slag. Op naar een vruchtbare samenwerking!',
+        icon: 'tabler:check',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+      alt: 'Steps image',
+    }}
+  />
+
+  <!-- Testimonials Widget *********** -->
+
+  <Testimonials
+    title="Wat onze klanten zeggen"
+    testimonials={[
+      {
+        testimonial: `Super tevreden!! Duidelijke communicatie en no noncense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍`,
+        name: 'Belinda',
+        job: 'Webshop Eigenaar',
+      },
+      {
+        testimonial: `Mick beheert naar tevredenheid onze website waarvoor dank.`,
+        name: 'Leroy',
+        job: 'Boekhouder',
+      },
+      {
+        testimonial: `Super fijne samenwerking met Mick van Magick Media. Vooral de persoonlijke communicatie vind ik erg fijn.`,
+        name: 'Dena',
+        job: 'Affiliate Marketeer',
+      },
+    ]}
+  />
+
+  <!-- HighlightedPosts Widget ******* -->
+
+  <BlogLatestPosts
+    title="Onze laatste blogposts"
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Wat klanten wilde weten"
+    subtitle="Het is belangrijk dat al uw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact' title='neem contact op voor vragen aan Magick Media' class='text-accent dark:text-white highlight'>contact</a> met ons op."
+    tagline="Veelgestelde vragen"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'Waarom zou ik moeten samenwerken met Magick Media?',
+        description:
+          "Bij Magick Media profiteer van persoonlijk contact, lage prijzen, hoge kwaliteit en een volledige ontzorging van je online marketing. Ons team luistert naar je wensen en werkt samen met jou om een media uitingen, bijvoorbeeld een website of webshop, te creëren die perfect past bij jouw bedrijf. We bieden betaalbare tarieven zonder dat dit ten koste gaat van de kwaliteit, en zorgen ervoor dat je website professioneel, gebruiksvriendelijk en geoptimaliseerd is.",
+      },
+      {
+        title: 'Staan jullie met Magick Media ingeschreven bij de KVK?',
+        description:
+          'Bij de Kamer van koophandel staan we ingeschreven onder de naam WebhostinGuru, kvk nummer 84696109. In 2021 is WebhostinGuru gestart, toen nog met het hosten van websites als enige dienstverlening. Omdat we tegenwoordig veel meer doen dan alleen het hosten van de websites, hebben we er voor gekozen om verder te gaan onder de naam Magick Media. Zodat de naam in ieder geval niet meer verwarrend is in de communicatie van onze dienstverlening.',
+      },
+      {
+        title: 'Wat zijn jullie vakgebieden en expertise?',
+        description:
+          "Wij hebben een breed scala van expertises in huis. De gebieden waarin wij opleidingen hebben gevolgd zijn onder andere ICT, online marketing en grafische vormgeving. Bij online marketing hebben we ons gespecaliseerd in SEO, SEA, Affiliate marketing. Vooral de eerste twee zorgen ervoor dat jouw website of webshop beter gevonden wordt in zoekmachines.",
+      },
+      {
+        title: "Ben ik volledige de eigenaar van de website of webshop die jullie voor mij maken?",
+        description:
+          "Ja, nadat je de eenmalige kosten hebt betaald voor je website of webshop ben je hiervoor 100% de eigenaar van. De enige uitzondering is de aanbieding voor Starters. In deze aanbieding ben je de eigenaar van het product nadat je abonnement minimaal twee jaar oud is bij ons. Wil je toch eerder weg? Dan kun je je product altijd afkopen. Het is wel belangrijk om te weten dat voor de Wordpress website betaalde plugins worden gebruikt, daar betalen wij dus jaarlijks voor. Mocht je je site willen overnemen, dan zijn deze kosten ook voor eigen beheer. ",
+      },
+    ]}
+  />
+
+  <!-- Stats Widget
+
+  <Stats
+    stats={[
+      { title: 'Downloads', amount: '132K' },
+      { title: 'Stars', amount: '24.8K' },
+      { title: 'Forks', amount: '10.3K' },
+      { title: 'Users', amount: '48.4K' },
+    ]}
+  />
+  -->
+
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    title="Klaar voor een  <span class='text-accent dark:text-white highlight'>Magische</span> website?"
+    subtitle="Wacht niet langer en neem contact met ons op.</br> Wij gaan graag voor jou aan de slag!"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contact',
+        href: '/contact',
+      },
+    ]}
+  />
+</Layout>

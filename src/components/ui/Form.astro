@@ -78,8 +78,102 @@ const { inputs, textarea, disclaimer, button = 'Verstuur', description = '' } = 
   {
     description && (
       <div class="mt-3 text-center">
-        <p class="text-sm text-gray-600 dark:text-gray-400">{description} test</p>
+        <p id="MessageElement" class="text-sm text-gray-600 dark:text-gray-400">{description}</p>
       </div>
     )
   }
 </form>
+
+<script type="module">
+  let name = document.getElementById('name');
+  let email = document.getElementById('email');
+  let phone = document.getElementById('telefoon');
+  let message = document.getElementById('textarea');
+  const disclaimerCheckbox = document.getElementById('disclaimer');
+  const messageElement = document.getElementById('MessageElement');
+
+  // Functie om een telefoonnummer te valideren (10 cijfers)
+  function isValidName(name) {
+    // Verwijder eventuele niet-numerieke tekens
+    const lettersOnly = str => /^[a-zA-Z]+$/.test(str);
+    return name.length > 1 && lettersOnly(name);
+  }
+
+  // Functie om een e-mail te valideren
+  function isValidEmail(email) {
+    // Eenvoudige controle op de aanwezigheid van "@" in het e-mailadres
+    return email.includes('@');
+  }
+
+  // Functie om een telefoonnummer te valideren (10 cijfers)
+  function isValidPhoneNumber(phone) {
+    // Verwijder eventuele niet-numerieke tekens
+    const numericPhone = phone.replace(/\D/g, '');
+    return numericPhone.length === 10;
+  }
+
+  // Functie om een foutbericht weer te geven
+  function displayErrorMessage(message) {
+    messageElement.className = 'color:red';
+    messageElement.innerHTML = `<p class="text-red-500">&#10008; ${message}</p>`;
+  }
+
+  document.getElementById('contactForm').addEventListener('submit', function (event) {
+   
+    // E-Naam validatie
+    if (!isValidName(name.value)) {
+        displayErrorMessage('Ongeldige naam. Voer een geldige naam in.');
+        event.preventDefault(); // Voorkom dat het formulier wordt verzonden
+        return;
+      }
+
+
+    // E-mail validatie
+    if (!isValidEmail(email.value)) {
+      displayErrorMessage('Ongeldige e-mail. Voer een geldig e-mailadres in.');
+      event.preventDefault(); // Voorkom dat het formulier wordt verzonden
+      return;
+    }
+    
+    // Telefoonnummer validatie
+    if (!isValidPhoneNumber(phone.value)) {
+      displayErrorMessage('Ongeldig telefoonnummer. Voer een geldig telefoonnummer in (10 cijfers).');
+      event.preventDefault();
+      return;
+    }
+
+      // Disclaimer checkbox validatie
+    if (!disclaimerCheckbox.checked) {
+      displayErrorMessage('Je moet akkoord gaan met de disclaimer.');
+      event.preventDefault();
+      return;
+    }
+
+    event.preventDefault();
+
+    const formData = {
+      name:name.value,
+      email:email.value,
+      phone:phone.value,
+      message:message.value
+    };
+
+    console.log("formData: ", formData);
+
+    let xhr = new XMLHttpRequest();
+    xhr.open('POST','http://localhost:5000/');
+    xhr.setRequestHeader('content-type', 'application/json');
+    xhr.onload = function(){
+      if(xhr.responseText !== undefined){
+        messageElement.innerHTML = '<p>Formulier succesvol verstuurd!</p>';
+        name.value = '';
+        email.value = '';
+        phone.value = '';
+        message.value = '';
+      }else{
+        alert('something went wrong')
+      }
+    }
+    xhr.send(JSON.stringify(formData));
+  });
+</script>

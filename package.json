@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier -w .",
-    "lint:eslint": "eslint . --ext .js,.ts,.astro"
+    "lint:eslint": "eslint . --ext .js,.ts,.astro",
+    "server": "nodemon server.js"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.1",
@@ -20,6 +21,8 @@
     "@fontsource-variable/inter": "^5.0.16",
     "astro": "^4.0.6",
     "astro-icon": "1.0.0-next.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
     "nodemailer": "^6.9.8",
@@ -41,6 +44,7 @@
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "js-yaml": "^4.1.0",
     "mdast-util-to-string": "^4.0.0",
+    "nodemon": "^3.0.3",
     "prettier": "^3.1.0",
     "prettier-plugin-astro": "^0.12.2",
     "reading-time": "^1.5.0",

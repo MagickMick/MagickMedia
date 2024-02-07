@@ -11,9 +11,12 @@ tags:
 
 Het analyseren van de zoekwoorden is vaak de start van het SEO-proof maken van een website of pagina en dient als basis voor je SEO strategie. Je kunt namelijk wel een pagina SEO-proof maken qua performance en inhoudelijk juiste teksten, maar als deze teksten niet de woorden bevatten die bezoekers intypen in de zoekmachines, wordt je alsnog niet gevonden.
 
-- [1. Wat is SEO](#wat-is-seo)
-  - [Inleiding tot zoekmachine optimalisatie](#inleiding-tot-zoekmachine-optimalisatie)
-  - [Waarom is SEO belangrijk?](#waarom-is-seo-belangrijk)
+
+- [Stap 1: Begrijp je doelgroep](#stap-1-begrijp-je-doelgroep)
+- [Stap 2: De maandelijkse zoekvolumes achterhalen](#stap-2-de-maandelijkse-zoekvolumes-achterhalen)
+- [Stap 3: De concurrentie achterhalen op de gekozen zoekwoorden](#stap-3-de-concurrentie-achterhalen-op-de-gekozen-zoekwoorden)
+- [Stap 4: De KEI (Keyword Effectiveness Index) berekenen](#stap-4-de-kei-keyword-effectiveness-index-berekenen)
+- [Stap 5: Intentie van het zoekwoord](#stap-5-intentie-van-het-zoekwoord)
 
 ## Stap 1: Begrijp je doelgroep.
 
@@ -45,6 +48,8 @@ In dit geval vullen we ons zoekwoorden onderzoek dus aan
 
 Als laatste manier om inspiratie op te doen om meer zoekwoorden te ontdekken, kun je ook <a href="https://synoniemen.net/" target="_blank" rel="noopener">synoniemen</a> gebruiken. Zo krijg je meer variatie in je zoekwoorden.</p>
 
+[[Top]](#top)
+
 ## Stap 2: De maandelijkse zoekvolumes achterhalen
 Wij gebruiken een tool als <a href="https://seranking.com/?ga=2633144&amp;source=link" target="_blank" rel="noopener"><span>SERanking</span></a> om de zoekvolumes te achterhalen. Dit is echter wel een betaalde tool, maar uit onze ervaring blijkt dat deze tool een nauwkeuriger beeld geeft van zoekvolumes dan bijvoorbeeld een gratis tool als <a href="https://zoekwoord.nl" target="_blank" rel="noopener"><span>zoekwoord.nl.</span></a></p>
 ![Zoekvolume analyseren met SERanking](src/assets/images/zoekvolume-bepalen-seranking.jpg)
@@ -65,6 +70,8 @@ In bovenstaand voorbeeld wordt er dus gemiddeld 6600 keer per maand op ‘Websit
 | Crawlen                               | 90              |
 
 Nu zou je kunnen zeggen; ik sorteer deze zoekwoorden op zoekvolume en richt mij op de zoekterm met de hoogste score. Dat lijkt inderdaad voor de hand te liggen, maar hierbij vergeten we nog een belangrijke stap.
+
+[[Top]](#top)
 
 ## Stap 3: De concurrentie achterhalen op de gekozen zoekwoorden
 Er zijn natuurlijk ook nog andere sites die op deze zoekwoorden willen scoren. Het is dus van belang dat je dit inzichtelijk maakt. Het kan namelijk slim zijn om je op zoekwoorden met iets minder zoekvolume te richten, maar met een stuk minder concurrentie. We bepalen onze concurrentie op 3 verschillende punten, namelijk:
@@ -92,6 +99,8 @@ Deze getallen willen we ook toevoegen aan ons onderzoek. Zodat we deze in de vol
 | Vindbaarheid website                  | 50              |312            |294            |2370            |
 | Goedkoop website laten maken          | 480             |528            |166            |27500            |
 | Crawlen                               | 90              |902            |822            |2180            |
+
+[[Top]](#top)
 
 ## Stap 4: De KEI (Keyword Effectiveness Index) berekenen
 Om te bepalen of een zoekwoord veel waarde heeft, delen we het zoekvolume door de concurrentie. Daar komt de KEI uit. Omdat we op 3 verschillende manier de concurrentie berekenen, doen we dat als volgt. We nemen de zoekterm ‘Website laten maken’ van hierboven als voorbeeld:</p>
@@ -130,6 +139,8 @@ Als je dit ook voor de overige zoekwoorden doet en dan de uiteindelijke KEI sort
 
 Eigenlijk is elke KEI boven de 1 de moeite waard om te gebruiken als zoekterm. Hoe hoger hoe beter natuurlijk. In ons geval hebben we ervoor gekozen om de zoekterm ‘Goedkoop website laten maken’ te gebruiken op onze homepagina. De ander twee zoektermen (‘Wordpress website laten maken’ & ‘Website beheer uitbesteden’) gaan wij zeker ook gebruiken in de toekomst, door daar bijvoorbeeld een blogpost over te schrijven. Zo hopen we dat deze blogposts gevonden gaan worden, het liefst zo hoog mogelijk in de zoekresultaten.
 
+[[Top]](#top)
+
 ## Stap 5: Intentie van het zoekwoord
 
 Nadat we de KEI hebben bepaald, weet je in principe welke zoekwoorden het meeste zin hebben om te gaan gebruiken. Echter is de KEI score niet 100% leidend. De intentie van het zoekwoord speelt bijvoorbeeld ook een belangrijke rol.
@@ -139,3 +150,5 @@ Wil je toch deze commerciële blog plaatsen? Dan kan één woord toevoegen aan d
 
 Dit was de laatste stap die wij uitvoeren om ons zoekwoorden te analyseren. Veel succes met het bepalen op welke zoekwoorden jij gevonden wilt worden.
 Mocht je toch nog hulp nodig hebben bij het uitvoeren van een zoekwoorden onderzoek of wil je dit aan ons uitbesteden? Neem dan <a href="/contact">contact</a> met ons op!</p>
+
+[[Top]](#top)

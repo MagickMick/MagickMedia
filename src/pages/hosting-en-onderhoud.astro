@@ -1,244 +1,246 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import HeroText from '~/components/widgets/HeroText.astro';
-import Prices from '~/components/widgets/Pricing2.astro';
+import Prices2 from '~/components/widgets/Pricing2.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Hero from '~/components/widgets/Hero.astro';
 
 const metadata = {
-  title: 'Pricing',
+  title: 'Magick Media - Hosting & Onderhoud.',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- HeroText Widget ******************* -->
 
-  <HeroText
-    tagline="Pricing"
-    title="Stellar Pricing for Every Journey"
-    subtitle="Choose the perfect plan that aligns with your cosmic goals."
-  />
-
-  <!-- Pricing Widget ******************* -->
-
-  <Prices
-    title="Our prices"
-    subtitle="Only pay for what you need"
-    prices={[
+  <!-- Hero Widget ******************* -->
+  <Hero
+    tagline="Hosting & Onderhoud"
+    actions={[
       {
-        title: 'basic',
-        subtitle: 'Optimal choice for personal use',
-        price: 29,
-        period: 'per month',
-        items: [
-          {
-            description: 'Etiam in libero, et volutpat',
-          },
-          {
-            description: 'Aenean ac nunc dolor tristique',
-          },
-          {
-            description: 'Cras scelerisque accumsan lib',
-          },
-          {
-            description: 'In hac habitasse',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Get started',
-          href: '#',
-        },
+        variant: 'primary',
+        text: 'Interesse',
+        href: '/contact',
       },
-      {
-        title: 'standard',
-        subtitle: 'Optimal choice for small teams',
-        price: 69,
-        period: 'Per Month',
-        items: [
-          {
-            description: 'Proin vel laoreet',
-          },
-          {
-            description: 'Ut efficitur habitasse egestas',
-          },
-          {
-            description: 'Volutpat hac curabitur',
-          },
-          {
-            description: 'Pellentesque blandit ut nibh',
-          },
-          {
-            description: 'Donec fringilla sem',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Get started',
-          href: '#',
-        },
-        hasRibbon: true,
-        ribbonTitle: 'popular',
-      },
-      {
-        title: 'premium',
-        subtitle: 'Optimal choice for companies',
-        price: 199,
-        period: 'Per Month',
-        items: [
-          {
-            description: 'Curabitur suscipit risus',
-          },
-          {
-            description: 'Aliquam habitasse malesuada',
-          },
-          {
-            description: 'Suspendisse sit amet blandit',
-          },
-          {
-            description: 'Suspendisse auctor blandit dui',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Get started',
-          href: '#',
-        },
-      },
+      { text: 'Tarieven', href: '#tarieven' },
     ]}
-  />
+  >
+    <Fragment slot="title">
+      Hosting en Onderhoud van je website of webshop uitbesteden? Wij van <span class='text-accent dark:text-white highlight'> Magick Media</span> ontzorgen je volledig!
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="sm:inline">
+        Ontdek de beste service zodat jouw platform maximaal presteert!
+      </span>
+    </Fragment>
+  </Hero>
 
   <!-- Features3 Widget ************** -->
 
   <Features3
-    title="Price-related features"
-    subtitle="Discover the advantages of choosing our plans"
+    title="De voordelen van een hostingpakket bij ons"
+    subtitle="Dit is waarom je jouw platform door ons zou moeten laten hosten."
     columns={2}
     items={[
       {
-        title: 'Tiered Pricing Plans',
-        description: 'Choose from a range of pricing plans designed to accommodate different budgets and requirements.',
-        icon: 'tabler:stairs',
+        title: 'Persoonlijke services',
+        description: "Wij vinden het belangrijk om iedere klant persoonlijk te kennen, zodat we beter kunnen inschatten waar jouw behoeften liggen. Bij Magick Media bieden wij dus persoonlijk en informeel contact.",
+        icon: 'tabler:heart-handshake',
       },
       {
-        title: 'Transparent Pricing',
-        description: 'Clearly displayed pricing details for each plan, with no hidden costs or unexpected charges.',
-        icon: 'tabler:flip-vertical',
+        title: 'Altijd snel geholpen',
+        description: 'Zoals bij het vorige punt omschreven, hebben we graag persoonlijk en direct contact via de telefoon of de mail. Je kunt er zeker van zijn dat wij snel reageren en het probleem zo snel mogelijk voor je oplossen.',
+        icon: 'tabler:speedboat',
       },
       {
-        title: 'Secure Payment Methods',
-        description: 'Secure payment gateways to protect your financial information during transactions.',
-        icon: 'tabler:shield-lock',
+        title: 'Betrouwbare prestaties',
+        description: 'Wij verzekeren een uptime van 99,9% per maand. Blijkt dit niet het geval? Dan krijg je de kosten van die maand van ons terug. Dit betekent dat je website maximaal 44 minuten per maand niet bereikbaar mag zijn. Echter komt dit bijna nooit voor. Ons streven is natuurlijk een perfecte uptime van 100% ;-)',
+        icon: 'tabler:trophy',
       },
       {
-        title: 'Instant Access',
-        description: `Immediate access to your chosen plan's features and templates upon subscription.`,
-        icon: 'tabler:accessible',
-      },
-      {
-        title: 'Upgrade Value',
-        description: 'Upgrade to higher-tier plans to unlock more features and benefits for an enhanced experience.',
-        icon: 'tabler:chevrons-up',
-      },
-      {
-        title: '24H support',
-        description: 'Questions answered via live chat, email or phone, every calendar day.',
-        icon: 'tabler:headset',
+        title: 'Snelle websites',
+        description: 'Om de inhoud van je website of webshop op te slaan, wordt een harde schijf gebruikt. Dit kan op een HDD of een SSD. Wij gebruiken een SSD. Deze is tot wel vijf keer sneller dan een HDD, wat zorgt voor een snellere website.',
+        icon: 'tabler:brand-speedtest',
       },
     ]}
     classes={{ container: 'max-w-5xl' }}
+  />
+  
+  
+  <!-- Pricing2 Widget ******************* -->
+
+  <Prices2
+    title="Tarieven"
+    subtitle="Onze prijzen voor deze dienstverlening"
+    id="tarieven"
+    prices={[
+      
+      {
+        title: 'Website',
+        subtitle: 'Hostingpakket voor maar',
+        price: 49.99,
+        period: 'per maand',
+        items: [
+          {
+            description: 'Maandelijkse backups',
+          },
+          { 
+            description: 'Incl. 5 e-mail adressen',
+          },
+          { 
+            description: 'SSL harde schijf',
+          },
+          { 
+            description: '30 min. aan aanpassingen inbegrepen*',
+          },
+          {
+            description: '99,9% uptime garantie*',
+          },
+        ],
+        callToAction: {
+          target: '_blank',
+          text: 'Interesse',
+          href: '/contact',
+        },
+      },
+      {
+        title: 'Webshop',
+        subtitle: 'Hostingpakket voor maar',
+        price: 79.99,
+        period: 'per maand',
+        items: [
+          {
+            description: 'Maandelijkse backups',
+          },
+          { 
+            description: 'Incl. 5 e-mail adressen',
+          },
+          { 
+            description: 'SSL harde schijf',
+          },
+          { 
+            description: '30 min. aan aanpassingen inbegrepen*',
+          },
+          {
+            description: '99,9% uptime garantie*',
+          },
+        ],
+        callToAction: {
+          text: 'Interesse',
+          href: '/contact',
+        },
+      }
+    ]}
   />
 
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="A guided journey from plans to creativity"
-    tagline="simplified process"
+    title="Jouw platform gehosts in deze 6 stappen "
+    tagline="ons proces"
     isReversed={true}
     items={[
       {
-        title: 'Explore plans',
+        title: 'Kennismaking en intake',
         icon: 'tabler:number-1',
       },
       {
-        title: 'Select a plan',
+        title: 'Offerte met scope',
         icon: 'tabler:number-2',
       },
       {
-        title: 'Sign Up / Log In',
+        title: 'Platform migratie naar onze server',
         icon: 'tabler:number-3',
       },
       {
-        title: 'Review order',
+        title: 'DNS wijziging doorvoeren',
         icon: 'tabler:number-4',
       },
       {
-        title: 'Enter payment details',
+        title: 'Platform Live',
         icon: 'tabler:number-5',
       },
       {
-        title: 'Confirmation',
+        title: 'Onderhoud & beheer van jouw platform',
         icon: 'tabler:number-6',
-      },
-      {
-        title: 'Download and start using the template(s)',
-        icon: 'tabler:number-7',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
+      src: 'src/assets/images/hosting-en-onderhoud-uitbesteden-magick-media.jpg',
+      alt: 'Google Ads SEA uitbesteden proces',
     }}
   />
 
-  <!-- FAQs Widget ******************* -->
+<!-- Testimonials Widget *********** -->
 
-  <FAQs
-    title="Pricing FAQs"
-    subtitle="Choosing the right plan is important, and we're here to answer your questions. If you have queries about our pricing options, you're in the right place."
-    columns={1}
-    items={[
-      {
-        title: 'Do the plans come with customer support?',
-        description:
-          'Absolutely, all plans include access to our dedicated customer support to assist you with any queries or concerns.',
-      },
-      {
-        title: 'Is there a trial period for the different plans?',
-        description:
-          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview the quality of our templates.",
-      },
-      {
-        title: 'Can I switch between plans?',
-        description:
-          'Certainly! You can easily upgrade or downgrade your plan, at any time, to find the one that best suits your evolving requirements.',
-      },
-      {
-        title: 'What payment methods do you accept?',
-        description:
-          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
-      },
-      {
-        title: 'Are there any hidden fees beyond the displayed cost?',
-        description:
-          'No, the subscription cost covers all the features and templates listed under each plan. There are no hidden fees or extra charges.',
-      },
-    ]}
-  />
+<Testimonials
+title="Wat onze klanten zeggen"
+testimonials={[
+  {
+    testimonial: `Ik ken Mick als een iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door zijn persoonlijke aanpak staat hij voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort.`,
+    name: 'Marco',
+    job: 'Work in Flow',
+  },
+  {
+    testimonial: `De hosting van mijn website heb ik via Magick Media geregeld, ik ben erg blij met hoe snel en gemakkelijk dit geregeld is. Ik ben zelf webdesigner dus een goede hosting partij is voor mij erg belangrijk. Daarnaast heb ik af en toe wat vragen of extra wensen en tot nu toe werd er dan telkens snel geschakeld door Mick. Echt een super goede service en korte lijntjes, ik ben blij dat ik voor Magick Media gekozen heb en ga hem ook aanraden voor mijn eigen klanten die een (nieuwe) hosting partij zoeken.`,
+    name: 'Ronne',
+    job: 'Ronne Design',
+  },
+  {
+    testimonial: `Super tevreden!! Duidelijke communicatie en no noncense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍`,
+    name: 'Belinda',
+    job: 'Ribadogfood & more',
+  },
+  {
+    testimonial: `Mick beheert naar tevredenheid onze website waarvoor dank.`,
+    name: 'Leroy',
+    job: 'Allooi Boekhouders & Belastingadviseurs',
+  },
+]}
+/>
 
-  <!-- CallToAction Widget *********** -->
+<!-- HighlightedPosts Widget ******* -->
 
-  <CallToAction
-    title="Ready to boost your projects?"
-    subtitle="Join our community of satisfied customers who have transformed their work with our templates."
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Get started now',
-        href: '/',
-      },
-    ]}
-  />
+<BlogLatestPosts
+title="Onze laatste blogposts"
+/>
+
+<!-- CallToAction Widget *********** -->
+
+<CallToAction
+title="Klaar voor <span class='text-accent dark:text-white highlight'>Magische</span> hosting & onderhoud?"
+subtitle="Wacht niet langer en neem contact met ons op.</br> Wij gaan graag voor jou aan de slag!"
+actions={[
+  {
+    variant: 'primary',
+    text: 'Contact',
+    href: '/contact',
+  },
+]}
+/>
+
+<!-- FAQs Widget ******************* -->
+
+<FAQs
+title="Wat klanten wilde weten"
+subtitle="Het is belangrijk dat al uw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact' title='Neem contact op voor vragen aan Magick Media' class='text-primary dark:text-white highlight'>contact</a> met ons op."
+tagline="Veelgestelde vragen"
+classes={{ container: 'max-w-6xl' }}
+items={[
+  {
+    title: '* Wat als er langer dan 30 minuten per maand aan aanpassingen zijn?',
+    description:
+      "Dat is natuurlijk geen probleem. Na de 30 minuten die gratis in ons hostingpakket zitten, rekenen we een uurtarief van maar €50 voor de werkzaamheden. Meestal zijn de 30 minuten per maand ruim voldoende voor de meeste aanpassingen.",
+  },
+  {
+    title: '* Wat bedoelen jullie met 99,9% uptime garantie?',
+    description:
+      "Wij garanderen dat de website in 99,9% van de gevallen in een maand sowieso bereikbaar is. Dat komt neer op 44 minuten dat de website niet bereikbaar mag zijn. Als langer het geval is, krijg je het hosting bedrag van die maand terug! In de praktijk komt het zelden voor dat de server en dus je website offline is, dus je kunt best uitgaan van 100% uptime!",
+  },
+]}
+/>
 </Layout>

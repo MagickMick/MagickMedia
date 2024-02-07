@@ -60,11 +60,11 @@ export const headerData = {
         },
         {
           text: 'SEO',
-          href: getPermalink('SEO', 'category'),
+          href: getPermalink('seo', 'category'),
         },
         {
           text: 'SEA',
-          href: getPermalink('SEA', 'category'),
+          href: getPermalink('sea', 'category'),
         },
         {
           text: 'Article',

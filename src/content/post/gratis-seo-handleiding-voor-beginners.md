@@ -15,6 +15,27 @@ In deze gratis SEO handleiding voor beginners leer je waar je op kunt letten als
 - [1. Wat is SEO](#wat-is-seo)
   - [Inleiding tot zoekmachine optimalisatie](#inleiding-tot-zoekmachine-optimalisatie)
   - [Waarom is SEO belangrijk?](#waarom-is-seo-belangrijk)
+- [2. Zoekwoordenonderzoek](#zoekwoordenonderzoek)
+  - [Het belang van zoekwoorden](#het-belang-van-zoekwoorden)
+  - [Hoe voer je een zoekwoordenonderzoek uit?](#hoe-voer-je-een-zoekwoordenonderzoek-uit)
+  - [Gratis tools voor zoekwoordenonderzoek?](#gratis-tools-voor-zoekwoordenonderzoek)
+- [3. On-Page SEO](#on-page-seo)
+  - [Title tags en meta descriptions gebruiken](#title-tags-en-meta-descriptions-gebruiken)
+  - [Content optimalisatie](#content-optimalisatie)
+  - [Het belang van interne en outbound links?](#het-belang-van-interne-en-outbound-links)
+- [4. Technische SEO](#technische-seo)
+  - [Mobiele vriendelijkheid](#mobiele-vriendelijkheid)
+  - [Snelheidsoptimalisatie](#snelheidsoptimalisatie)
+  - [Crawlbare website-structuur](#crawlbare-website-structuur)
+- [5. Off-Page SEO](#off-page-seo)
+  - [Linkbuilding](#linkbuilding)
+  - [Google mijn bedrijf](#google-mijn-bedrijf)
+  - [Gastbloggen](#gastbloggen)
+- [6. Meten en analyseren](#meten-en-analyseren)
+  - [Google Analytics en Google Search Console](#google-analytics-en-google-search-console)
+  - [Belangrijke SEO-metrieken](#belangrijke-seo-metrieken)
+  - [Rapportage en optimalisatie](#rapportage-en-optimalisatie)
+- [7. Veelgemaakte fouten om te vermijden](#veelgemaakte-fouten-om-te-vermijden)
 
 ## Wat is SEO?
 
@@ -23,6 +44,8 @@ In de wereld van online zichtbaarheid en concurrentie is zoekmachineoptimalisati
 
 ### Waarom is SEO belangrijk?
 Tegenwoordig begint bijna elke online reis met een zoekopdracht. Of het nu gaat om het vinden van producten, informatie, of antwoorden op vragen, zoekmachines zijn de eerste plek waar mensen naartoe gaan. Het is daarom van essentieel belang dat je website bovenaan de zoekresultaten staat, vooral op de eerste pagina, omdat de meeste mensen zelden verder kijken.
+
+[[Top]](#top)
 
 ## Zoekwoordenonderzoek
 
@@ -43,10 +66,12 @@ Als je besluit om <strong>SEO</strong> <b>serieuzer aan te pakken</b> en meer ge
 
 Onthoud dus dat de keuze van de tool afhankelijk is van je specifieke behoeften en budget. Gratis tools kunnen je op weg helpen, terwijl betaalde tools meer geavanceerde inzichten en mogelijkheden bieden voor serieuze SEO-professionals.
 
+[[Top]](#top)
+
 ## On-Page SEO
 Een belangrijk onderdeel van een succesvolle SEO-strategie is On-Page SEO, waarbij je de elementen op je website optimaliseert om zoekmachines te helpen begrijpen waar je pagina's over gaan en ze beter te rangschikken. Dit is dus het onderdeel dat je volledig zelf in de hand hebt, omdat het content op je eigen website betreft. Bij Off-page SEO, waar we zometeen naar gaan kijken, ben je ook afhankelijk van derden. Hier behandelen we enkele belangrijke aspecten van On-Page SEO.
 
-### Title tags en meta descriptions optimaliseren
+### Title tags en meta descriptions gebruiken
 De title tag en meta description is het eerste wat de bezoeker ziet van je website. Ze verschijnen in de zoekresultaten en moeten aantrekkelijk en informatief zijn. Zorg ervoor dat je <strong>title tags</strong> unieke en beschrijvende titels bevatten die de kern van je pagina weerspiegelen. Beperk de lengte tot ongeveer <strong>60</strong> <strong>tekens</strong> voor de beste zichtbaarheid. <strong>Meta descriptions</strong> zijn korte samenvattingen van je inhoud en moeten de waarde van de pagina benadrukken, met een lengte van ongeveer <strong>150</strong>-<strong>160</strong> <strong>tekens</strong>. Het optimaliseren van deze elementen helpt niet alleen zoekmachines, maar ook gebruikers begrijpen waar je pagina over gaat en kan ervoor zorgen dat er vaker op jouw website wordt geklikt.
 
 ![Voorbeeld van een title tag en meta description](src/assets/images/title-tag-en-meta-description-voorbeeld.jpg)
@@ -62,10 +87,12 @@ Het hart van On-Page SEO is content optimalisatie. Dit omvat het gebruik van rel
 
 Daarnaast is het belangrijk om je afbeeldingen een logische bestandsnaam te geven. Vaak zien we dat afbeeldingen, bijvoorbeeld gerelateerd aan de diensten die je aanbiedt, willekeurige bestandsnamen hebben zoals ‘123.jpg'. Naast deze bestandsnaam, is ook de alt-tekst van de afbeelding van belang. Deze alt-tekst is een tekst die de afbeelding dient te beschrijven. Google gebruikt deze tekst als de afbeelding niet goed laadt én voor mensen met een visuele beperking. In dat geval wordt de alt-tekst voorgelezen voor de gebruiker. Je wilt dus beschrijven wat er op de afbeelding te zien is. Als hier ook nog eens een zoekwoord in verwerkt is, scoor je extra pluspunten!
 
-## Het belang van interne en outbound links
+### Het belang van interne en outbound links
 Interne links zijn koppelingen vanaf een pagina op je website naar andere pagina's op dezelfde site. Deze links helpen zoekmachines om de hiërarchie en onderlinge relaties tussen je pagina's te begrijpen. Het is belangrijk om interne links te gebruiken om gebruikers te begeleiden naar gerelateerde inhoud en om zoekmachines te helpen bij het indexeren van je site.
 
 Outbound links zijn links vanaf je website naar andere betrouwbare en gezaghebbende websites. Deze links kunnen de geloofwaardigheid van je inhoud versterken, zolang ze relevant zijn voor je onderwerp. Het is belangrijk om kwaliteitsvolle en relevante outbound links toe te voegen, maar overdrijf het niet.
+
+[[Top]](#top)
 
 ## Technische SEO
 In de wereld van zoekmachineoptimalisatie is technische SEO het eerste onderdeel waar wij aandacht aan besteden als we een website beter vindbaar willen maken en mag daarom dus niet over het hoofd worden gezien. Hier bekijken we enkele van de belangrijkste aspecten van technische SEO.
@@ -82,6 +109,8 @@ Een goed georganiseerde website-structuur is van belang voor zowel zoekmachines 
 Wil je meer weten over technische SEO en hoe je je website kunt optimaliseren voor deze aspecten? Lees ons artikel die binnenkort uit komt over Technische SEO checklist voor gedetailleerde informatie en handige tips. Het optimaliseren van technische aspecten kan een aanzienlijk verschil maken in je SEO-prestaties en de algehele bruikbaarheid van je website.
 
 Kijk hier voor <a href="http://www.magickmedia.nl/technische-seo-checklist"><b>meer informatie over technische SEO</b></a>.
+
+[[Top]](#top)
 
 ## Off-page SEO
 Met Off-page SEO richt je je op activiteiten buiten je eigen website om je online aanwezigheid en vindbaarheid te versterken. Daarbij kun je aan verschillende dingen denken die we hieronder gaan bespreken.
@@ -109,6 +138,8 @@ Gastbloggen is een effectieve en veelgebruikte strategie voor off-page SEO, en h
  	<li><strong>Diversificatie van Backlinks</strong>: Zoekmachines waarderen een gevarieerd backlink-profiel. Gastbloggen is een geweldige manier om kwalitatieve backlinks te verkrijgen en je backlink-profiel te diversifiëren, wat gunstig is voor je SEO-prestaties.</li>
 </ol>
 Kortom, gastbloggen is een slimme SEO-strategie die je helpt om je online aanwezigheid te vergroten, je autoriteit te vestigen en je website hoger te laten ranken in zoekmachines. Het is een win-win voor zowel de gastblogger als de gastheer van de blog. Ga op zoek naar gastblogkansen binnen jouw niche en profiteer van de voordelen van deze SEO-strategie.
+
+[[Top]](#top)
 
 ## Meten en analyseren
 Nadat je website is geoptimaliseerd en de vindbaarheid van je website is vergroot, is het van belang om de prestaties te meten en analyseren. Aan de hand van deze output kun je dan weer je pagina’s blijven optimaliseren. Google hecht er namelijk waarde aan als een website up-to-date blijft. Hier een paar dingen om op te letten.
@@ -166,6 +197,8 @@ Rapportage en optimalisatie vormen het sluitstuk van een effectieve SEO-strategi
 </ul>
 Het optimalisatie proces is dynamisch en vereist voortdurende aandacht. Het is van vitaal belang om flexibel te blijven en aanpassingen te maken op basis van de gegevens en feedback die je ontvangt. Blijf op de hoogte van de nieuwste ontwikkelingen in de wereld van SEO en pas je strategie dienovereenkomstig aan. Het uiteindelijke doel is om je website hoog te laten ranken in zoekmachines, meer verkeer te genereren en te zorgen voor een optimale gebruikerservaring. Met regelmatige rapportage en optimalisatie kun je deze doelen bereiken en blijvend succes behalen in de wereld van SEO.
 
+[[Top]](#top)
+
 ## Veelgemaakte fouten om te vermijden
 Tot slot een aantal veelgemaakte fouten die je als beter meteen kunt vermijden:
 <ul>
@@ -177,3 +210,5 @@ Tot slot een aantal veelgemaakte fouten die je als beter meteen kunt vermijden:
  	<li><b>Gebrek aan monitoring:</b> Het niet volgen en aanpassen van je SEO-inspanningen kan leiden tot stagnatie.</li>
 </ul>
 Veel succes met het SEO-proof maken van je website en het vergroten van je vindbaarheid! Wil je dat wij Zoekmachine optimalisatie voor jou uit handen nemen? Neem dan <a href='/contact' title='contact opnemen met Magick Media' class='text-accent dark:text-white highlight'>contact</a> met ons op!
+
+[[Top]](#top)

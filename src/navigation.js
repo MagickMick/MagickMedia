@@ -34,8 +34,8 @@ export const headerData = {
           href: getPermalink('/affiliate-marketing'),
         },
         {
-          text: 'Hosting & Onderhoud',
-          href: getPermalink('/hosting-en-onderhoud'),
+          text: 'Hosting & Beheer',
+          href: getPermalink('/hosting-en-beheer'),
         },
         {
           text: 'Grafisch Ontwerp',

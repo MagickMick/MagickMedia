@@ -1,35 +1,25 @@
 ---
-publishDate: 2024-02-06T00:00:00Z
-title: Gratis SEO handleiding voor beginners
-excerpt: Leer in deze gratis SEO handleiding voor beginners hoe je je website kunt optimaliseren en je vindbaarheid kunt vergroten.
-image: https://img.freepik.com/free-vector/seo-analytics-team-concept-illustration_114360-9205.jpg?w=996&t=st=1707215377~exp=1707215977~hmac=e02192553f8d486315d06961bbfa5ad1ff8b850c6f6a8c03ed80c4da7629928b
+publishDate: 2024-02-05T00:00:00Z
+title: Wat is crawlen?
+excerpt: In dit artikel vertellen we je meer over hoe zoekmachines te werk gaan om jouw content te ontdekken, ook wel crawlen genoemd.
+image: https://img.freepik.com/free-photo/arrange-white-letters-as-seo_1384-20.jpg?w=1060&t=st=1707387169~exp=1707387769~hmac=20228f66fa3c429746c7b6f2f638e80cc7f4c78d1d385dee52485345b97f1bfe
 category: seo
 tags:
   - zoekmachine optimalisatie
   - seo
 ---
 
-In deze gratis SEO handleiding voor beginners leer je waar je op kunt letten als je de vindbaarheid van je website wilt vergroten. We gaan de volgende punten behandelen:
+- [1. Betekenis crawlen](#betekenis-crawlen)
+- [2. Crawlbudget](#crawlbudget)
 
+## Betekenis crawlen
+Crawlen is een proces waarbij zoekmachines zoals Google webpagina's ontdekken en indexeren. Het begint met een zoekmachinebot, ook wel bekend als een crawler of spider, die door het web surft en links volgt van de ene pagina naar de andere. 
 
-- [1. Wat is SEO](#wat-is-seo)
-  - [Inleiding tot zoekmachine optimalisatie](#inleiding-tot-zoekmachine-optimalisatie)
-  - [Waarom is SEO belangrijk?](#waarom-is-seo-belangrijk)
+Tijdens het crawlproces worden webpagina's gelezen en geanalyseerd om informatie over hun inhoud, structuur en andere relevante gegevens te verkrijgen. Dit stelt zoekmachines in staat om een uitgebreide index van webpagina's samen te stellen en deze later te kunnen tonen in zoekresultaten. 
 
-## Wat is SEO?
+Crawlen is een cruciale stap in het proces van zoekmachineoptimalisatie (SEO), omdat het ervoor zorgt dat je website wordt opgemerkt en geïndexeerd, waardoor het potentieel krijgt om organisch verkeer aan te trekken. Het is belangrijk om ervoor te zorgen dat je website gemakkelijk en probleemloos kan worden gecrawld, zodat zoekmachines alle belangrijke inhoud kunnen ontdekken en indexeren.
 
-### Inleiding tot zoekmachine optimalisatie
-In de wereld van online zichtbaarheid en concurrentie is zoekmachineoptimalisatie (SEO) een onmisbaar instrument voor elke website-eigenaar. SEO is de kunst en wetenschap van het optimaliseren van je online inhoud, zodat zoekmachines zoals Google, Bing en Yahoo deze beter begrijpen, waarderen en rangschikken. Het doel? Het vergroten van je online zichtbaarheid, het trekken van relevante bezoekers naar je website en het uiteindelijk omzetten van deze bezoekers in waardevolle klanten.
+## Crawlbudget
+Een crawlbudget verwijst naar de hoeveelheid tijd en middelen die een zoekmachine aan een website besteedt tijdens het crawlen en indexeren. Het geeft aan hoeveel pagina's van een website een zoekmachine kan en wil bezoeken binnen een bepaalde periode. Het crawlbudget wordt beïnvloed door verschillende factoren, zoals de grootte van de website, de kwaliteit van de pagina's, de snelheid van de server en de autoriteit van de website. 
 
-### Waarom is SEO belangrijk?
-Tegenwoordig begint bijna elke online reis met een zoekopdracht. Of het nu gaat om het vinden van producten, informatie, of antwoorden op vragen, zoekmachines zijn de eerste plek waar mensen naartoe gaan. Het is daarom van essentieel belang dat je website bovenaan de zoekresultaten staat, vooral op de eerste pagina, omdat de meeste mensen zelden verder kijken.
-
-## Zoekwoordenonderzoek
-
-### Het belang van zoekwoorden
-Het belang van zoekwoorden in SEO kan niet worden overschat. Een onderzoek naar deze zoekwoorden is vaak de eerste stap van het SEO Proof maken van je pagina. In dit onderzoek ontdek je de woorden of zinsdelen die mensen in zoekmachines invoeren wanneer ze naar informatie, producten of diensten zoeken. Door de juiste zoekwoorden te identificeren en in je inhoud te verwerken, vergroot je de kans dat je website wordt weergegeven in de zoekresultaten van potentiële bezoekers. Dit betekent dat het kiezen van de juiste zoekwoorden die relevant zijn voor je doelgroep erg belangrijk is voor het aantrekken van organisch verkeer naar je site.
-
-### Hoe voer je een zoekwoordenonderzoek uit?
-Het begint met het begrijpen van je doelgroep en de zoektermen waarmee ze naar jouw inhoud zouden zoeken. Door tools te gebruiken zoals de <a href="https://ads.google.com/intl/nl_be/home/tools/keyword-planner/" target="_blank" rel="noopener"><strong>Google Zoekwoordplanner</strong></a>, kun je inzicht krijgen in populaire zoekwoorden en de concurrentie op die termen. Het doel is om zoekwoorden te vinden die relevant zijn voor je niche en die tegelijkertijd een haalbaar concurrentieniveau hebben.
-
-In de blogpost over <a href="https://magickmedia.nl/zoekwoorden-analyseren-en-hogerop-in-google/" target="_blank" rel="noopener">zoekwoorden analyseren</a> leggen we uit hoe je een zoekwoorden onderzoek doet en kunt bepalen op welke zoektermen je je gaat focussen.
+Zoekmachines gebruiken crawlbudgets om efficiënt te kunnen werken en hun bronnen optimaal te benutten. Het is belangrijk om het crawlbudget van je website te optimaliseren door technische optimalisaties door te voeren, zoals het vermijden van dubbele content, het oplossen van serverfouten en het optimaliseren van de laadtijd. Het hebben van een gezond crawlbudget zorgt ervoor dat zoekmachines je belangrijkste pagina's regelmatig bezoeken en indexeren, waardoor je website beter vindbaar wordt. Hoe je je website technisch kunt optimaliseren, lees je in  <a href="/technische-seo-checklist">het artikel over technische SEO</a>.

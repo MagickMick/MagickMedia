@@ -12,30 +12,30 @@ tags:
 In deze gratis SEO handleiding voor beginners leer je waar je op kunt letten als je de vindbaarheid van je website wilt vergroten. We gaan de volgende punten behandelen:
 
 
-- [1. Wat is SEO](#wat-is-seo)
+- [Wat is SEO](#wat-is-seo)
   - [Inleiding tot zoekmachine optimalisatie](#inleiding-tot-zoekmachine-optimalisatie)
   - [Waarom is SEO belangrijk?](#waarom-is-seo-belangrijk)
-- [2. Zoekwoordenonderzoek](#zoekwoordenonderzoek)
+- [Zoekwoordenonderzoek](#zoekwoordenonderzoek)
   - [Het belang van zoekwoorden](#het-belang-van-zoekwoorden)
   - [Hoe voer je een zoekwoordenonderzoek uit?](#hoe-voer-je-een-zoekwoordenonderzoek-uit)
   - [Gratis tools voor zoekwoordenonderzoek?](#gratis-tools-voor-zoekwoordenonderzoek)
-- [3. On-Page SEO](#on-page-seo)
+- [On-Page SEO](#on-page-seo)
   - [Title tags en meta descriptions gebruiken](#title-tags-en-meta-descriptions-gebruiken)
   - [Content optimalisatie](#content-optimalisatie)
   - [Het belang van interne en outbound links?](#het-belang-van-interne-en-outbound-links)
-- [4. Technische SEO](#technische-seo)
+- [Technische SEO](#technische-seo)
   - [Mobiele vriendelijkheid](#mobiele-vriendelijkheid)
   - [Snelheidsoptimalisatie](#snelheidsoptimalisatie)
   - [Crawlbare website-structuur](#crawlbare-website-structuur)
-- [5. Off-Page SEO](#off-page-seo)
+- [Off-Page SEO](#off-page-seo)
   - [Linkbuilding](#linkbuilding)
   - [Google mijn bedrijf](#google-mijn-bedrijf)
   - [Gastbloggen](#gastbloggen)
-- [6. Meten en analyseren](#meten-en-analyseren)
+- [Meten en analyseren](#meten-en-analyseren)
   - [Google Analytics en Google Search Console](#google-analytics-en-google-search-console)
   - [Belangrijke SEO-metrieken](#belangrijke-seo-metrieken)
   - [Rapportage en optimalisatie](#rapportage-en-optimalisatie)
-- [7. Veelgemaakte fouten om te vermijden](#veelgemaakte-fouten-om-te-vermijden)
+- [Veelgemaakte fouten om te vermijden](#veelgemaakte-fouten-om-te-vermijden)
 
 ## Wat is SEO?
 

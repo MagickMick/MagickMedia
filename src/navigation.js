@@ -55,28 +55,8 @@ export const headerData = {
           href: getPermalink('development', 'category'),
         },
         {
-          text: 'Hosting',
-          href: getPermalink('hosting', 'category'),
-        },
-        {
           text: 'SEO',
           href: getPermalink('seo', 'category'),
-        },
-        {
-          text: 'SEA',
-          href: getPermalink('sea', 'category'),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
         },
       ],
     },

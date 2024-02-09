@@ -34,12 +34,12 @@ Allereerst is het belangrijk om in de huid van je doelgroep te kruipen. Op welke
 
 Dit zijn een aantal zoektermen die ik denk dat gebruikers zullen gaan intypen. Idealiter komen ze bij de site van Magick Media uit als ze dat gaan doen. Mocht je het moeilijk vinden om deze input te bepalen, kijk dan op de website die je wilt optimaliseren en bekijk de diensten of producten die daar op te vinden zijn. Ook kun je altijd met de eigenaar gaan praten van de website, als het niet jouw website is. Een andere mogelijkheid is om een zoekwoord in te typen bij de tool <a href="https://mangools.com/kwfinder/#a653bb1816aee08e11f3b7e8e" target="_blank" rel="noopener"><span>KWfinder</span></a>. Hier krijg je suggesties welke zoekwoorden je nog meer kunt gebruiken.
 
-Als deze lijst compleet is, gaan we altijd even kijken op de pagina’s van de concurrentie. Om te zien welke titels zij gebruiken voor hun pagina’s. Dit dient ook als inspiratie voor ons zoekwoord onderzoek.<span class="Apple-converted-space">  </span>Een handige manier om dit snel te doen is door ‘<i>site:</i><span class="s4" style="text-decoration-line: underline;"><i>domeinnaam-van-je-concurrent.nl</i></span>' in te typen in de browser:
+Als deze lijst compleet is, gaan we altijd even kijken op de pagina’s van de concurrentie. Om te zien welke titels zij gebruiken voor hun pagina’s. Dit dient ook als inspiratie voor ons zoekwoord onderzoek.<span class="Apple-converted-space">  </span>Een handige manier om dit snel te doen is door ‘<i>site:</i><span class="s4" style="text-decoration-line: underline;"><i>domeinnaam-van-je-concurrent.nl'</i></span> in te typen in de browser:
 
 <i>tekst gaat verder onder de afbeelding.</i>
 ![zoekwoorden analyseren concurrentie](src/assets/images/zoekwoorden-onderzoek-concurrentie.jpg)
 
-In dit geval vullen we ons zoekwoorden onderzoek dus aan
+In dit geval vullen we ons zoekwoorden onderzoek dus aan: </br>
 <b>Concurrentie</b>
 <ol>
  	<li>Goedkoop website laten maken</li>

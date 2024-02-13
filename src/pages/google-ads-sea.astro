@@ -1,6 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Prices2 from '~/components/widgets/Pricing2.astro';
+import Prices3 from '~/components/widgets/Pricing3.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Features3 from '~/components/widgets/Features3.astro';
@@ -73,12 +73,32 @@ const metadata = {
   
   <!-- Pricing2 Widget ******************* -->
 
-  <Prices2
+  <Prices3
     title="Tarieven"
     subtitle="Onze prijzen voor deze dienstverlening"
     id="tarieven"
     prices={[
-      
+      {
+        title: 'Landingspagina',
+        subtitle: '',
+        price: 499,
+        period: 'per pagina',
+        items: [
+          {
+            description: 'Design en ontwikkeling',
+          },
+          { 
+            description: 'Conversie optimalisatie',
+          }, 
+          {
+            description: 'Tracking van conversie',
+          },
+        ],
+        callToAction: {
+          text: 'Interesse',
+          href: 'contact',
+        }
+      },
       {
         title: 'Inrichting',
         subtitle: 'Wij richten de advertenties voor je in.',

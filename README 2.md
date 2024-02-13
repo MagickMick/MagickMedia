@@ -1,2 +1,2 @@
 # Magick Media
-Website van Magick Media Test
+Website van Magick Media

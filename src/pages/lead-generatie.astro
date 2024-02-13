@@ -1,0 +1,251 @@
+---
+import Layout from 'src/layouts/PageLayout.astro';
+import HeroText from 'src/components/widgets/HeroText.astro';
+import Prices3 from 'src/components/widgets/Pricing3.astro';
+import FAQs from 'src/components/widgets/FAQs.astro';
+import Steps from 'src/components/widgets/Steps.astro';
+import Features3 from 'src/components/widgets/Features3.astro';
+import CallToAction from 'src/components/widgets/CallToAction.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+
+
+const metadata = {
+  title: 'Magick Media - Lead Generatie (B2C)',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText
+    tagline="Lead generatie (B2C)"
+    title="Omzet verhogen met lead generatie? <span class='text-accent dark:text-white highlight'> Magick Media</span> helpt je daarmee!"
+    subtitle="Hulp nodig bij het promoten van jouw producten of diensten? Dan ben je bij Magick Media aan het goede adres. Wij zorgen ervoor dat jij meer gaat verkopen!"
+  />
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="De voordelen van lead generatie voor jou"
+    subtitle="Waar je bij ons op kunt rekenen."
+    columns={2}
+    items={[
+      {
+        title: 'Kostenbesparend',
+        description: 'Je betaald als adverteerder (i.e verkoper/merchant) pas als er een resultaat bereikt is. Dit kan een lead zijn, bijvoorbeeld het invullen van een contactformulier, of een sale van een product. Het bedrag dat je betaald is afhankelijk van het product of dienst dat je verkoopt.',
+        icon: 'tabler:pig-money',
+      },
+      {
+        title: 'Verhoogde zichtbaarheid',
+        description: 'Wij promoten je product of dienst op websites of platforms van publishers. Dit kan leiden tot een groter bereik van potentiële klanten.',
+        icon: 'tabler:zoom-check',
+      },
+      {
+        title: 'Gerichte doelgroep',
+        description: 'Je kunt zelf kiezen wie jouw producten mag promoten. Zo kun je kiezen voor de publishers die de juiste doelgroep bereiken.',
+        icon: 'tabler:target-arrow',
+      },
+      {
+        title: 'Flexibiliteit',
+        description: 'Je kunt bij lead generatie kiezen uit verschillende opties. Zo kun je per lead of sale betalen en is je budget per campagne vrij instelbaar.',
+        icon: 'tabler:directions',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+  
+  
+  <!-- Pricing2 Widget ******************* -->
+
+  <Prices3
+    title="Tarieven"
+    subtitle="Kies een dienstverlening die bij jou past"
+    prices={[
+      {
+        title: 'Landingspagina',
+        subtitle: '',
+        price: 499,
+        period: 'per pagina',
+        items: [
+          {
+            description: 'Design en ontwikkeling',
+          },
+          { 
+            description: 'Conversie optimalisatie',
+          }, 
+          {
+            description: 'Tracking van conversie',
+          },
+        ],
+        callToAction: {
+          text: 'Interesse',
+          href: 'contact',
+        }
+      },
+      {
+        title: 'Inrichting',
+        subtitle: '',
+        price: 1499,
+        period: 'per campagne',
+        items: [
+          { 
+            description: 'Campagne vormgeven',
+          }, 
+          {
+            description: 'Aansluiten Affiliate Netwerk',
+          },
+          {
+            description: 'Prijs exclusief kosten per lead/sale',
+          },
+        ],
+        callToAction: {
+          text: 'Interesse',
+          href: '/contact',
+        },
+      },
+      {
+        title: 'MONITORING & OPTIMALISATIE',
+        subtitle: '',
+        price: 149,
+        period: 'per maand',
+        items: [
+          {
+            description: 'Optimaliseren campagne',
+          },
+          {
+            description: 'Publishers beheren',
+          },
+          {
+            description: 'Previews valideren',
+          },
+        ],
+        callToAction: {
+          text: 'Interesse',
+          href: '/contact',
+        },
+      }
+    ]}
+  />
+
+  <!-- Steps Widget ****************** -->
+
+  <Steps
+    title="Jouw omzet verhoogd in deze 7 stappen "
+    tagline="ons proces"
+    isReversed={true}
+    items={[
+      {
+        title: 'Kennismaking en intake',
+        icon: 'tabler:number-1',
+      },
+      {
+        title: 'Scope bepalen en campagne vormgeven',
+        icon: 'tabler:number-2',
+      },
+      {
+        title: 'Contact met Affiliate netwerk',
+        icon: 'tabler:number-3',
+      },
+      {
+        title: 'Campagne opzetten (incl. landingspagina)',
+        icon: 'tabler:number-4',
+      },
+      {
+        title: 'Campagne live',
+        icon: 'tabler:number-5',
+      },
+      {
+        title: 'Leads of sales opvolgen',
+        icon: 'tabler:number-6',
+      },
+      {
+        title: 'Optimalisatie en kwaliteitscheck',
+        icon: 'tabler:number-7',
+      },
+    ]}
+    image={{
+      src: 'https://img.freepik.com/free-photo/social-media-marketing-concept-marketing-with-applications_23-2150063170.jpg?w=740&t=st=1707751570~exp=1707752170~hmac=0d58cac5108c389941b729230d5fa34147a6bc3643c3a26e19d8d5cffbea1e5b',
+      alt: 'Proces lead generatie Magick Media',
+    }}
+  />
+
+<!-- Testimonials Widget *********** -->
+
+<Testimonials
+title="Wat onze klanten zeggen"
+testimonials={[
+  {
+    testimonial: `Ik ken Mick als een iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door zijn persoonlijke aanpak staat hij voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort.`,
+    name: 'Marco',
+    job: 'Work in Flow',
+  },
+  {
+    testimonial: `De hosting van mijn website heb ik via Magick Media geregeld, ik ben erg blij met hoe snel en gemakkelijk dit geregeld is. Ik ben zelf webdesigner dus een goede hosting partij is voor mij erg belangrijk. Daarnaast heb ik af en toe wat vragen of extra wensen en tot nu toe werd er dan telkens snel geschakeld door Mick. Echt een super goede service en korte lijntjes, ik ben blij dat ik voor Magick Media gekozen heb en ga hem ook aanraden voor mijn eigen klanten die een (nieuwe) hosting partij zoeken.`,
+    name: 'Ronne',
+    job: 'Ronne Design',
+  },
+  {
+    testimonial: `Super tevreden!! Duidelijke communicatie en no noncense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍`,
+    name: 'Belinda',
+    job: 'Ribadogfood & more',
+  },
+  {
+    testimonial: `Mick beheert naar tevredenheid onze website waarvoor dank.`,
+    name: 'Leroy',
+    job: 'Allooi Boekhouders & Belastingadviseurs',
+  },
+]}
+/>
+
+<!-- HighlightedPosts Widget ******* -->
+
+<BlogLatestPosts
+title="Onze laatste blogposts"
+/>
+
+<!-- FAQs Widget ******************* -->
+
+<FAQs
+title="Wat klanten wilde weten"
+subtitle="Het is belangrijk dat al uw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact' title='Neem contact op voor vragen aan Magick Media' class='text-primary dark:text-white highlight'>contact</a> met ons op."
+tagline="Veelgestelde vragen"
+classes={{ container: 'max-w-6xl' }}
+items={[
+  {
+    title: 'Wat is leadgeneratie?',
+    description:
+    'Het proces van leadgeneratie omvat het identificeren en aantrekken van mogelijke klanten (leads) voor een specifiek product of dienst. Het uiteindelijke doel is om contactinformatie te vergaren van individuen of bedrijven die belangstelling hebben getoond voor wat er wordt aangeboden, met als doel om hen om te zetten naar actieve klanten.',
+  },
+  {
+    title: 'Hoe voeren jullie lead generatie uit?',
+    description:
+      "Lead generatie kan worden uitgevoerd op vershillende manieren om nieuwe klanten aan te trekken. Wij hebben ervoor gekozen om middels Affiliate marketing ervoor te gaan zorgen dat jouw omzet omhoog gaat. We kiezen voor affiliate marketing omdat we daar veel ervaring in hebben en wij het beste resultaat mee hebben gekregen in het verleden.",
+  },
+  {
+    title: 'Is een landingspagina perse nodig?',
+    description:
+      "De campagne heeft zeker een landingspagina nodig. Je kunt er ook voor kiezen om je eigen website als landingspagina te gebruiken. Het is wel belangrijk om te weten dat een goed geoptimaliseerde landingspagina eerder tot een lead lijdt.",
+  },
+  {
+    title: 'Kan ik het monitoren en optimaliseren ook zelf?',
+    description:
+      "Ja, nadat we een campagne voor jou hebben ingericht, doen we de overdacht ervan. Nu zou je in principe zelf aan de slag kunnen op het affiliate netwerk om je campagne bij te houden. Dit kost echter tijd (ongeveer 4 uur per maand), daarom nemen wij graag deze werkzaamheden uit handen.",
+  },
+  
+]}
+/>
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    title="Klaar voor <span class='text-accent dark:text-white highlight'>Magische</span> lead generatie?"
+    subtitle="Wacht niet langer en neem contact met ons op.</br> Wij gaan graag voor jou aan de slag!"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contact',
+        href: '/contact',
+      },
+    ]}
+  />
+</Layout>

@@ -16,7 +16,7 @@ metadata:
   title:
     default: 'Magick Media'
     template: 'Magick Media - Online Marketing Bureau'
-  description: 'Online marketing bureau Magick Media'
+  description: 'Magick Media - Online Marketing Bureau'
   robots:
     index: true
     follow: true

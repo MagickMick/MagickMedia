@@ -96,12 +96,14 @@ const { inputs, textarea, disclaimer, button = 'Verstuur', description = '' } = 
   function isValidName(name) {
     // Verwijder eventuele niet-numerieke tekens
     const lettersOnly = str => /^[a-zA-Z]+$/.test(str);
+    console.log('valid check name: ',name.length > 1 && lettersOnly(name));
     return name.length > 1 && lettersOnly(name);
   }
 
   // Functie om een e-mail te valideren
   function isValidEmail(email) {
     // Eenvoudige controle op de aanwezigheid van "@" in het e-mailadres
+    console.log('valid check email: ',email.includes('@'));
     return email.includes('@');
   }
 
@@ -109,19 +111,22 @@ const { inputs, textarea, disclaimer, button = 'Verstuur', description = '' } = 
   function isValidPhoneNumber(phone) {
     // Verwijder eventuele niet-numerieke tekens
     const numericPhone = phone.replace(/\D/g, '');
+    console.log('valid check phone: ',numericPhone.length === 10);
     return numericPhone.length === 10;
   }
 
   // Functie om een foutbericht weer te geven
   function displayErrorMessage(message) {
+    console.log("weer in de display error functie");
     messageElement.className = 'color:red';
     messageElement.innerHTML = `<p class="text-red-500">&#10008; ${message}</p>`;
   }
 
   document.getElementById('contactForm').addEventListener('submit', function (event) {
-   
+    console.log('clicked');
     // E-Naam validatie
     if (!isValidName(name.value)) {
+        console.log('Naam is niet valid:', name.value);
         displayErrorMessage('Ongeldige naam. Voer een geldige naam in.');
         event.preventDefault(); // Voorkom dat het formulier wordt verzonden
         return;
@@ -157,8 +162,6 @@ const { inputs, textarea, disclaimer, button = 'Verstuur', description = '' } = 
       phone:phone.value,
       message:message.value
     };
-
-    console.log("formData: ", formData);
 
     let xhr = new XMLHttpRequest();
     xhr.open('POST','http://localhost:5000/');

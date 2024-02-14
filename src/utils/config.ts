@@ -78,7 +78,7 @@ const config = yaml.load(fs.readFileSync('src/config.yaml', 'utf8')) as {
   analytics?: unknown;
 };
 
-const DEFAULT_SITE_NAME = 'MagickMedia';
+const DEFAULT_SITE_NAME = 'Magick Media';
 
 const getSite = () => {
   const _default = {

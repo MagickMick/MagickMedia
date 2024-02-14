@@ -1,13 +1,13 @@
-const nodemailer = require('nodemailer');
+import { createTransport } from 'nodemailer';
 
-exports.handler = async function (event, context) {
+export async function handler (event) {
   try {
     console.log("In submit-form.js");
     console.log('Formulier verzoek ontvangen:', event.body);
     const { name, email, message } = JSON.parse(event.body);
 
     // Voer hier de logica uit om het formulier te verwerken, bijvoorbeeld het verzenden van een e-mail
-    const transporter = nodemailer.createTransport({
+    const transporter = createTransport({
       // Configuratie voor je e-mailserver
     host: 'mail.magickmedia.nl', // Vervang dit door de hostnaam van je SMTP-server
     port: 465, // Vervang dit door de poort van je SMTP-server
@@ -41,4 +41,4 @@ exports.handler = async function (event, context) {
       body: JSON.stringify({ message: 'Er is een fout opgetreden bij het verwerken van het formulier.' })
     };
   }
-};
+}

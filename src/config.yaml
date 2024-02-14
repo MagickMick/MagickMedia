@@ -1,5 +1,5 @@
 site:
-  name: MagickMedia
+  name: Magick Media
   site: 'https://magickmedia.nl'
   base: '/'
   trailingSlash: false
@@ -10,13 +10,13 @@ site:
 metadata:
   title:
     default: Magick Media - Jouw online marketing bureau
-    template: 'Online Marketing Bureau — MagickMedia'
+    template: 'Magick Media - Online Marketing Bureau'
   description: "Ontdek de kracht van Magick Media, jouw toonaangevende online marketing bureau voor het ontwikkelen van websites en webshops. Wij specialiseren ons in het creëren van aantrekkelijke online aanwezigheid en het verbeteren van jouw vindbaarheid op zoekmachines zoals Google. Laat ons je begeleiden naar online succes."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: MagickMedia
+    site_name: Magick Media
     images:
       - url: '~/assets/images/default.png'
         width: 1200

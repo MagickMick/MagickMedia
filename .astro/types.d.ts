@@ -185,6 +185,83 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"post": {
+"astrowind-template-in-depth.mdx": {
+	id: "astrowind-template-in-depth.mdx";
+  slug: "astrowind-template-in-depth";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".mdx"] };
+"elementor-als-wordpress-pagebuilder.md": {
+	id: "elementor-als-wordpress-pagebuilder.md";
+  slug: "elementor-als-wordpress-pagebuilder";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"gratis-seo-handleiding-voor-beginners.md": {
+	id: "gratis-seo-handleiding-voor-beginners.md";
+  slug: "gratis-seo-handleiding-voor-beginners";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"how-to-customize-astrowind-to-your-brand.md": {
+	id: "how-to-customize-astrowind-to-your-brand.md";
+  slug: "how-to-customize-astrowind-to-your-brand";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"landing.md": {
+	id: "landing.md";
+  slug: "landing";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"markdown-elements-demo-post.mdx": {
+	id: "markdown-elements-demo-post.mdx";
+  slug: "markdown-elements-demo-post";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".mdx"] };
+"technische-seo-checklist.md": {
+	id: "technische-seo-checklist.md";
+  slug: "technische-seo-checklist";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"useful-resources-to-create-websites.md": {
+	id: "useful-resources-to-create-websites.md";
+  slug: "useful-resources-to-create-websites";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wat-is-crawlen.md": {
+	id: "wat-is-crawlen.md";
+  slug: "wat-is-crawlen";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"zelf-wordpress-website-maken.md": {
+	id: "zelf-wordpress-website-maken.md";
+  slug: "zelf-wordpress-website-maken";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"zoekwoorden-analyseren-en-hogerop-in-google.md": {
+	id: "zoekwoorden-analyseren-en-hogerop-in-google.md";
+  slug: "zoekwoorden-analyseren-en-hogerop-in-google";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 };
 
 	};

@@ -67,51 +67,76 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Diensten',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        {
+          text: 'Website laten maken',
+          href: getPermalink('/website-laten-maken'),
+        },
+        {
+          text: 'Webshop laten maken',
+          href: getPermalink('/webshop-laten-maken'),
+        },
+        {
+          text: 'Zoekmachine Optimalisatie (SEO)',
+          href: getPermalink('/zoekmachine-optimalisatie-seo'),
+        },
+        {
+          text: 'Google Ads (SEA)',
+          href: getPermalink('/google-ads-sea'),
+        },
+        {
+          text: 'Lead Generatie (B2C)',
+          href: getPermalink('/lead-generatie'),
+        },
+        {
+          text: 'Hosting & Beheer',
+          href: getPermalink('/hosting-en-beheer'),
+        },
+        {
+          text: 'Grafisch Ontwerp',
+          href: getPermalink('/grafisch-ontwerp'),
+        },
       ],
     },
     {
-      title: 'Platform',
+      title: 'Development',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        {
+          text: 'Zelf een Wordpress website maken in deze 6 stappen',
+          href: getPermalink('/zelf-wordpress-website-maken'),
+        },
+        {
+          text: '4 redenen waarom wij Elementor gebruiken als Wordpress pagebuilder',
+          href: getPermalink('/elementor-als-wordpress-pagebuilder'),
+        },
       ],
     },
     {
-      title: 'Support',
+      title: 'SEO',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        {
+          text: 'Gratis SEO handleiding voor beginners',
+          href: getPermalink('/gratis-seo-handleiding-voor-beginners'),
+        },
+        {
+          text: 'Dé technische SEO checklist van 2024',
+          href: getPermalink('/technische-seo-checklist'),
+        },
+        {
+          text: 'Zoekwoorden analyseren in deze 5 stappen en kom hogerop in Google!',
+          href: getPermalink('/zoekwoorden-analyseren-en-hogerop-in-google'),
+        },
+        {
+          text: 'Wat is crawlen?',
+          href: getPermalink('/wat-is-crawlen'),
+        },
       ],
     },
   ],
   secondaryLinks: [
+    { text: 'Over ons', href: getPermalink('/over-ons') },
+    { text: 'Contact', href: getPermalink('/contact') },
     { text: 'Privacyverklaring & cookiebeleid', href: getPermalink('/privacy') },
   ],
   socialLinks: [

@@ -2,7 +2,7 @@
 publishDate: 2024-02-09T00:00:00Z
 title: Zelf een Wordpress website maken in deze 6 stappen.
 excerpt: Wij nemen je graag mee hoe je een Wordpress website zelf kunt maken.
-image: https://magickmedia.nl/src/assets/images/maak-eigen-wordpress-website.jpg
+image: https://magickmedia.nl/_astro/maak-eigen-wordpress-website.2csQl65S.jpg
 category: Development
 tags:
   - Wordpress

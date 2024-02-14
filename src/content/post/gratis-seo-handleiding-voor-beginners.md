@@ -2,7 +2,7 @@
 publishDate: 2024-02-06T00:00:00Z
 title: Gratis SEO handleiding voor beginners
 excerpt: Leer in deze gratis SEO handleiding voor beginners hoe je je website kunt optimaliseren en je vindbaarheid kunt vergroten.
-image: https://img.freepik.com/free-vector/seo-analytics-team-concept-illustration_114360-9205.jpg?w=996&t=st=1707215377~exp=1707215977~hmac=e02192553f8d486315d06961bbfa5ad1ff8b850c6f6a8c03ed80c4da7629928b
+image: /_astro/gratis-seo-handleiding-beginners.X_ckvsLR.jpg
 category: seo
 tags:
   - zoekmachine optimalisatie

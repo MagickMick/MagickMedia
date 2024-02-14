@@ -2,7 +2,7 @@
 publishDate: 2024-02-06T00:00:00Z
 title: Dé Technische SEO checklist van 2024
 excerpt: In dit artikel lees je waar je op moet letten om je website SEO technisch te verbeteren Dit verhoogt je vindbaarheid in Google.
-image: https://img.freepik.com/free-vector/search-engine-optimization-online-promotion-smm-manager-cartoon-character-mobile-settings-tools-adjustment-business-platform-website-analysis-vector-isolated-concept-metaphor-illustration_335657-2715.jpg?w=740&t=st=1707382579~exp=1707383179~hmac=953f1e3ca25ff46998dee1d64353879486d77e785c8665c59ce3f867129f9e1d
+image: /_astro/technische-seo-checklist-header.7RRDgsqC.jpeg
 category: seo
 tags:
   - zoekmachine optimalisatie

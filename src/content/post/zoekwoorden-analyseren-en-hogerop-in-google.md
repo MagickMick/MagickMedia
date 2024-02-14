@@ -1,8 +1,8 @@
 ---
 publishDate: 2024-02-06T00:00:00Z
 title: Zoekwoorden analyseren in deze vijf stappen en kom hogerop in Google!​
-excerpt: In deze blogpost nemen we je mee hoe wij de zoekwoorden analyseren om te bepalen welke woorden wij gaan gebruiken voor onze SEO strategie.
-image: https://magickmedia.nl/src/assets/images/zoekwoorden-analyseren-hogerop-google.jpg
+excerpt: In deze blogpost nemen we je mee hoe wij de zoekwoorden analyseren om te bepalen welke woorden wij gaan gebruiken voor onze SEO strategie. 2
+image: /_astro/zoekwoorden-analyseren-hogerop-google.RejKCVVM.jpg
 category: seo
 tags:
   - zoekmachine optimalisatie

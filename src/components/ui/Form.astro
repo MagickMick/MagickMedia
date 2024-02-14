@@ -119,6 +119,7 @@ const { inputs, textarea, disclaimer, button = 'Verstuur', description = '' } = 
   }
 
   document.getElementById('contactForm').addEventListener('submit', function (event) {
+    displayErrorMessage('');
     // E-Naam validatie
     if (!isValidName(name.value)) {
         console.log('Naam is niet valid:', name.value);
@@ -144,7 +145,7 @@ const { inputs, textarea, disclaimer, button = 'Verstuur', description = '' } = 
 
       // Disclaimer checkbox validatie
     if (!disclaimerCheckbox.checked) {
-      displayErrorMessage('Je moet akkoord gaan met de disclaimer.');
+      displayErrorMessage('De disclaimer is randvoorwaardelijk.');
       event.preventDefault();
       return;
     }
@@ -159,7 +160,7 @@ const { inputs, textarea, disclaimer, button = 'Verstuur', description = '' } = 
     };
 
     let xhr = new XMLHttpRequest();
-    xhr.open('POST','http://localhost:5000/');
+    xhr.open('POST','http://magickmedia.nl:5000/');
     xhr.setRequestHeader('content-type', 'application/json');
     xhr.onload = function(){
       if(xhr.responseText !== undefined){

@@ -146,6 +146,6 @@ export const footerData = {
     { ariaLabel: 'Telefoon', icon: 'tabler:phone', href: 'tel:+31642667970'},
   ],
   footNote: `
-    Copyright © 2024 Magick Media. · Speciale dank aan <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/" target="_blank"> onWidget</a>
+    Copyright © 2024 Magick Media. · Speciale dank aan <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/" target="_blank"> onWidget</a> · Afbeeldingen door <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://www.freepik.com/" target="_blank" rel="noopener">Freepik</a>
   `,
 };

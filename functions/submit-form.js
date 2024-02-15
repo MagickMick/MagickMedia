@@ -2,8 +2,6 @@ import { createTransport } from 'nodemailer';
 
 export async function handler (event) {
   try {
-    console.log("In submit-form.js");
-    console.log('Formulier verzoek ontvangen:', event.body);
     const { name, email, message } = JSON.parse(event.body);
 
     // Voer hier de logica uit om het formulier te verwerken, bijvoorbeeld het verzenden van een e-mail

@@ -114,12 +114,12 @@ const { inputs, textarea, disclaimer, button = 'Verstuur', description = '' } = 
 
   // Functie om een foutbericht weer te geven
   function displayErrorMessage(message) {
-    messageElement.className = 'color:red';
+    messageElement.className = 'text-red-500';
     messageElement.innerHTML = `<p class="text-red-500">&#10008; ${message}</p>`;
   }
 
   document.getElementById('contactForm').addEventListener('submit', function (event) {
-    displayErrorMessage('');
+    messageElement.innerHTML = '<p>Wij streven erna om binnen 1 werkdag te reageren.</p>';
     // E-Naam validatie
     if (!isValidName(name.value)) {
         console.log('Naam is niet valid:', name.value);
@@ -160,17 +160,17 @@ const { inputs, textarea, disclaimer, button = 'Verstuur', description = '' } = 
     };
 
     let xhr = new XMLHttpRequest();
-    xhr.open('POST','http://magickmedia.nl:5000/');
+    xhr.open('POST','https://magickmedia.nl/server');
     xhr.setRequestHeader('content-type', 'application/json');
     xhr.onload = function(){
-      if(xhr.responseText !== undefined){
+      if(xhr.status === 200){
         messageElement.innerHTML = '<p>Formulier succesvol verstuurd!</p>';
         name.value = '';
         email.value = '';
         phone.value = '';
         message.value = '';
       }else{
-        alert('something went wrong')
+        alert('something went wrong. Status code: ' + xhr.status);
       }
     }
     xhr.send(JSON.stringify(formData));

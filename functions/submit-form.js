@@ -19,7 +19,7 @@ export async function handler (event) {
     const mailOptions = {
       from: 'info@magickmedia.nl',
       to: 'mick@magickmedia.nl',
-      subject: 'Nieuw Formulier Ingezonden',
+      subject: 'Nieuw Contact Formulier Ingezonden',
       text: `Naam: ${name}\nE-mail: ${email}\nBericht: ${message}`
     };
 

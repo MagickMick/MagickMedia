@@ -66,6 +66,18 @@ const { inputs, textarea, disclaimer, button = 'Verstuur', description = '' } = 
       </div>
     )
   }
+  {
+     <div class="mt-3 flex items-start">
+        <div class="flex mt-0.5">
+          <input
+            id="optin"
+            name="optin"
+            type="checkbox"
+            class="hidden cursor-pointer mt-1 py-3 px-4 w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+          />
+        </div>
+      </div>
+  }
 
   {
     button && (
@@ -158,6 +170,17 @@ const { inputs, textarea, disclaimer, button = 'Verstuur', description = '' } = 
       phone:phone.value,
       message:message.value
     };
+    
+    var checkbox = document.getElementById('optin');
+    if(checkbox.checked){
+      messageElement.innerHTML = '<p>Formulier succesvol verstuurd!</p>';
+      name.value = '';
+      email.value = '';
+      phone.value = '';
+      message.value = '';
+      return;
+    }
+
 
     let xhr = new XMLHttpRequest();
     xhr.open('POST','https://magickmedia.nl/server');

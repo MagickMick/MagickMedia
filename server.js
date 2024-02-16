@@ -9,12 +9,12 @@ const PORT = 5000;
 app.use(express.static('src'));
 app.use(cors());
 app.use(express.json());
-
+/*
 app.get('/', (req, res)=>{
     res.sendFile(__dirname + '/src/components/ui/Form.astro')
 })
-
-app.post('/', (req, res) => {
+*/
+app.post('/server', (req, res) => {
     const transporter = nodemailer.createTransport({
         // Configuratie voor je e-mailserver
       host: 'mail.magickmedia.nl', // Vervang dit door de hostnaam van je SMTP-server

@@ -6,6 +6,8 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero.astro';
+
 
 const metadata = {
   title: 'Magick Media - Grafisch ontwerp',
@@ -15,13 +17,29 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- HeroText Widget ******************* -->
-
-  <HeroText
+  <!-- Hero Widget ******************* -->
+  <Hero
     tagline="Grafisch ontwerp"
-    title="Logo laten ontwerpen? Wij van <span class='text-accent dark:text-white highlight'> Magick Media</span> maken dit of andere grafische uitingen voor je!"
-    subtitle="Bij Magick Media ontwerpen we graag een nieuwe huisstijl voor jouw bedrijf, die perfect aansluit bij jouw doelgroep."
-  />
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Plan een gesprek',
+        href: '/plan-een-gesprek',
+      },
+      { text: 'Tarieven', href: '#tarieven' },
+    ]}
+  >
+
+    <Fragment slot="title">
+      Logo laten ontwerpen? Wij van <span class='text-accent dark:text-white highlight'> Magick Media</span> maken dit of andere grafische uitingen voor je!
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="sm:inline">
+        Bij Magick Media ontwerpen we graag een nieuwe huisstijl voor jouw bedrijf, die perfect aansluit bij jouw doelgroep.
+      </span>
+    </Fragment>
+  </Hero>
 
   <!-- Features3 Widget ************** -->
 
@@ -64,6 +82,7 @@ const metadata = {
 
   <Prices2
     title="Tarieven"
+    id="tarieven"
     subtitle="De prijzen van onze producten"
     prices={[
       {
@@ -86,8 +105,8 @@ const metadata = {
           },
         ],
         callToAction: {
-          text: 'Interesse',
-          href: '#',
+          text: 'Plan een gesprek',
+          href: '/plan-een-gesprek',
           
         },
       },
@@ -111,8 +130,8 @@ const metadata = {
           },
         ],
         callToAction: {
-          text: 'Offerte aanvragen',
-          href: '/contact',
+          text: 'Plan een gesprek',
+          href: '/plan-een-gesprek',
         },
         isPrimary: false
       },
@@ -165,9 +184,9 @@ const metadata = {
  subtitle="Wacht niet langer en neem contact met ons op.</br> Wij gaan graag voor jou aan de slag!"
  actions={[
    {
-     variant: 'primary',
-     text: 'Contact',
-     href: '/contact',
+    variant: 'primary',
+    text: 'Plan een gesprek',
+    href: '/plan-een-gesprek',
    },
  ]}
  />

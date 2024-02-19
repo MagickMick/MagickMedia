@@ -30,8 +30,8 @@ export const headerData = {
           href: getPermalink('/google-ads-sea'),
         },
         {
-          text: 'Lead Generatie (B2C)',
-          href: getPermalink('/lead-generatie'),
+          text: 'Leadgeneratie (B2C)',
+          href: getPermalink('/leadgeneratie'),
         },
         {
           text: 'Hosting & Beheer',
@@ -87,7 +87,7 @@ export const footerData = {
         },
         {
           text: 'Leadgeneratie (B2C)',
-          href: getPermalink('/lead-generatie'),
+          href: getPermalink('/leadgeneratie'),
         },
         {
           text: 'Hosting & beheer',

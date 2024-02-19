@@ -8,6 +8,7 @@ import Features3 from 'src/components/widgets/Features3.astro';
 import CallToAction from 'src/components/widgets/CallToAction.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
+import Hero from '~/components/widgets/Hero.astro';
 
 
 const metadata = {
@@ -18,18 +19,34 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- HeroText Widget ******************* -->
-
-  <HeroText
-    tagline="Leadgeneratie (B2C)"
-    title="Omzet verhogen met lead generatie? <span class='text-accent dark:text-white highlight'> Magick Media</span> helpt je daarmee!"
-    subtitle="Hulp nodig bij het promoten van jouw producten of diensten? Dan ben je bij Magick Media aan het goede adres. Wij zorgen ervoor dat jij meer gaat verkopen!"
-  />
+    <!-- Hero Widget ******************* -->
+    <Hero
+      tagline="Leadgeneratie (B2C)"
+      actions={[
+        {
+          variant: 'primary',
+          text: 'Plan een gesprek',
+          href: '/plan-een-gesprek',
+        },
+        { text: 'Tarieven', href: '#tarieven' },
+      ]}
+    >
+  
+      <Fragment slot="title">
+        Omzet verhogen met leadgeneratie? <span class='text-accent dark:text-white highlight'> Magick Media</span> helpt je daarmee!
+      </Fragment>
+  
+      <Fragment slot="subtitle">
+        <span class="sm:inline">
+          Hulp nodig bij het promoten van jouw producten of diensten? Dan ben je bij Magick Media aan het goede adres. Wij zorgen ervoor dat jij meer gaat verkopen!
+        </span>
+      </Fragment>
+    </Hero>
 
   <!-- Features3 Widget ************** -->
 
   <Features3
-    title="De voordelen van lead generatie voor jou"
+    title="De voordelen van leadgeneratie voor jou"
     subtitle="Waar je bij ons op kunt rekenen."
     columns={2}
     items={[
@@ -50,7 +67,7 @@ const metadata = {
       },
       {
         title: 'Flexibiliteit',
-        description: 'Je kunt bij lead generatie kiezen uit verschillende opties. Zo kun je per lead of sale betalen en is je budget per campagne vrij instelbaar.',
+        description: 'Je kunt bij leadgeneratie kiezen uit verschillende opties. Zo kun je per lead of sale betalen en is je budget per campagne vrij instelbaar.',
         icon: 'tabler:directions',
       },
     ]}
@@ -62,6 +79,7 @@ const metadata = {
 
   <Prices3
     title="Tarieven"
+    id="tarieven"
     subtitle="Kies een dienstverlening die bij jou past"
     prices={[
       {
@@ -81,8 +99,8 @@ const metadata = {
           },
         ],
         callToAction: {
-          text: 'Interesse',
-          href: 'contact',
+          text: 'Plan een gesprek',
+          href: '/plan-een-gesprek',
         }
       },
       {
@@ -102,8 +120,8 @@ const metadata = {
           },
         ],
         callToAction: {
-          text: 'Interesse',
-          href: '/contact',
+          text: 'Plan een gesprek',
+          href: '/plan-een-gesprek',
         },
       },
       {
@@ -123,8 +141,8 @@ const metadata = {
           },
         ],
         callToAction: {
-          text: 'Interesse',
-          href: '/contact',
+          text: 'Plan een gesprek',
+          href: '/plan-een-gesprek',
         },
       }
     ]}
@@ -167,8 +185,8 @@ const metadata = {
       },
     ]}
     image={{
-      src: '/_astro/lead-generatie-proces.XNSY8uAX.jpg',
-      alt: 'Proces lead generatie Magick Media',
+      src: '/_astro/leadgeneratie-proces.XNSY8uAX.jpg',
+      alt: 'Proces leadgeneratie Magick Media',
     }}
   />
 
@@ -240,13 +258,13 @@ items={[
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    title="Klaar voor <span class='text-accent dark:text-white highlight'>Magische</span> lead generatie?"
+    title="Klaar voor <span class='text-accent dark:text-white highlight'>Magische</span> leadgeneratie?"
     subtitle="Wacht niet langer en neem contact met ons op.</br> Wij gaan graag voor jou aan de slag!"
     actions={[
       {
         variant: 'primary',
-        text: 'Contact',
-        href: '/contact',
+        text: 'Plan een gesprek',
+        href: '/plan-een-gesprek',
       },
     ]}
   />

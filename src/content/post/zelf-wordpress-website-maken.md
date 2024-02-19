@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-02-09T00:00:00Z
 title: Zelf een Wordpress website maken in deze 6 stappen.
-excerpt: Wij nemen je graag mee hoe je een Wordpress website zelf kunt maken.
+excerpt: Wil jij zelf een Wordpress website maken? In dit artikel leer je in 6 stappen hoe je dat het beste kunt doen.
 image: https://magickmedia.nl/_astro/maak-eigen-wordpress-website.2csQl65S.jpg
 category: Development
 tags:
@@ -36,7 +36,7 @@ Bij A2hosting heb je toegang gekregen tot cPanel. Binnen cPanel kun je Wordpress
 
 ## Stap 4: Thema installeren op Wordpress
 Als Wordpress eenmaal geinstalleerd is kan het enkele uren duren voordat je site bereikbaar is. Dit controleer je simpelweg door je domeinnaam op te zoeken in de browser. Als je site bereikbaar is, zie je waarschijnlijk een standaard template van Wordpress.
-Tijd om dit te gaan veranderen. Eerst log je in op je Wordpress website door naar: www.jedomeinnaam.nl/wp-admin te gaan.
+Tijd om dit te gaan veranderen. Eerst log je in op je Wordpress website door naar: jedomeinnaam .nl/wp-admin te gaan.
 Vul hier de gegevens in die je hebt aangemaakt bij het installeren van je website.
 
 Eenmaal ingelogd, ga je naar 'Weergave' > 'Thema's' of 'Appearance' > 'Themes' als je de engelse taal hebt ingesteld.

@@ -10,7 +10,9 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
 import Hero from '~/components/widgets/Hero.astro';
 
 const metadata = {
-  title: 'Magick Media - Hosting & Beheer.',
+  title: 'Magick Media - Hosting & beheer',
+  description:'Hosting, beheer en onderhoud van je website of webshop uitbesteden? Door Magick Media heb je weer een zorg minder!',
+  ignoreTitleTemplate: true,
 };
 ---
 
@@ -18,7 +20,7 @@ const metadata = {
 
   <!-- Hero Widget ******************* -->
   <Hero
-    tagline="Hosting & Beheer"
+    tagline="Hosting & beheer"
     actions={[
       {
         variant: 'primary',
@@ -29,7 +31,7 @@ const metadata = {
     ]}
   >
     <Fragment slot="title">
-      Hosting en Beheer van je website of webshop uitbesteden? Wij van <span class='text-accent dark:text-white highlight'> Magick Media</span> ontzorgen je volledig!
+      Hosting en beheer van je website of webshop uitbesteden? Wij van <span class='text-accent dark:text-white highlight'> Magick Media</span> ontzorgen je volledig!
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -140,7 +142,7 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Jouw platform gehosts in deze 6 stappen "
+    title="Jouw platform gehost in deze 6 stappen "
     tagline="ons proces"
     isReversed={true}
     items={[
@@ -161,7 +163,7 @@ const metadata = {
         icon: 'tabler:number-4',
       },
       {
-        title: 'Platform Live',
+        title: 'Platform live',
         icon: 'tabler:number-5',
       },
       {

@@ -85,7 +85,7 @@ const getSite = () => {
     name: DEFAULT_SITE_NAME,
     site: undefined,
     base: '/',
-    trailingSlash: false,
+    trailingSlash: true,
 
     googleSiteVerificationId: '',
   };

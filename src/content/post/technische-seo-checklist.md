@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-02-06T00:00:00Z
 title: Dé Technische SEO checklist van 2024
-excerpt: In dit artikel lees je waar je op moet letten om je website SEO technisch te verbeteren Dit verhoogt je vindbaarheid in Google.
+excerpt: In deze Technische SEO checklist lees je waar je op moet letten om je technische SEO te verbeteren. Dit verhoogt je vindbaarheid in Google.
 image: /_astro/technische-seo-checklist-header.7RRDgsqC.jpeg
 category: seo
 tags:
@@ -107,7 +107,7 @@ Technische SEO is voor ons het beginpunt van de SEO cyclus die wij altijd doorlo
   <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener">Google PageSpeed Insights</a> meet de snelheid van de pagina’s op je website. Deze tool beoordeelt de prestaties van je website op zowel mobiele apparaten als desktop. Daarnaast geeft het suggesties om de laadsnelheid te verbeteren. Hiermee maak je je website sneller. Mocht je niet genoeg inzichten verkrijgen met deze tool, dan kun je als alternatief de tool <a href="https://gtmetrix.com/" target="_blank" rel="noopener">GTMetrix</a> bekijken voor meer informatie.
 
   ### Google Rich Results Test
-  <a href="https://search.google.com/test/rich-results" target="_blank" rel="noopener">Google Rich Results Test</a> geeft je inzicht of de pagina's goed genoeg is ingedeeld om Rich Results te tonen, zoals recepten en stapsgewijze handleidingen. Het beoordeelt of je gestructureerde gegevens correct zijn geïmplementeerd en of je pagina's in aanmerking komen voor deze Rich zoekresultaten. Een Rich Result moet voldoen aan de <a href="http://schema.org"><span><b>schema.org</b></span></a> opzet. Deze <a href="https://validator.schema.org/" target="_blank" rel="noopener">Schema.org Validator</a> is een handige tool om dat te checken.
+  <a href="https://search.google.com/test/rich-results" target="_blank" rel="noopener">Google Rich Results Test</a> geeft je inzicht of de pagina's goed genoeg is ingedeeld om Rich Results te tonen, zoals recepten en stapsgewijze handleidingen. Het beoordeelt of je gestructureerde gegevens correct zijn geïmplementeerd en of je pagina's in aanmerking komen voor deze Rich zoekresultaten. Een Rich Result moet voldoen aan de <a href="https://schema.org"><span><b>schema.org</b></span></a> opzet. Deze <a href="https://validator.schema.org/" target="_blank" rel="noopener">Schema.org Validator</a> is een handige tool om dat te checken.
 
   Vragen over dit artikel of graag je SEO uitbesteden? Neem dan gerust <a href="/contact">contact</a> met ons op!</p>
 

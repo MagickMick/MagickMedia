@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-02-06T00:00:00Z
 title: Gratis SEO handleiding voor beginners
-excerpt: Leer in deze gratis SEO handleiding voor beginners hoe je je website kunt optimaliseren en je vindbaarheid kunt vergroten.
+excerpt: Leer in deze gratis SEO handleiding voor beginners hoe je je website op SEO gebied kunt optimaliseren en je vindbaarheid kunt vergroten.
 image: /_astro/gratis-seo-handleiding-beginners.X_ckvsLR.jpg
 category: seo
 tags:
@@ -108,7 +108,7 @@ Een goed georganiseerde website-structuur is van belang voor zowel zoekmachines 
 
 Wil je meer weten over technische SEO en hoe je je website kunt optimaliseren voor deze aspecten? Lees ons artikel die binnenkort uit komt over Technische SEO checklist voor gedetailleerde informatie en handige tips. Het optimaliseren van technische aspecten kan een aanzienlijk verschil maken in je SEO-prestaties en de algehele bruikbaarheid van je website.
 
-Kijk hier voor <a href="http://www.magickmedia.nl/technische-seo-checklist"><b>meer informatie over technische SEO</b></a>.
+Kijk hier voor <a href="https://www.magickmedia.nl/technische-seo-checklist/"><b>meer informatie over technische SEO</b></a>.
 
 [[Top]](#top)
 
@@ -120,7 +120,7 @@ Linkbuilding is een strategie waarbij je actief werkt aan het verkrijgen van lin
 Deze voordelen kun je behalen met linkbuilding;
 <ul>
  	<li>Je autoriteit van je website wordt vergroot, omdat een andere website naar jouw linkt. Dit komt je gehele site ten goede.</li>
- 	<li>De tekst van de link, ook wel anchor tekst genoemd, geeft zoekmachines context waar de pagina over gaat. Het is dus belangrijk dat de website die naar jou website linkt een van deze link teksten gebruikt: De merknaam (bv. ‘WebhostinGuru’) , een beschrijving waar de website over gaat (bv. ‘Een echte SEO expert’) of gewoon de url (<a href="http://www.webhostinguru.nl/?_ga=2.233710942.1942440106.1698152723-1914060891.1687445992"><span>www.webhostinguru.nl</span></a>). Het is handig om te variëren in deze soorten link teksten.</li>
+ 	<li>De tekst van de link, ook wel anchor tekst genoemd, geeft zoekmachines context waar de pagina over gaat. Het is dus belangrijk dat de website die naar jou website linkt een van deze link teksten gebruikt: De merknaam (bv. ‘WebhostinGuru’) , een beschrijving waar de website over gaat (bv. ‘Een echte SEO expert’) of gewoon de url (<a href="https://www.webhostinguru.nl/"><span>www.webhostinguru.nl</span></a>). Het is handig om te variëren in deze soorten link teksten.</li>
 </ul>
 
 ### Google mijn bedrijf

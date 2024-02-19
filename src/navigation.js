@@ -78,7 +78,7 @@ export const footerData = {
           href: getPermalink('/webshop-laten-maken'),
         },
         {
-          text: 'Zoekmachine Optimalisatie (SEO)',
+          text: 'Zoekmachine optimalisatie (SEO)',
           href: getPermalink('/zoekmachine-optimalisatie-seo'),
         },
         {
@@ -86,15 +86,15 @@ export const footerData = {
           href: getPermalink('/google-ads-sea'),
         },
         {
-          text: 'Lead Generatie (B2C)',
+          text: 'Leadgeneratie (B2C)',
           href: getPermalink('/lead-generatie'),
         },
         {
-          text: 'Hosting & Beheer',
+          text: 'Hosting & beheer',
           href: getPermalink('/hosting-en-beheer'),
         },
         {
-          text: 'Grafisch Ontwerp',
+          text: 'Grafisch ontwerp',
           href: getPermalink('/grafisch-ontwerp'),
         },
       ],

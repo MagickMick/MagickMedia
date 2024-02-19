@@ -5,9 +5,9 @@ Basic configuration file: `./src/config.yaml`
 ```yaml
 site:
   name: 'Magick Media'
-  site: 'https://magickmedia.nl'
+  site: 'https://magickmedia.nl/'
   base: '/' # Change this if you need to deploy to Github Pages, for example
-  trailingSlash: false # Generate permalinks with or without "/" at the end
+  trailingSlash: true # Generate permalinks with or without "/" at the end
 
   googleSiteVerificationId: false # Or some value,
 

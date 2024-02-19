@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-02-05T00:00:00Z
 title: Wat is crawlen?
-excerpt: In dit artikel vertellen we je meer over hoe zoekmachines te werk gaan om jouw content te ontdekken, ook wel crawlen genoemd.
+excerpt: Wat is crawlen eigenlijk? In dit artikel vertellen we je meer over hoe zoekmachines te werk gaan om jouw content te ontdekken.
 image: /_astro/wat-is-crawlen-seo.2KNhGN1Y.jpg
 category: seo
 tags:

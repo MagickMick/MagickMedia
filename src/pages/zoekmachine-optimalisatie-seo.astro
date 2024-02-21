@@ -8,7 +8,6 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import { getPermalink, getBlogPermalink } from 'src/utils/permalinks.ts';
 
 const metadata = {
   title: 'Magick Media - Zoekmachine Optimalisatie (SEO)',
@@ -26,7 +25,7 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Plan een gesprek',
-        href: '/plan-een-gesprek',
+        href: '/plan-een-gesprek/',
       },
       { text: 'Tarieven', href: '#tarieven' },
     ]}
@@ -112,7 +111,7 @@ const metadata = {
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         },
       },
       {
@@ -139,7 +138,7 @@ const metadata = {
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         }
       },
       {
@@ -163,7 +162,7 @@ const metadata = {
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         }
       }
     ]}
@@ -213,6 +212,11 @@ const metadata = {
 title="Wat onze klanten zeggen"
 testimonials={[
   {
+    testimonial: `De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen.`,
+    name: 'Cora',
+    job: 'Pink Roccade',
+  },
+  {
     testimonial: `Ik ken Mick van Magick Media als een iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort.`,
     name: 'Marco',
     job: 'Work in Flow',
@@ -235,6 +239,88 @@ testimonials={[
 ]}
 />
 
+<!-- Structured data reviews ******* -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Magick Media",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "5"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Cora"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Marco"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Ik ken Mick van Magick Media als iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Ronne"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van mijn website heb ik via Magick Media geregeld, ik ben erg blij met hoe snel en gemakkelijk dit geregeld is. Ik ben zelf webdesigner dus een goede hosting partij is voor mij erg belangrijk. Daarnaast heb ik af en toe wat vragen of extra wensen en tot nu toe werd er dan telkens snel geschakeld. Echt een super goede service en korte lijntjes, ik ben blij dat ik voor Magick Media gekozen heb en ga hem ook aanraden voor mijn eigen klanten die een (nieuwe) hosting partij zoeken."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Leroy"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Als eigenaar van boekhoudkantoor Allooi ben ik zeer tevreden met de website gemaakt door Magick Media. Dankzij hun aandacht voor detail, creativiteit en technische expertise hebben we een aantrekkelijke en functionele site gekregen. Dankzij het persoonlijk contact, responsieve houding en bereidheid tot aanpassingen hebben we onze online aanwezigheid geoptimaliseerd, wat heeft geleid tot een toename van klanten. Ik beveel Magick Media dus zeker aan."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Belinda"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Super tevreden!! Duidelijke communicatie en no nonsense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍"
+      }
+    ]
+  }
+  </script>
+  
+
 <!-- HighlightedPosts Widget ******* -->
 
 <BlogLatestPosts
@@ -250,7 +336,7 @@ actions={[
   {
     variant: 'primary',
     text: 'Plan een gesprek',
-    href: '/plan-een-gesprek',
+    href: '/plan-een-gesprek/',
   },
 ]}
 />
@@ -258,8 +344,8 @@ actions={[
 <!-- FAQs Widget ******************* -->
 
 <FAQs
-title="Wat klanten wilde weten"
-subtitle="Het is belangrijk dat al uw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact' title='Neem contact op voor vragen aan Magick Media' class='text-primary dark:text-white highlight'>contact</a> met ons op."
+title="Wat klanten willen weten"
+subtitle="Het is belangrijk dat al jouw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact/' title='Neem contact op voor vragen aan Magick Media' class='text-link dark:text-link'>contact</a> met ons op."
 tagline="Veelgestelde vragen"
 classes={{ container: 'max-w-6xl' }}
 items={[
@@ -271,18 +357,62 @@ items={[
   {
     title: 'Wanneer kan ik resultaat verwachten?',
     description:
-      "We zien heel vaak dat het al snel langer dan 6 maanden duurt voordat de klant iets merkt in de toename van bezoekers op zijn/haar website. SEO is dus echt voor de langere termijn. Toch op zoek naar snel resultaat? Dan is wellicht <a href='/google-ads-sea' title='Meer informatie over Google Ads SEA'class='text-primary dark:text-white highlight'>Google Ads (SEA)</a> een betere keus!",
+      "We zien heel vaak dat het al snel langer dan 6 maanden duurt voordat de klant iets merkt in de toename van bezoekers op zijn/haar website. SEO is dus echt voor de langere termijn. Toch op zoek naar snel resultaat? Dan is wellicht <a href='/google-ads-sea/' title='Meer informatie over Google Ads SEA'class='text-link dark:text-link'>Google Ads (SEA)</a> een betere keus!",
   },
   {
     title: "Wat kan ik zelf doen?",
     description:
-      "In principe kun je met de Strategie die wij voor je ontwikkelen, al een heel eind komen als je de implementatie zelf doet. Echter kost het je waarschijnlijk een stuk meer tijd dan als wij het voor je zouden doen. Daarom nemen we deze last ook graag voor je uit handen, zodat jij je kunt concentreren op je eigen onderneming.",
+      "In principe kun je met de strategie die wij voor je ontwikkelen, al een heel eind komen als je de implementatie zelf doet. Echter kost het je waarschijnlijk een stuk meer tijd dan als wij het voor je zouden doen. Daarom nemen we deze last ook graag voor je uit handen, zodat jij je kunt concentreren op je eigen onderneming.",
   },
   {
     title: "Waar hebben jullie mij nog voor nodig?",
     description:
-      "Een heel groot deel van de zoekmachine optimalisatie zullen we zelf voor je doen. Echter willen we ook inhoudelijke blogposts/artikelen gaan plaatsen op je website. Daar hebben wij jou voor nodig, omdat jij natuurlijk de kennishouden bent van jouw bedrijf en dus weet of de teksten kloppen :) Wij zullen de artikelen natuurlijk SEO-proof maken!",
+      "Een heel groot deel van de zoekmachine optimalisatie zullen we zelf voor je doen. Echter willen we ook inhoudelijke blogposts/artikelen gaan plaatsen op je website. Daar hebben wij jou voor nodig, omdat jij natuurlijk de kennishouden bent van jouw bedrijf en dus weet of de teksten kloppen. Wij zullen de artikelen natuurlijk SEO-proof maken!",
   },
 ]}
 />
+
+<!-- Structured data FAQ ******* -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Kunnen jullie garanderen dat ik bovenaan in Google kom?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Het feit dat je bovenaankomt in Google hangt van veel verschillende factoren af. Zo is de concurrentie erg belangrijk en speelt je de technische staat van je website ook een belangrijke rol. Omdat wij niet altijd overal invloed op hebben, doordat je website bijvoorbeeld is gemaakt door een andere partij, kunnen wij helaas geen beloftes doen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wanneer kan ik resultaat verwachten?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We zien heel vaak dat het al snel langer dan 6 maanden duurt voordat de klant iets merkt in de toename van bezoekers op zijn/haar website. SEO is dus echt voor de langere termijn. Toch op zoek naar snel resultaat? Dan is wellicht Google Ads (SEA) een betere keus!"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat kan ik zelf doen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In principe kun je met de Strategie die wij voor je ontwikkelen, al een heel eind komen als je de implementatie zelf doet. Echter kost het je waarschijnlijk een stuk meer tijd dan als wij het voor je zouden doen. Daarom nemen we deze last ook graag voor je uit handen, zodat jij je kunt concentreren op je eigen onderneming."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Waar hebben jullie mij nog voor nodig?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een heel groot deel van de zoekmachine optimalisatie zullen we zelf voor je doen. Echter willen we ook inhoudelijke blogposts/artikelen gaan plaatsen op je website. Daar hebben wij jou voor nodig, omdat jij natuurlijk de kennishouden bent van jouw bedrijf en dus weet of de teksten kloppen. Wij zullen de artikelen natuurlijk SEO-proof maken!"
+        }
+      }
+    ]
+  }
+  </script>
+  
+
 </Layout>

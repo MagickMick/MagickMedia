@@ -64,7 +64,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: G-WEFRMSEP18 # or "G-XXXXXXXXXX"
+      id: # or "G-XXXXXXXXXX"
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"

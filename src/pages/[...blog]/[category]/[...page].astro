@@ -20,9 +20,11 @@ const { page, category } = Astro.props as Props;
 const currentPage = page.currentPage ?? 1;
 
 const metadata = {
-  title: `Category '${category}' ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  title: `Magick Media - category '${category}' ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  description:`Kom meer te weten over de category '${category}'${currentPage > 1 ? ` — Page ${currentPage} ` : ''}. Hier vindt je veel informatie over dat onderwerp. Zo mis je nooit meer de juiste kennis.`,
+  ignoreTitleTemplate: true,
   robots: {
-    index: blogCategoryRobots?.index,
+    index: false,
     follow: blogCategoryRobots?.follow,
   },
 };

@@ -1,7 +1,6 @@
 ---
 import Layout from 'src/layouts/PageLayout.astro';
-import HeroText from 'src/components/widgets/HeroText.astro';
-import Prices3 from 'src/components/widgets/Pricing3.astro';
+import Prices2 from 'src/components/widgets/Pricing2.astro';
 import FAQs from 'src/components/widgets/FAQs.astro';
 import Steps from 'src/components/widgets/Steps.astro';
 import Features3 from 'src/components/widgets/Features3.astro';
@@ -26,7 +25,7 @@ const metadata = {
         {
           variant: 'primary',
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         },
         { text: 'Tarieven', href: '#tarieven' },
       ]}
@@ -77,74 +76,63 @@ const metadata = {
   
   <!-- Pricing2 Widget ******************* -->
 
-  <Prices3
+  <Prices2
     title="Tarieven"
     id="tarieven"
     subtitle="Kies een dienstverlening die bij jou past"
     prices={[
       {
-        title: 'Landingspagina',
+        title: 'Landingspagina, aansluiting & monitoring',
         subtitle: '',
         price: 499,
-        period: 'per pagina',
+        period: 'eenmalig (excl. kosten per lead/sale)',
         items: [
           {
-            description: 'Design en ontwikkeling',
+            description: 'Ontwerp & ontwikkeling conversiegerichte landingspagina',
           },
+          {
+            description: 'Aansluiten affiliate netwerk',
+          },
+          { 
+            description: 'Opzetten campagne binnen netwerk',
+          }, 
           { 
             description: 'Conversie optimalisatie',
           }, 
           {
-            description: 'Tracking van conversie',
+            description: 'Samenwerking met affiliate netwerk',
           },
+          { 
+            description: 'Marge op lead/sale door Magick Media',
+          }, 
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         }
       },
       {
-        title: 'Inrichting',
+        title: 'Landingspagina & aansluiting',
         subtitle: '',
-        price: 1499,
-        period: 'per campagne',
+        price: 749,
+        period: 'eenmalig (excl. kosten per lead/sale)',
         items: [
+          {
+            description: 'Ontwerp & ontwikkeling conversiegerichte landingspagina',
+          },
+          {
+            description: 'Aansluiten affiliate netwerk',
+          },
           { 
-            description: 'Campagne vormgeven',
+            description: 'Opzetten campagne binnen netwerk',
           }, 
-          {
-            description: 'Aansluiten Affiliate Netwerk',
-          },
-          {
-            description: 'Prijs exclusief kosten per lead/sale',
-          },
+          
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         },
       },
-      {
-        title: 'MONITORING & OPTIMALISATIE',
-        subtitle: '',
-        price: 149,
-        period: 'per maand',
-        items: [
-          {
-            description: 'Optimaliseren campagne',
-          },
-          {
-            description: 'Publishers beheren',
-          },
-          {
-            description: 'Previews valideren',
-          },
-        ],
-        callToAction: {
-          text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
-        },
-      }
     ]}
   />
 
@@ -196,6 +184,11 @@ const metadata = {
 title="Wat onze klanten zeggen"
 testimonials={[
   {
+    testimonial: `De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen.`,
+    name: 'Cora',
+    job: 'Pink Roccade',
+  },
+  {
     testimonial: `Ik ken Mick van Magick Media als een iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort.`,
     name: 'Marco',
     job: 'Work in Flow',
@@ -218,6 +211,87 @@ testimonials={[
 ]}
 />
 
+<!-- Structured data reviews ******* -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Magick Media",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "5"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Cora"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Marco"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Ik ken Mick van Magick Media als iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Ronne"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van mijn website heb ik via Magick Media geregeld, ik ben erg blij met hoe snel en gemakkelijk dit geregeld is. Ik ben zelf webdesigner dus een goede hosting partij is voor mij erg belangrijk. Daarnaast heb ik af en toe wat vragen of extra wensen en tot nu toe werd er dan telkens snel geschakeld. Echt een super goede service en korte lijntjes, ik ben blij dat ik voor Magick Media gekozen heb en ga hem ook aanraden voor mijn eigen klanten die een (nieuwe) hosting partij zoeken."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Leroy"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Als eigenaar van boekhoudkantoor Allooi ben ik zeer tevreden met de website gemaakt door Magick Media. Dankzij hun aandacht voor detail, creativiteit en technische expertise hebben we een aantrekkelijke en functionele site gekregen. Dankzij het persoonlijk contact, responsieve houding en bereidheid tot aanpassingen hebben we onze online aanwezigheid geoptimaliseerd, wat heeft geleid tot een toename van klanten. Ik beveel Magick Media dus zeker aan."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Belinda"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Super tevreden!! Duidelijke communicatie en no nonsense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍"
+      }
+    ]
+  }
+  </script>
+
 <!-- HighlightedPosts Widget ******* -->
 
 <BlogLatestPosts
@@ -227,8 +301,8 @@ title="Onze laatste blogposts"
 <!-- FAQs Widget ******************* -->
 
 <FAQs
-title="Wat klanten wilde weten"
-subtitle="Het is belangrijk dat al uw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact' title='Neem contact op voor vragen aan Magick Media' class='text-primary dark:text-white highlight'>contact</a> met ons op."
+title="Wat klanten willen weten"
+subtitle="Het is belangrijk dat al jouw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact/' title='Neem contact op voor vragen aan Magick Media' class='text-link dark:text-link'>contact</a> met ons op."
 tagline="Veelgestelde vragen"
 classes={{ container: 'max-w-6xl' }}
 items={[
@@ -240,12 +314,12 @@ items={[
   {
     title: 'Hoe voeren jullie leadgeneratie uit?',
     description:
-      "Leadgeneratie kan worden uitgevoerd op vershillende manieren om nieuwe klanten aan te trekken. Wij hebben ervoor gekozen om middels Affiliate marketing ervoor te gaan zorgen dat jouw omzet omhoog gaat. We kiezen voor affiliate marketing omdat we daar veel ervaring in hebben en wij het beste resultaat mee hebben gekregen in het verleden.",
+      "Leadgeneratie kan worden uitgevoerd op verschillende manieren om nieuwe klanten aan te trekken. Wij hebben ervoor gekozen om middels affiliate marketing ervoor te gaan zorgen dat jouw omzet omhoog gaat. We kiezen voor affiliate marketing omdat we daar veel ervaring in hebben en wij het beste resultaat mee hebben gekregen in het verleden.",
   },
   {
     title: 'Is een landingspagina perse nodig?',
     description:
-      "De campagne heeft zeker een landingspagina nodig. Je kunt er ook voor kiezen om je eigen website als landingspagina te gebruiken. Het is wel belangrijk om te weten dat een goed geoptimaliseerde landingspagina eerder tot een lead lijdt.",
+      "De campagne heeft zeker een landingspagina nodig. Je kunt er ook voor kiezen om je eigen website als landingspagina te gebruiken. Het is wel belangrijk om te weten dat een goed geoptimaliseerde landingspagina eerder tot een lead leidt.",
   },
   {
     title: 'Kan ik het monitoren en optimaliseren ook zelf?',
@@ -255,6 +329,49 @@ items={[
   
 ]}
 />
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Wat is leadgeneratie?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Het proces van leadgeneratie omvat het identificeren en aantrekken van mogelijke klanten (leads) voor een specifiek product of dienst. Het uiteindelijke doel is om contactinformatie te vergaren van individuen of bedrijven die belangstelling hebben getoond voor wat er wordt aangeboden, met als doel om hen om te zetten naar actieve klanten."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe voeren jullie leadgeneratie uit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Leadgeneratie kan worden uitgevoerd op verschillende manieren om nieuwe klanten aan te trekken. Wij hebben ervoor gekozen om middels affiliate marketing ervoor te gaan zorgen dat jouw omzet omhoog gaat. We kiezen voor affiliate marketing omdat we daar veel ervaring in hebben en wij het beste resultaat mee hebben gekregen in het verleden."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is een landingspagina perse nodig?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "De campagne heeft zeker een landingspagina nodig. Je kunt er ook voor kiezen om je eigen website als landingspagina te gebruiken. Het is wel belangrijk om te weten dat een goed geoptimaliseerde landingspagina eerder tot een lead lijdt."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan ik het monitoren en optimaliseren ook zelf?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, nadat we een campagne voor jou hebben ingericht, doen we de overdacht ervan. Nu zou je in principe zelf aan de slag kunnen op het affiliate netwerk om je campagne bij te houden. Dit kost echter tijd (ongeveer 4 uur per maand), daarom nemen wij graag deze werkzaamheden uit handen."
+        }
+      }
+      // Voeg meer vragen en antwoorden toe zoals nodig
+    ]
+  }
+  </script>
+
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
@@ -264,7 +381,7 @@ items={[
       {
         variant: 'primary',
         text: 'Plan een gesprek',
-        href: '/plan-een-gesprek',
+        href: '/plan-een-gesprek/',
       },
     ]}
   />

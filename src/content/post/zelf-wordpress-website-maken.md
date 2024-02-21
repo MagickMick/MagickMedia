@@ -1,6 +1,6 @@
 ---
 publishDate: 2024-02-09T00:00:00Z
-title: Zelf een Wordpress website maken in deze 6 stappen.
+title: Zelf een Wordpress website maken in deze 6 stappen
 excerpt: Wil jij zelf een Wordpress website maken? In dit artikel leer je in 6 stappen hoe je dat het beste kunt doen.
 image: https://magickmedia.nl/_astro/maak-eigen-wordpress-website.2csQl65S.jpg
 category: Development
@@ -47,7 +47,7 @@ Hier kun je een nieuw Thema toevoegen. Wij kiezen eigenlijk altijd voor het Astr
 [[Top]](#top)
 
 ## Stap 5: Gebruik Starter Templates en Elementor voor jouw ontwerp
-Nu het installeren van het Astra thema, krijg je de vraag of je de plugin 'Starter Templates' wilt gebruiken. Hier vindt je mooie (gratis en betaald) templates die je kunt gebruiken om je site te maken. Wij kiezen voor Starter Templates in combinatie met <a href="https://be.elementor.com/visit/?bta=221236&nci=5383" target="_blank" rel="noopener">Elementor</a>. Elementor is een drag en drop builder die het makkelijk maakt om andere onderdelen aan je site toe te voegen en het bestaande template aan te passen. Elementor heeft een gratis en betaalde variant. Bij de betaalde variant heb je toegang tot meerdere functionaliteit. Voor een simpele website is de gratis variant vaak voldoende. Voor meer informatie over Elementor, lees de blogpost <a href="/elementor-als-wordpress-pagebuilder">'Elementor als Wordpress pagebuilder'</a>.
+Nu het installeren van het Astra thema, krijg je de vraag of je de plugin 'Starter Templates' wilt gebruiken. Hier vindt je mooie (gratis en betaald) templates die je kunt gebruiken om je site te maken. Wij kiezen voor Starter Templates in combinatie met <a href="https://be.elementor.com/visit/?bta=221236&nci=5383" target="_blank" rel="noopener">Elementor</a>. Elementor is een drag en drop builder die het makkelijk maakt om andere onderdelen aan je site toe te voegen en het bestaande template aan te passen. Elementor heeft een gratis en betaalde variant. Bij de betaalde variant heb je toegang tot meerdere functionaliteit. Voor een simpele website is de gratis variant vaak voldoende. Voor meer informatie over Elementor, lees de blogpost <a href="/elementor-als-wordpress-pagebuilder/">'Elementor als Wordpress pagebuilder'</a>.
 
 ![Wordpress Starter Templates met Elementor](src/assets/images/starter-templates-wordpress-elementor-website-maken.jpg)
 
@@ -58,7 +58,7 @@ Als laatste stap, kun je met behulp van Elementor, je website vormgeven. Je kunt
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1eWp5G8XLHc?si=7EeP3lKz5vcX3k21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Je Wordpress website door ons laten maken? Neem dan gerust <a href="/contact">contact</a> met ons op! <a href="/website-laten-maken">Voor Starters maken wij nu de website zelfs helemaal gratis</a>!
+Je Wordpress website door ons laten maken? Neem dan gerust <a href="/contact/">contact</a> met ons op! <a href="/website-laten-maken/">Voor Starters maken wij nu de website zelfs helemaal gratis</a>!
 
 [[Top]](#top)
 

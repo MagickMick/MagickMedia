@@ -1,6 +1,6 @@
 ---
 publishDate: 2024-02-08T00:00:00Z
-title: 4 redenen waarom wij Elementor gebruiken als Wordpress page builder.
+title: Waarom wij Elementor gebruiken als Wordpress page builder
 excerpt: In dit artikel leer je meer over Elementor en waarom wij deze gebruiken als Drag & Drop Wordpress page builder.
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidqiyMeUFfDEqJ5URZKog87Gx4nk8JZ-28Z6UxgjO7Begmg7G0WtFuTn_gajJ9U44LX25kkHt0QX_Vdc7onlwfRhW0MVQVWGp6ncDB45_2ZOUTwLVLKV6NmFzPyWfaSFPCWo4sPlAcj3-XNlg-GOZz6twwXl8gytgUhHOaquvsppVENovmI1FBBCg3/s728-rw-ft-e30/wordpress.png
 category: Development
@@ -41,7 +41,7 @@ Met de Pro elementen van Elementor kun je er voor zorgen dat je website ook nog 
 ## 4. Prijs kwaliteit is uitstekend
 Als je de functionaliteiten die Elementor Pro biedt, zoals het contactformulier, de popups en het delen op Social Media apart zou kopen met diverse plugins, ben je al snel meer geld kwijt per jaar. Uiteindelijk kost het <a href="https://be.elementor.com/visit/?bta=221236&nci=5383" target="_blank" rel="noopener">Elementor Advance pakket</a>, te gebruiken op 3 websites en inclusief alle features, slechts €99 per jaar.
 
-Hulp nodig met Elementor of je Wordpress website door ons laten maken? Neem dan gerust <a href="/contact">contact</a> met ons op! Voor Starters maken wij de website zelfs gratis!
+Hulp nodig met Elementor of je Wordpress website door ons laten maken? Neem dan gerust <a href="/contact/">contact</a> met ons op! Voor Starters maken wij de website zelfs gratis!
 
 [[Top]](#top)
   

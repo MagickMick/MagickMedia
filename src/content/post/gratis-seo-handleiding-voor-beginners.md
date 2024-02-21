@@ -55,14 +55,14 @@ Het belang van zoekwoorden in SEO kan niet worden overschat. Een onderzoek naar 
 ### Hoe voer je een zoekwoordenonderzoek uit?
 Het begint met het begrijpen van je doelgroep en de zoektermen waarmee ze naar jouw inhoud zouden zoeken. Door tools te gebruiken zoals de <a href="https://ads.google.com/intl/nl_be/home/tools/keyword-planner/" target="_blank" rel="noopener"><strong>Google Zoekwoordplanner</strong></a>, kun je inzicht krijgen in populaire zoekwoorden en de concurrentie op die termen. Het doel is om zoekwoorden te vinden die relevant zijn voor je niche en die tegelijkertijd een haalbaar concurrentieniveau hebben.
 
-In de blogpost over <a href="https://magickmedia.nl/zoekwoorden-analyseren-en-hogerop-in-google/" target="_blank" rel="noopener">zoekwoorden analyseren</a> leggen we uit hoe je een zoekwoorden onderzoek doet en kunt bepalen op welke zoektermen je je gaat focussen.
+In de blogpost over <a href="https://magickmedia.nl/zoekwoorden-analyseren-en-hogerop-in-google/">zoekwoorden analyseren</a> leggen we uit hoe je een zoekwoorden onderzoek doet en kunt bepalen op welke zoektermen je je gaat focussen.
 
 ### Gratis tools voor zoekwoordenonderzoek
 Een van de meest bekende gratis tool is de Google Zoekwoordplanner. Hoewel dit een handige tool is, hebben we gemerkt dat deze tool soms andere zoekvolumes weergeeft dan werkelijk het geval is. Vergeleken met betaalde tools geeft het ook beperkte informatie en vereist het dat je een Google Ads-account hebt. Dit kan een belemmering vormen voor beginners die eenvoudig toegang willen tot zoekwoordgegevens.
 
 Een meer toegankelijk alternatief voor beginners is Ubersuggest. Ubersuggest biedt de mogelijkheid om één gratis zoekopdracht per dag uit te voeren en heeft ook een proefperiode van 7 dagen waarin je toegang krijgt tot extra zoekopdrachten. Dit maakt Ubersuggest ideaal voor diegenen die willen experimenteren en vertrouwd willen raken met het proces van zoekwoordenonderzoek zonder kosten.
 
-Als je besluit om <strong>SEO</strong> <b>serieuzer aan te pakken</b> en meer geavanceerde functies en analyse nodig hebt, is er de mogelijkheid om over te schakelen naar betaalde tools zoals SERanking. <a href="https://seranking.com/?ga=2633144&amp;source=link" target="_blank" rel="noopener"><b>SERanking</b></a> biedt een breed scala aan SEO-functionaliteiten, waaronder rank tracking, concurrentieanalyse en uitgebreide rapportage. Als je meer wilt weten over SERanking en hoe het je kan helpen je SEO-doelen te bereiken, raden we om ons artikel te lezen hierover die binnenkort verschijnt, waarin we dieper ingaan op deze geavanceerde SEO-tool.
+Als je besluit om <strong>SEO</strong> <b>serieuzer aan te pakken</b> en meer geavanceerde functies en analyse nodig hebt, is er de mogelijkheid om over te schakelen naar betaalde tools zoals SERanking. <a href="https://seranking.com/nl/?ga=2633144&amp;source=link" target="_blank" rel="noopener"><b>SERanking</b></a> biedt een breed scala aan SEO-functionaliteiten, waaronder rank tracking, concurrentieanalyse en uitgebreide rapportage. Als je meer wilt weten over SERanking en hoe het je kan helpen je SEO-doelen te bereiken, raden we om ons artikel te lezen hierover die binnenkort verschijnt, waarin we dieper ingaan op deze geavanceerde SEO-tool.
 
 Onthoud dus dat de keuze van de tool afhankelijk is van je specifieke behoeften en budget. Gratis tools kunnen je op weg helpen, terwijl betaalde tools meer geavanceerde inzichten en mogelijkheden bieden voor serieuze SEO-professionals.
 
@@ -104,11 +104,11 @@ Met de groei van mobiel internet is het van vitaal belang dat je website mobiel 
 De snelheid van je website is een belangrijke factor voor zowel zoekmachines als gebruikers. Langzame laadtijden kunnen leiden tot een slechte gebruikerservaring en lagere rangschikkingen in zoekresultaten. Optimaliseer de laadsnelheid door afbeeldingen te comprimeren, onnodige code te verwijderen en caching te gebruiken. Een snellere website verbetert niet alleen de SEO, maar verhoogt ook de tevredenheid van je bezoekers.
 
 ### Crawlbare website-structuur
-Een goed georganiseerde website-structuur is van belang voor zowel zoekmachines als gebruikersnavigatie. Een duidelijke hiërarchie en interne linkstructuur helpen zoekmachines om je website effectiever te <a href="https://magickmedia.nl/wat-is-crawlen/" target="_blank" rel="noopener"><b>crawlen</b></a> en dus te indexeren. Zorg ervoor dat je URL-structuur logisch is en dat je een sitemap hebt die zoekmachines helpt bij het begrijpen van de inhoud van je site.
+Een goed georganiseerde website-structuur is van belang voor zowel zoekmachines als gebruikersnavigatie. Een duidelijke hiërarchie en interne linkstructuur helpen zoekmachines om je website effectiever te <a href="https://magickmedia.nl/wat-is-crawlen/"><b>crawlen</b></a> en dus te indexeren. Zorg ervoor dat je URL-structuur logisch is en dat je een sitemap hebt die zoekmachines helpt bij het begrijpen van de inhoud van je site.
 
 Wil je meer weten over technische SEO en hoe je je website kunt optimaliseren voor deze aspecten? Lees ons artikel die binnenkort uit komt over Technische SEO checklist voor gedetailleerde informatie en handige tips. Het optimaliseren van technische aspecten kan een aanzienlijk verschil maken in je SEO-prestaties en de algehele bruikbaarheid van je website.
 
-Kijk hier voor <a href="https://www.magickmedia.nl/technische-seo-checklist/"><b>meer informatie over technische SEO</b></a>.
+Kijk hier voor <a href="https://magickmedia.nl/technische-seo-checklist/"><b>meer informatie over technische SEO</b></a>.
 
 [[Top]](#top)
 
@@ -120,7 +120,7 @@ Linkbuilding is een strategie waarbij je actief werkt aan het verkrijgen van lin
 Deze voordelen kun je behalen met linkbuilding;
 <ul>
  	<li>Je autoriteit van je website wordt vergroot, omdat een andere website naar jouw linkt. Dit komt je gehele site ten goede.</li>
- 	<li>De tekst van de link, ook wel anchor tekst genoemd, geeft zoekmachines context waar de pagina over gaat. Het is dus belangrijk dat de website die naar jou website linkt een van deze link teksten gebruikt: De merknaam (bv. ‘WebhostinGuru’) , een beschrijving waar de website over gaat (bv. ‘Een echte SEO expert’) of gewoon de url (<a href="https://www.webhostinguru.nl/"><span>www.webhostinguru.nl</span></a>). Het is handig om te variëren in deze soorten link teksten.</li>
+ 	<li>De tekst van de link, ook wel anchor tekst genoemd, geeft zoekmachines context waar de pagina over gaat. Het is dus belangrijk dat de website die naar jou website linkt een van deze link teksten gebruikt: De merknaam (bv. ‘WebhostinGuru’) , een beschrijving waar de website over gaat (bv. ‘Een echte SEO expert’) of gewoon de url (<a href="https://webhostinguru.nl/"><span>www.webhostinguru .nl</span></a>). Het is handig om te variëren in deze soorten link teksten.</li>
 </ul>
 
 ### Google mijn bedrijf
@@ -209,6 +209,6 @@ Tot slot een aantal veelgemaakte fouten die je als beter meteen kunt vermijden:
  	<li><b>Negeren van technische SEO:</b> Technische problemen zoals trage laadtijden moeten worden aangepakt.</li>
  	<li><b>Gebrek aan monitoring:</b> Het niet volgen en aanpassen van je SEO-inspanningen kan leiden tot stagnatie.</li>
 </ul>
-Veel succes met het SEO-proof maken van je website en het vergroten van je vindbaarheid! Wil je dat wij Zoekmachine optimalisatie voor jou uit handen nemen? Neem dan <a href='/contact' title='contact opnemen met Magick Media' class='text-accent dark:text-white highlight'>contact</a> met ons op!
+Veel succes met het SEO-proof maken van je website en het vergroten van je vindbaarheid! Wil je dat wij Zoekmachine optimalisatie voor jou uit handen nemen? Neem dan <a href='/contact/' title='contact opnemen met Magick Media'>contact</a> met ons op!
 
 [[Top]](#top)

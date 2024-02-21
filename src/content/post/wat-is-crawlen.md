@@ -1,7 +1,8 @@
 ---
 publishDate: 2024-02-05T00:00:00Z
-title: Wat is crawlen?
-excerpt: Wat is crawlen eigenlijk? In dit artikel vertellen we je meer over hoe zoekmachines te werk gaan om jouw content te ontdekken.
+titletag: Dit is de titletag bla bla bla bla di.
+title: Wat is crawlen eigenlijk? En waarom is het crawlbudget belangrijk?
+excerpt: In dit artikel vertellen we je meer over hoe wat crawlen is en waarom het crawlbudget een belangrijke factor is.
 image: /_astro/wat-is-crawlen-seo.2KNhGN1Y.jpg
 category: seo
 tags:
@@ -22,4 +23,4 @@ Crawlen is een cruciale stap in het proces van zoekmachineoptimalisatie (SEO), o
 ## Crawlbudget
 Een crawlbudget verwijst naar de hoeveelheid tijd en middelen die een zoekmachine aan een website besteedt tijdens het crawlen en indexeren. Het geeft aan hoeveel pagina's van een website een zoekmachine kan en wil bezoeken binnen een bepaalde periode. Het crawlbudget wordt beïnvloed door verschillende factoren, zoals de grootte van de website, de kwaliteit van de pagina's, de snelheid van de server en de autoriteit van de website. 
 
-Zoekmachines gebruiken crawlbudgets om efficiënt te kunnen werken en hun bronnen optimaal te benutten. Het is belangrijk om het crawlbudget van je website te optimaliseren door technische optimalisaties door te voeren, zoals het vermijden van dubbele content, het oplossen van serverfouten en het optimaliseren van de laadtijd. Het hebben van een gezond crawlbudget zorgt ervoor dat zoekmachines je belangrijkste pagina's regelmatig bezoeken en indexeren, waardoor je website beter vindbaar wordt. Hoe je je website technisch kunt optimaliseren, lees je in  <a href="/technische-seo-checklist">het artikel over technische SEO</a>.
+Zoekmachines gebruiken crawlbudgets om efficiënt te kunnen werken en hun bronnen optimaal te benutten. Het is belangrijk om het crawlbudget van je website te optimaliseren door technische optimalisaties door te voeren, zoals het vermijden van dubbele content, het oplossen van serverfouten en het optimaliseren van de laadtijd. Het hebben van een gezond crawlbudget zorgt ervoor dat zoekmachines je belangrijkste pagina's regelmatig bezoeken en indexeren, waardoor je website beter vindbaar wordt. Hoe je je website technisch kunt optimaliseren, lees je in  <a href="/technische-seo-checklist/">het artikel over technische SEO</a>.

@@ -4,14 +4,20 @@ import HeroText from '~/components/widgets/HeroText.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
-  title: 'Plan een gesprek',
+  title: 'Magick Media - Plan een gesprek',
+  description:'Om jou zo goed mogelijk te kunnen helpen, plannen wij graag een gesprek met je als kennismaking. Op naar een succesvolle samenwerking!',
+  ignoreTitleTemplate: true,
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText tagline="Intakegesprek" title="Kies wanneer het jouw uitkomt!" />
+  <HeroText tagline="Plan een gesprek" title="Kies wanneer het jouw uitkomt!" />
 
 <!-- Calendly inline widget begin -->
 <div class="calendly-inline-widget" data-url="https://calendly.com/magick-media/30min" style="min-width:320px;height:640px;"></div>

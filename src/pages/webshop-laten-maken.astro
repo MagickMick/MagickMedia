@@ -25,13 +25,13 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Plan een gesprek',
-        href: '/plan-een-gesprek',
+        href: '/plan-een-gesprek/',
       },
       { text: 'Tarieven', href: '#tarieven' },
     ]}
   >
     <Fragment slot="title">
-      Een professionele webshop laten maken? <span class='text-accent dark:text-white highlight'> Magick Media</span> regelt het!
+      Professionele webshop laten maken? <span class='text-accent dark:text-white highlight'> Magick Media</span> regelt het!
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -111,7 +111,7 @@ const metadata = {
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         },
         hasRibbon: true,
         ribbonTitle: 'Actie',
@@ -137,7 +137,7 @@ const metadata = {
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         },
       },
       {
@@ -159,12 +159,12 @@ const metadata = {
             description: 'Exclusief het toevoegen van producten',
           },
           {
-            description: 'Na intake, offerte op maat',
+            description: 'Na intake, vrijblijvende offerte op maat',
           }
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         }
       }
     ]}
@@ -182,7 +182,7 @@ const metadata = {
         icon: 'tabler:number-1',
       },
       {
-        title: 'Offerte op maat',
+        title: 'Vrijblijvende offerte op maat',
         icon: 'tabler:number-2',
       },
       {
@@ -222,6 +222,11 @@ const metadata = {
 title="Wat onze klanten zeggen"
 testimonials={[
   {
+    testimonial: `De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen.`,
+    name: 'Cora',
+    job: 'Pink Roccade',
+  },
+  {
     testimonial: `Ik ken Mick van Magick Media als een iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort.`,
     name: 'Marco',
     job: 'Work in Flow',
@@ -244,6 +249,87 @@ testimonials={[
 ]}
 />
 
+<!-- Structured data reviews ******* -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Magick Media",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "5"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Cora"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Marco"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Ik ken Mick van Magick Media als iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Ronne"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van mijn website heb ik via Magick Media geregeld, ik ben erg blij met hoe snel en gemakkelijk dit geregeld is. Ik ben zelf webdesigner dus een goede hosting partij is voor mij erg belangrijk. Daarnaast heb ik af en toe wat vragen of extra wensen en tot nu toe werd er dan telkens snel geschakeld. Echt een super goede service en korte lijntjes, ik ben blij dat ik voor Magick Media gekozen heb en ga hem ook aanraden voor mijn eigen klanten die een (nieuwe) hosting partij zoeken."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Leroy"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Als eigenaar van boekhoudkantoor Allooi ben ik zeer tevreden met de website gemaakt door Magick Media. Dankzij hun aandacht voor detail, creativiteit en technische expertise hebben we een aantrekkelijke en functionele site gekregen. Dankzij het persoonlijk contact, responsieve houding en bereidheid tot aanpassingen hebben we onze online aanwezigheid geoptimaliseerd, wat heeft geleid tot een toename van klanten. Ik beveel Magick Media dus zeker aan."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Belinda"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Super tevreden!! Duidelijke communicatie en no nonsense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍"
+      }
+    ]
+  }
+  </script>
+
 <!-- HighlightedPosts Widget ******* -->
 
 <BlogLatestPosts
@@ -259,7 +345,7 @@ actions={[
   {
     variant: 'primary',
     text: 'Plan een gesprek',
-    href: '/plan-een-gesprek',
+    href: '/plan-een-gesprek/',
   },
 ]}
 />
@@ -268,19 +354,19 @@ actions={[
 
 <FAQs
 title="Wat klanten vroegen"
-subtitle="Bij vragen kun je natuurlijk altijd <a href='/contact' title='contact met Magick Media' class='text-primary dark:text-white highlight'>contact</a> met ons opnemen. Daarnaast hebben we de veelgestelde vragen over een webshop voor jou op een rijtje gezet."
+subtitle="Bij vragen kun je natuurlijk altijd <a href='/contact/' title='contact met Magick Media' class='text-link dark:text-link'>contact</a> met ons opnemen. Daarnaast hebben we de veelgestelde vragen over een webshop voor jou op een rijtje gezet."
 tagline="Veelgestelde vragen"
 classes={{ container: 'max-w-6xl' }}
 items={[
   {
     title: 'Is het afnemen van een hostingpakket verplicht?',
     description:
-      "Wij streven er naar om onze klanten een volledige ontzorging te bieden van het onderhoud van hun webshop. Met ons <a href='/hostingpakket' title='hostingpakket' class='text-primary dark:text-white highlight'>hostingpakket</a>  kunnen wij daarvoor zorgen. Daarom raden wij het niet aan om een webshop zonder hostingpakket te nemen, al is het dus wel mogelijk. Dan gelden er andere prijzen dan je hierboven ziet.",
+      "Wij streven er naar om onze klanten een volledige ontzorging te bieden van het onderhoud van hun webshop. Met ons <a href='/hosting-en-beheer/' title='hostingpakket' class='text-link dark:text-link'>hostingpakket</a>  kunnen wij daarvoor zorgen. Daarom raden wij het niet aan om een webshop zonder hostingpakket te nemen, al is het dus wel mogelijk. Dan gelden er andere prijzen dan je hierboven ziet.",
   },
   {
     title: 'Waarom wordt er al een factuur verstuurd bij stap 5?',
     description:
-    'In deze fase is de technische ontwikkeling van de webshop eigenlijk al voltooid en wachten we alleen nog op de inhoud (producten, teksten en afbeeldingen). Na deze stap zijn we afhankelijk van de klant die deze inhoud aanlevert. Helaas zien we vaak dat het enige tijd kan duren voordat we de benodigde informatie ontvangen, vaak omdat de klant het erg druk heeft, wat natuurlijk begrijpelijk is :). Om niet financieel afhankelijk te zijn van deze wachttijd, hebben we besloten om al bij stap 5 te factureren.',
+    'In deze fase is de technische ontwikkeling van de webshop eigenlijk al voltooid en wachten we alleen nog op de inhoud (producten, teksten en afbeeldingen). Na deze stap zijn we afhankelijk van de klant die deze inhoud aanlevert. Helaas zien we vaak dat het enige tijd kan duren voordat we de benodigde informatie ontvangen, vaak omdat de klant het erg druk heeft, wat natuurlijk begrijpelijk is. Om niet financieel afhankelijk te zijn van deze wachttijd, hebben we besloten om al bij stap 5 te factureren.',
   },
   {
     title: 'Kan ik zelf aanpassingen doen aan de webshop?',
@@ -310,9 +396,84 @@ items={[
   {
     title: "Houden jullie ook rekening met SEO?",
     description:
-      "In het Premium-pakket worden plugins geïnstalleerd om de website sneller te maken. Deze snelheid valt echter niet te vergelijken met de snelheid van een website uit het Pro-pakket. In het Pro-pakket wordt er technisch rekening gehouden met SEO. Dit betekent dat we de website zo optimaliseren dat deze razendsnel is en technisch goed in elkaar zit. Als je met je webshop bovenaan in Google wilt komen, zijn naast de technische aspecten nog andere factoren belangrijk. Technische SEO alleen is niet voldoende om te kunnen concurreren op geliefde zoekwoorden. Wij kunnen je helpen bij het ontwikkelen en implementeren van een volledige SEO-strategie. Voor meer informatie hierover kun je terecht op onze pagina <a href='/zoekmachine-optimalisatie-seo' title='Meer informatie over Zoekmachine Optimalisatie SEO'class='text-primary dark:text-white highlight'>Zoekmachine optimalisatie (SEO)</a>"
+      "In het Premium-pakket worden plugins geïnstalleerd om de website sneller te maken. Deze snelheid valt echter niet te vergelijken met de snelheid van een website uit het Pro-pakket. In het Pro-pakket wordt er technisch rekening gehouden met SEO. Dit betekent dat we de website zo optimaliseren dat deze razendsnel is en technisch goed in elkaar zit. Als je met je webshop bovenaan in Google wilt komen, zijn naast de technische aspecten nog andere factoren belangrijk. Technische SEO alleen is niet voldoende om te kunnen concurreren op geliefde zoekwoorden. Wij kunnen je helpen bij het ontwikkelen en implementeren van een volledige SEO-strategie. Voor meer informatie hierover kun je terecht op onze pagina <a href='/zoekmachine-optimalisatie-seo/' title='Meer informatie over Zoekmachine Optimalisatie SEO'class='text-link dark:text-link highlight'>Zoekmachine optimalisatie (SEO)</a>"
   }
 ]}
 />
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is het afnemen van een hostingpakket verplicht?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Wij streven ernaar onze klanten een volledige ontzorging te bieden van het onderhoud van hun webshop. Met ons hostingpakket kunnen wij daarvoor zorgen. Daarom raden wij het niet aan om een webshop zonder hostingpakket te nemen, al is het dus wel mogelijk. Dan gelden er andere prijzen dan je hierboven ziet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Waarom wordt er al een factuur verstuurd bij stap 5?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In deze fase is de technische ontwikkeling van de webshop eigenlijk al voltooid en wachten we alleen nog op de inhoud (producten, teksten en afbeeldingen). Na deze stap zijn we afhankelijk van de klant die deze inhoud aanlevert. Helaas zien we vaak dat het enige tijd kan duren voordat we de benodigde informatie ontvangen, vaak omdat de klant het erg druk heeft, wat natuurlijk begrijpelijk is. Om niet financieel afhankelijk te zijn van deze wachttijd, hebben we besloten om al bij stap 5 te factureren."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan ik zelf aanpassingen doen aan de webshop?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een voordeel van ons hosting- en beheerpakket is dat dit dus niet hoeft. We nemen graag de aanpassingen aan de webshop voor je uit handen, als dat nodig is. Het enige wat je hoeft te doen, is ons een bericht sturen met de gewenste wijzigingen! Als het om aanzienlijke aanpassingen gaat, hanteren wij ons uurtarief voor werk dat meer dan 30 minuten per maand in beslag neemt. Dit doen we om ervoor te zorgen dat je volledig ontzorgd wordt, aangezien we begrijpen dat je al druk genoeg bent met ondernemen!"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is het zo dat ik volledig eigenaar ben van de webshop?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, zodra de eenmalige kosten voor je webshop zijn voldaan, ben je volledig eigenaar ervan. Er is echter een uitzondering op deze regel voor de Startersaanbieding. In dit geval wordt je officieel eigenaar van het product nadat je abonnement minimaal twee jaar actief is bij ons. Als je eerder wilt vertrekken, heb je de mogelijkheid om je product eerder af te kopen. Het is van belang om te vermelden dat er voor de WordPress-website betaalde plugins worden gebruikt waar wij jaarlijks voor betalen. Als je ervoor kiest om je site over te nemen, zijn deze kosten voor eigen beheer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ben ik verantwoordelijk voor de registratie van het domein?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Als je nog geen domein hebt, regelen wij dit graag voor je. Hierbij worden alleen de kosten doorberekend die wij maken bij het aanschaffen van de domeinnaam, zonder extra kosten. Als je al een domein hebt aangeschaft, integreren we graag de nieuwe webshop daarmee."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe lang duurt het om een webshop te laten maken?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bij het Premium-pakket lukt het ons gemiddeld binnen twee maanden de webshop klaar te hebben, Daarna kunnen de producten worden toegevoegd. De livegang is afhankelijk van het aantal producten die toegevoegd gaan worden. Voor het Pro-pakket is het afhankelijk van de wensen. Meestal duurt het maken van een Pro-webshop al snel 3 maanden."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Welk pakket raadt je aan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Voor de meeste webshops is het Premium-pakket ruim voldoende. Een Premium webshop voldoet aan onze hoge kwaliteitseisen. Als je echter echt het verschil wilt maken op het gebied van SEO of als je een extra uniek ontwerp verlangt, is het Pro-pakket een aanrader. Deze website heeft een razendsnelle laadtijd, wat cruciaal is voor SEO. We spreken hier over milliseconden, een aspect waar Google aandacht aan besteedt, maar dat vaak niet merkbaar is voor het menselijk oog."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Houden jullie ook rekening met SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In het Premium-pakket worden plugins geïnstalleerd om de website sneller te maken. Deze snelheid valt echter niet te vergelijken met de snelheid van een website uit het Pro-pakket. In het Pro-pakket wordt er technisch rekening gehouden met SEO. Dit betekent dat we de website zo optimaliseren dat deze razendsnel is en technisch goed in elkaar zit. Als je met je webshop bovenaan in Google wilt komen, zijn naast de technische aspecten nog andere factoren belangrijk. Technische SEO alleen is niet voldoende om te kunnen concurreren op geliefde zoekwoorden. Wij kunnen je helpen bij het ontwikkelen en implementeren van een volledige SEO-strategie. Voor meer informatie hierover kun je terecht op onze pagina Zoekmachine optimalisatie (SEO)."
+        }
+      }
+    ]
+  }
+  </script>
+  
+
   
 </Layout>

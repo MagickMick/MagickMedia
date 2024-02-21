@@ -1,6 +1,6 @@
 ---
 publishDate: 2024-02-06T00:00:00Z
-title: Zoekwoorden analyseren in deze vijf stappen en kom hogerop in Google!​
+title: Zoekwoorden analyseren en hogerop komen in Google!​ (5 stappen)
 excerpt: In deze blogpost nemen we je mee hoe wij zoektermen analyseren om te bepalen welke zoekwoorden wij gaan gebruiken voor onze SEO strategie.
 image: /_astro/zoekwoorden-analyseren-hogerop-google.RejKCVVM.jpg
 category: seo
@@ -149,6 +149,6 @@ Als je bijvoorbeeld een blog schrijft over ‘Wordpress website maken’, waarin
 Wil je toch deze commerciële blog plaatsen? Dan kan één woord toevoegen aan de focusterm al een verschil maken. Als je de focusterm ‘Wordpress website <b>laten</b> maken’ gebruikt, dan ziet Google dat als een andere intentie. Een gebruiker die hier namelijk op zoekt in Google, zoekt naar alle waarschijnlijkheid een partij die voor hem of haar een website kan maken. Dit snapt Google ook en dan zal je blogpost wel kans maken om bovenaan te komen!
 
 Dit was de laatste stap die wij uitvoeren om ons zoekwoorden te analyseren. Veel succes met het bepalen op welke zoekwoorden jij gevonden wilt worden.
-Mocht je toch nog hulp nodig hebben bij het uitvoeren van een zoekwoorden onderzoek of wil je dit aan ons uitbesteden? Neem dan <a href="/contact">contact</a> met ons op!</p>
+Mocht je toch nog hulp nodig hebben bij het uitvoeren van een zoekwoorden onderzoek of wil je dit aan ons uitbesteden? Neem dan <a href="/contact/">contact</a> met ons op!</p>
 
 [[Top]](#top)

@@ -8,43 +8,45 @@ export const headerData = {
     },
     {
       text: 'Over Ons',
-      href: '/over-ons',
+      href: '/over-ons/',
     },
     {
       text: 'Diensten',
+      href: '/#diensten',
       links: [
         {
           text: 'Website laten maken',
-          href: getPermalink('/website-laten-maken'),
+          href: getPermalink('/website-laten-maken/'),
         },
         {
           text: 'Webshop laten maken',
-          href: getPermalink('/webshop-laten-maken'),
+          href: getPermalink('/webshop-laten-maken/'),
         },
         {
           text: 'Zoekmachine Optimalisatie (SEO)',
-          href: getPermalink('/zoekmachine-optimalisatie-seo'),
+          href: getPermalink('/zoekmachine-optimalisatie-seo/'),
         },
         {
           text: 'Google Ads (SEA)',
-          href: getPermalink('/google-ads-sea'),
+          href: getPermalink('/google-ads-sea/'),
         },
         {
           text: 'Leadgeneratie (B2C)',
-          href: getPermalink('/leadgeneratie'),
+          href: getPermalink('/leadgeneratie/'),
         },
         {
           text: 'Hosting & Beheer',
-          href: getPermalink('/hosting-en-beheer'),
+          href: getPermalink('/hosting-en-beheer/'),
         },
         {
           text: 'Grafisch Ontwerp',
-          href: getPermalink('/grafisch-ontwerp'),
+          href: getPermalink('/grafisch-ontwerp/'),
         },
       ],
     },
     {
       text: 'Blog',
+      href: '/blog/',
       links: [
         {
           text: 'Alles',
@@ -61,7 +63,7 @@ export const headerData = {
       ],
     },
   ],
-  actions: [{ text: 'Contact', href: '/contact', }],
+  actions: [{ text: 'Contact', href: '/contact/', }],
 };
 
 export const footerData = {
@@ -71,31 +73,31 @@ export const footerData = {
       links: [
         {
           text: 'Website laten maken',
-          href: getPermalink('/website-laten-maken'),
+          href: getPermalink('/website-laten-maken/'),
         },
         {
           text: 'Webshop laten maken',
-          href: getPermalink('/webshop-laten-maken'),
+          href: getPermalink('/webshop-laten-maken/'),
         },
         {
           text: 'Zoekmachine optimalisatie (SEO)',
-          href: getPermalink('/zoekmachine-optimalisatie-seo'),
+          href: getPermalink('/zoekmachine-optimalisatie-seo/'),
         },
         {
           text: 'Google Ads (SEA)',
-          href: getPermalink('/google-ads-sea'),
+          href: getPermalink('/google-ads-sea/'),
         },
         {
           text: 'Leadgeneratie (B2C)',
-          href: getPermalink('/leadgeneratie'),
+          href: getPermalink('/leadgeneratie/'),
         },
         {
           text: 'Hosting & beheer',
-          href: getPermalink('/hosting-en-beheer'),
+          href: getPermalink('/hosting-en-beheer/'),
         },
         {
           text: 'Grafisch ontwerp',
-          href: getPermalink('/grafisch-ontwerp'),
+          href: getPermalink('/grafisch-ontwerp/'),
         },
       ],
     },
@@ -104,11 +106,11 @@ export const footerData = {
       links: [
         {
           text: 'Zelf een Wordpress website maken in deze 6 stappen',
-          href: getPermalink('/zelf-wordpress-website-maken'),
+          href: getPermalink('/zelf-wordpress-website-maken/'),
         },
         {
-          text: '4 redenen waarom wij Elementor gebruiken als Wordpress pagebuilder',
-          href: getPermalink('/elementor-als-wordpress-pagebuilder'),
+          text: 'Waarom wij Elementor gebruiken als Wordpress pagebuilder',
+          href: getPermalink('/elementor-als-wordpress-pagebuilder/'),
         },
       ],
     },
@@ -117,27 +119,28 @@ export const footerData = {
       links: [
         {
           text: 'Gratis SEO handleiding voor beginners',
-          href: getPermalink('/gratis-seo-handleiding-voor-beginners'),
+          href: getPermalink('/gratis-seo-handleiding-voor-beginners/'),
         },
         {
           text: 'Dé technische SEO checklist van 2024',
-          href: getPermalink('/technische-seo-checklist'),
+          href: getPermalink('/technische-seo-checklist/'),
         },
         {
           text: 'Zoekwoorden analyseren in deze 5 stappen en kom hogerop in Google!',
-          href: getPermalink('/zoekwoorden-analyseren-en-hogerop-in-google'),
+          href: getPermalink('/zoekwoorden-analyseren-en-hogerop-in-google/'),
         },
         {
           text: 'Wat is crawlen?',
-          href: getPermalink('/wat-is-crawlen'),
+          href: getPermalink('/wat-is-crawlen/'),
         },
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Over ons', href: getPermalink('/over-ons') },
-    { text: 'Contact', href: getPermalink('/contact') },
-    { text: 'Privacyverklaring & cookiebeleid', href: getPermalink('/privacy') },
+    { text: 'Over ons', href: getPermalink('/over-ons/') },
+    { text: 'Contact', href: getPermalink('/contact/') },
+    { text: 'Plan een gesprek', href: getPermalink('/plan-een-gesprek/') },
+    { text: 'Privacyverklaring & cookiebeleid', href: getPermalink('/privacy/') },
   ],
   socialLinks: [
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/mick-vranken-aa684610b'},
@@ -146,6 +149,6 @@ export const footerData = {
     { ariaLabel: 'Telefoon', icon: 'tabler:phone', href: 'tel:+31642667970'},
   ],
   footNote: `
-    Copyright © 2024 Magick Media. · Speciale dank aan <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/" target="_blank"> onWidget</a> · Afbeeldingen door <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://www.freepik.com/" target="_blank" rel="noopener">Freepik</a>
+    Copyright © 2024 Magick Media. · Speciale dank aan <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/" target="_blank"> onWidget</a> · Afbeeldingen door <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://www.freepik.com/" target="_blank" rel="noopener">Freepik</a> · Kvknr: 84696109 
   `,
 };

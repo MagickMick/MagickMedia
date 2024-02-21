@@ -18,6 +18,9 @@
   .text-muted {
     color: var(--aw-color-text-muted);
   }
+  .text-link {
+    color: var(--aw-color-text-link);
+  }
 }
 
 @layer components {

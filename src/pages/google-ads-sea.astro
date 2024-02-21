@@ -25,7 +25,7 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Plan een gesprek',
-        href: '/plan-een-gesprek',
+        href: '/plan-een-gesprek/',
       },
       { text: 'Tarieven', href: '#tarieven' },
     ]}
@@ -61,7 +61,7 @@ const metadata = {
       },
       {
         title: 'Volledige controle over advertenties en budget',
-        description: 'Je hebt volledig controle over hoe je advertentie eruit ziet, welke varianten er worden getoond en hoeveel budget er per maand uitgegeven mag worden. Zo betaal je aan Google nooit meer dan gedacht.',
+        description: 'Je hebt volledige controle over hoe je advertentie eruitziet, welke varianten er worden getoond en hoeveel budget er per maand uitgegeven mag worden. Je betaalt Google pas als er op de advertentie wordt geklikt. Dit samen zorgt ervoor dat je nooit meer betaalt dan gedacht.',
         icon: 'tabler:adjustments-dollar',
       },
       {
@@ -99,7 +99,7 @@ const metadata = {
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         }
       },
       {
@@ -120,7 +120,7 @@ const metadata = {
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         },
       },
       {
@@ -141,7 +141,7 @@ const metadata = {
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         },
       }
     ]}
@@ -195,6 +195,11 @@ const metadata = {
 title="Wat onze klanten zeggen"
 testimonials={[
   {
+    testimonial: `De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen.`,
+    name: 'Cora',
+    job: 'Pink Roccade',
+  },
+  {
     testimonial: `Ik ken Mick van Magick Media als een iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort.`,
     name: 'Marco',
     job: 'Work in Flow',
@@ -217,6 +222,87 @@ testimonials={[
 ]}
 />
 
+<!-- Structured data reviews ******* -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Magick Media",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "5"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Cora"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Marco"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Ik ken Mick van Magick Media als iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Ronne"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van mijn website heb ik via Magick Media geregeld, ik ben erg blij met hoe snel en gemakkelijk dit geregeld is. Ik ben zelf webdesigner dus een goede hosting partij is voor mij erg belangrijk. Daarnaast heb ik af en toe wat vragen of extra wensen en tot nu toe werd er dan telkens snel geschakeld. Echt een super goede service en korte lijntjes, ik ben blij dat ik voor Magick Media gekozen heb en ga hem ook aanraden voor mijn eigen klanten die een (nieuwe) hosting partij zoeken."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Leroy"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Als eigenaar van boekhoudkantoor Allooi ben ik zeer tevreden met de website gemaakt door Magick Media. Dankzij hun aandacht voor detail, creativiteit en technische expertise hebben we een aantrekkelijke en functionele site gekregen. Dankzij het persoonlijk contact, responsieve houding en bereidheid tot aanpassingen hebben we onze online aanwezigheid geoptimaliseerd, wat heeft geleid tot een toename van klanten. Ik beveel Magick Media dus zeker aan."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Belinda"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Super tevreden!! Duidelijke communicatie en no nonsense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍"
+      }
+    ]
+  }
+  </script>
+
 <!-- HighlightedPosts Widget ******* -->
 
 <BlogLatestPosts
@@ -232,7 +318,7 @@ actions={[
   {
     variant: 'primary',
     text: 'Plan een gesprek',
-    href: '/plan-een-gesprek',
+    href: '/plan-een-gesprek/',
   },
 ]}
 />
@@ -240,8 +326,8 @@ actions={[
 <!-- FAQs Widget ******************* -->
 
 <FAQs
-title="Wat klanten wilde weten"
-subtitle="Het is belangrijk dat al uw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact' title='Neem contact op voor vragen aan Magick Media' class='text-primary dark:text-white highlight'>contact</a> met ons op."
+title="Wat klanten willen weten"
+subtitle="Het is belangrijk dat al jouw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact/' title='Neem contact op voor vragen aan Magick Media' class='text-link dark:text-link'>contact</a> met ons op."
 tagline="Veelgestelde vragen"
 classes={{ container: 'max-w-6xl' }}
 items={[
@@ -257,4 +343,31 @@ items={[
   },
 ]}
 />
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Welke metrieken worden gevolgd om de prestaties van de campagnes te evalueren?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "De belangrijkste metrieken die we gebruiken om de prestaties van de campagne te beoordelen zijn onder andere klikfrequentie (CTR), conversieratio, kosten per klik (CPC) en Return on Ad Spend (ROAS). Deze metrieken vergelijken we ook met onze concurrenten. Daarnaast zorgen we ervoor dat de advertenties natuurlijk optimaal scoren op indicatoren van gebruiksvriendelijkheid. Deze gegevens stelt ons in staat om jouw campagne te optimaliseren om betere resultaten te behalen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat zijn mijn totale kosten?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hierboven hebben we de tarieven van onze dienstverlening omschreven. Let wel op, je heb ook een budget nodig in jouw Google Ads account om de advertenties te runnen. Dit zijn dus kosten rechtstreeks bij Google."
+        }
+      }
+    ]
+  }
+  </script>
+  
+
 </Layout>

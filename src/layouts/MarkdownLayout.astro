@@ -12,7 +12,13 @@ export interface Props {
 const { frontmatter } = Astro.props;
 
 const metadata: MetaData = {
-  title: frontmatter?.title,
+  title: `Magick Media - ${frontmatter?.title}`,
+  description:`Lees hier ons ${frontmatter?.title}. Voor vragen kun je altijd telefonisch of per mail bij ons terecht!`,
+  ignoreTitleTemplate: true,
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 ---
 

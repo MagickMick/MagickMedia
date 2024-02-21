@@ -1,6 +1,5 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import HeroText from '~/components/widgets/HeroText.astro';
 import Prices2 from '~/components/widgets/Pricing2.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Steps from '~/components/widgets/Steps.astro';
@@ -24,7 +23,7 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Plan een gesprek',
-        href: '/plan-een-gesprek',
+        href: '/plan-een-gesprek/',
       },
       { text: 'Tarieven', href: '#tarieven' },
     ]}
@@ -55,7 +54,7 @@ const metadata = {
       },
       {
         title: 'Snelle oplevering',
-        description: 'Wij doen er alles aan om onze klanten zo snel mogelijk te helpen. Want tijd is ten slotte geld :). Deze snelheid gaat natuurlijk niet ten koste van de kwaliteit.',
+        description: 'Wij doen er alles aan om onze klanten zo snel mogelijk te helpen. Want tijd is ten slotte geld. Deze snelheid gaat natuurlijk niet ten koste van de kwaliteit.',
         icon: 'tabler:run',
       },
       {
@@ -106,8 +105,7 @@ const metadata = {
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
-          
+          href: '/plan-een-gesprek/',
         },
       },
       {
@@ -131,9 +129,8 @@ const metadata = {
         ],
         callToAction: {
           text: 'Plan een gesprek',
-          href: '/plan-een-gesprek',
+          href: '/plan-een-gesprek/',
         },
-        isPrimary: false
       },
       
     ]}
@@ -186,7 +183,7 @@ const metadata = {
    {
     variant: 'primary',
     text: 'Plan een gesprek',
-    href: '/plan-een-gesprek',
+    href: '/plan-een-gesprek/',
    },
  ]}
  />
@@ -194,8 +191,8 @@ const metadata = {
 <!-- FAQs Widget ******************* -->
 
 <FAQs
-title="Wat klanten wilde weten"
-subtitle="Het is belangrijk dat al uw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact' title='Neem contact op voor vragen aan Magick Media' class='text-primary dark:text-white highlight'>contact</a> met ons op."
+title="Wat klanten willen weten"
+subtitle="Het is belangrijk dat al jouw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact/' title='Neem contact op voor vragen aan Magick Media' class='text-link dark:text-link'>contact</a> met ons op."
 tagline="Veelgestelde vragen"
 classes={{ container: 'max-w-6xl' }}
 items={[
@@ -211,4 +208,32 @@ items={[
   },
 ]}
 />
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Welke bestandstype krijg ik aangeleverd?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jouw huisstijl geoptimaliseerd voor Web leveren we de bestanden in .jpg en .png aan. Voor print leveren we de bestanden in vector (.ai, .eps en/of .pdf) aan, zodat deze in goede kwaliteit geprint kan worden."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kunnen jullie mij ook helpen om mijn drukwerk te laten printen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jazeker, wij kunnen je helpen om je drukwerk naar printen bij de drukker. Hier kun je naar vragen na het opleveren van jouw bestanden!"
+        }
+      }
+    ]
+  }
+  </script>
+
+</Layout>
+  
  

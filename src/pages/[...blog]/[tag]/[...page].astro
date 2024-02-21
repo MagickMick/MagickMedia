@@ -20,7 +20,9 @@ const { page, tag } = Astro.props as Props;
 const currentPage = page.currentPage ?? 1;
 
 const metadata = {
-  title: `Posts by tag '${tag}'${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`,
+  title: `Magick Media - Tag '${tag}'${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`,
+  description:`Vind hier al onze artikelen met de tag '${tag}'${currentPage > 1 ? ` — Page ${currentPage} ` : ''}. Ontdek meer over dit onderwerp en verbreed je kennis hier.`,
+  ignoreTitleTemplate: true,
   robots: {
     index: blogTagRobots?.index,
     follow: blogTagRobots?.follow,

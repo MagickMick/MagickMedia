@@ -35,7 +35,7 @@ Technische SEO is voor ons het beginpunt van de SEO cyclus die wij altijd doorlo
 
 ## De checklist voor jouw website
 ### Crawlen en indexing
-<a href="/wat-is-crawlen">Crawlen</a> stelt zoekmachines in staat om het web te doorzoeken en bruikbare resultaten te bieden aan gebruikers op basis van hun zoekopdrachten. Het is daarom belangrijk voor website eigenaren om ervoor te zorgen dat hun site gemakkelijk kan worden gecrawld en geïndexeerd om zichtbaar te zijn in zoekresultaten.
+<a href="/wat-is-crawlen/">Crawlen</a> stelt zoekmachines in staat om het web te doorzoeken en bruikbare resultaten te bieden aan gebruikers op basis van hun zoekopdrachten. Het is daarom belangrijk voor website eigenaren om ervoor te zorgen dat hun site gemakkelijk kan worden gecrawld en geïndexeerd om zichtbaar te zijn in zoekresultaten.
 	
   <li><b>robots.txt: </b>Het kan voorkomen dat de zoekmachine, tijdens het crawlen, niet relevante pagina’s tegen komt, zoals bijvoorbeeld de inlogpagina van je CMS systeem. In dat geval kun je er met het robots.txt bestand voor zorgen dat de zoekmachine deze pagina’s niet meeneemt. Deze pagina’s worden dan niet gecrawld en geïndexeerd.</li>
 
@@ -77,7 +77,7 @@ Technische SEO is voor ons het beginpunt van de SEO cyclus die wij altijd doorlo
 
   Tegenwoordig worden de meeste website bezocht via een mobiel apparaat. Daarom is Google sinds een aantal jaren overgeschakeld naar een ‘mobile-first indexering’, wat betekent dat de mobiele versie van een website de belangrijkste versie is voor het beoordelen en rangschikken in de zoekresultaten. Als je website niet mobiel vriendelijk is, loop je dus het risico dat je website lager in de zoekresultaten tevoorschijn gaat komen.
   
-  Om te controleren of je website mobiel vriendelijk is, kun je de Google Mobile-Friendly Test gebruiken via de volgende link: <a href="https://search.google.com/test/mobile-friendly" target="_blank" rel="noopener"><span>https://search.google.com/test/mobile-friendly</span></a>
+  Om te controleren of je website mobiel vriendelijk is, kun je de Google Mobile-Friendly Test gebruiken via de volgende link: <a href="https://search.google.com/test/mobile-friendly" target="_blank" rel="noopener"><span>Google mobile friendly test</span></a>
 
   ![Test de mobiel vriendelijkheid van je website](src/assets/images/test-mobiel-vriendelijkheid.jpg)
 
@@ -109,6 +109,6 @@ Technische SEO is voor ons het beginpunt van de SEO cyclus die wij altijd doorlo
   ### Google Rich Results Test
   <a href="https://search.google.com/test/rich-results" target="_blank" rel="noopener">Google Rich Results Test</a> geeft je inzicht of de pagina's goed genoeg is ingedeeld om Rich Results te tonen, zoals recepten en stapsgewijze handleidingen. Het beoordeelt of je gestructureerde gegevens correct zijn geïmplementeerd en of je pagina's in aanmerking komen voor deze Rich zoekresultaten. Een Rich Result moet voldoen aan de <a href="https://schema.org"><span><b>schema.org</b></span></a> opzet. Deze <a href="https://validator.schema.org/" target="_blank" rel="noopener">Schema.org Validator</a> is een handige tool om dat te checken.
 
-  Vragen over dit artikel of graag je SEO uitbesteden? Neem dan gerust <a href="/contact">contact</a> met ons op!</p>
+  Vragen over dit artikel of graag je SEO uitbesteden? Neem dan gerust <a href="/contact/">contact</a> met ons op!</p>
 
   [[Top]](#top)

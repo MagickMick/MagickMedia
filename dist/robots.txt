@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://magickmedia.nl/sitemap-index.xml

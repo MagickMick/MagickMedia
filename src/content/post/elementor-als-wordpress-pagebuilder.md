@@ -1,6 +1,7 @@
 ---
 publishDate: 2024-02-08T00:00:00Z
-title: Waarom wij Elementor gebruiken als Wordpress page builder
+title: Magick Media - Elementor als Wordpress page builder
+h1: Waarom wij Elementor gebruiken als Wordpress page builder
 excerpt: In dit artikel leer je meer over Elementor en waarom wij deze gebruiken als Drag & Drop Wordpress page builder.
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidqiyMeUFfDEqJ5URZKog87Gx4nk8JZ-28Z6UxgjO7Begmg7G0WtFuTn_gajJ9U44LX25kkHt0QX_Vdc7onlwfRhW0MVQVWGp6ncDB45_2ZOUTwLVLKV6NmFzPyWfaSFPCWo4sPlAcj3-XNlg-GOZz6twwXl8gytgUhHOaquvsppVENovmI1FBBCg3/s728-rw-ft-e30/wordpress.png
 category: Development
@@ -9,6 +10,8 @@ tags:
   - Development
   - Elementor
 ---
+In dit **Elementor als Wordpress pagebuilder** artikel we gaan de volgende punten behandelen:
+
 - [1. Gebruiksvriendelijkheid](#1-gebruiksvriendelijkheid)
 - [2. Gratis versie naast de Pro variant](#2-gratis-versie-naast-de-pro-variant)
 - [3. Elementor Pro biedt geavanceerde elementen die jouw geld kunnen opleveren.](#3-elementor-pro-biedt-geavanceerde-elementen-die-jouw-geld-kunnen-opleveren)

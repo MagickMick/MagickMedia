@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-02-05T00:00:00Z
-titletag: Dit is de titletag bla bla bla bla di.
-title: Wat is crawlen eigenlijk? En waarom is het crawlbudget belangrijk?
+title: Magick Media - Wat is crawlen
+h1: Wat is crawlen eigenlijk? En waarom is het crawlbudget belangrijk?
 excerpt: In dit artikel vertellen we je meer over hoe wat crawlen is en waarom het crawlbudget een belangrijke factor is.
 image: /_astro/wat-is-crawlen-seo.2KNhGN1Y.jpg
 category: seo
@@ -9,6 +9,7 @@ tags:
   - zoekmachine optimalisatie
   - seo
 ---
+In dit artikel gaan we dieper in op de **betekenis van crawlen**:
 
 - [1. Betekenis crawlen](#betekenis-crawlen)
 - [2. Crawlbudget](#crawlbudget)

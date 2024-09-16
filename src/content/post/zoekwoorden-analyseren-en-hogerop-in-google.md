@@ -1,7 +1,8 @@
 ---
 publishDate: 2024-02-06T00:00:00Z
-title: Zoekwoorden analyseren en hogerop komen in Google!​ (5 stappen)
-excerpt: In deze blogpost nemen we je mee hoe wij zoektermen analyseren om te bepalen welke zoekwoorden wij gaan gebruiken voor onze SEO strategie.
+title: Magick Media - Hogerop in google
+h1: Zoekwoorden analyseren en hogerop komen in Google!​ (5 stappen)
+excerpt: In dit artikel nemen we je mee bij het analyseren van zoektermen en het gebruik daarvan in onze SEO strategie. Met als doel om hogerop in Google te komen.
 image: /_astro/zoekwoorden-analyseren-hogerop-google.RejKCVVM.jpg
 category: seo
 tags:
@@ -9,7 +10,7 @@ tags:
   - seo
 ---
 
-Het analyseren van de zoekwoorden is vaak de start van het SEO-proof maken van een website of pagina en dient als basis voor je SEO strategie. Je kunt namelijk wel een pagina SEO-proof maken qua performance en inhoudelijk juiste teksten, maar als deze teksten niet de woorden bevatten die bezoekers intypen in de zoekmachines, wordt je alsnog niet gevonden.
+Het analyseren van de zoekwoorden is vaak de start van het SEO-proof maken van een website of pagina om **hogerop te komen in Google**. Dit dient als basis voor je SEO strategie. Je kunt namelijk wel een pagina SEO-proof maken qua performance en inhoudelijk juiste teksten, maar als deze teksten niet de woorden bevatten die bezoekers intypen in de zoekmachines, wordt je alsnog niet gevonden.
 
 
 - [Stap 1: Begrijp je doelgroep](#stap-1-begrijp-je-doelgroep)

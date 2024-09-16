@@ -1,6 +1,7 @@
 ---
 publishDate: 2024-02-06T00:00:00Z
-title: Gratis SEO handleiding voor beginners
+title: Magick Media - Gratis SEO handleiding
+h1: Gratis SEO handleiding voor beginners
 excerpt: Leer in deze gratis SEO handleiding voor beginners hoe je je website op SEO gebied kunt optimaliseren en je vindbaarheid kunt vergroten.
 image: /_astro/gratis-seo-handleiding-beginners.X_ckvsLR.jpg
 category: seo
@@ -9,7 +10,7 @@ tags:
   - seo
 ---
 
-In deze gratis SEO handleiding voor beginners leer je waar je op kunt letten als je de vindbaarheid van je website wilt vergroten. We gaan de volgende punten behandelen:
+In deze **SEO handleiding** gaan de volgende punten behandelen:
 
 
 - [Wat is SEO](#wat-is-seo)

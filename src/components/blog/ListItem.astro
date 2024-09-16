@@ -33,7 +33,7 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
               widths={[400, 900]}
               width={900}
               sizes="(max-width: 900px) 400px, 900px"
-              alt={post.title}
+              alt={post.h1}
               aspectRatio="16:9"
               loading="lazy"
               decoding="async"
@@ -66,10 +66,10 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
         {
           link ? (
             <a class="hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200" href={link}>
-              {post.title}
+              {post.h1}
             </a>
           ) : (
-            post.title
+            post.h1
           )
         }
       </h2>

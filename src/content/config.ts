@@ -4,6 +4,7 @@ const metadataDefinition = () =>
   z
     .object({
       title: z.string().optional(),
+      h1: z.string().optional(),
       ignoreTitleTemplate: z.boolean().optional(),
 
       canonical: z.string().url().optional(),
@@ -52,6 +53,7 @@ const postCollection = defineCollection({
     draft: z.boolean().optional(),
 
     title: z.string(),
+    h1: z.string(),
     excerpt: z.string().optional(),
     image: z.string().optional(),
 

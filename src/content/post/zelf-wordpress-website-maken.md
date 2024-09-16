@@ -1,6 +1,7 @@
 ---
 publishDate: 2024-02-09T00:00:00Z
-title: Zelf een Wordpress website maken in deze 6 stappen
+title: Magick Media - Wordpress website maken
+h1: Zelf een Wordpress website maken in deze 6 stappen
 excerpt: Wil jij zelf een Wordpress website maken? In dit artikel leer je in 6 stappen hoe je dat het beste kunt doen.
 image: https://magickmedia.nl/_astro/maak-eigen-wordpress-website.2csQl65S.jpg
 category: Development
@@ -8,6 +9,7 @@ tags:
   - Wordpress
   - Development
 ---
+In dit 'zelf een **Wordpress website maken**' artikel we gaan de volgende punten behandelen:
 
 - [Stap 1: Domeinnaam kiezen en registreren](#stap-1-domeinnaam-kiezen-en-registreren)
 - [Stap 2: Hostingpartij kiezen](#stap-2-hostingpartij-kiezen)
@@ -62,6 +64,6 @@ Je Wordpress website door ons laten maken? Neem dan gerust <a href="/contact/">c
 
 [[Top]](#top)
 
-Image by <a href="https://www.freepik.com/free-vector/landing-page-with-laptop_6008380.htm#query=building%20your%20own%20website&position=44&from_view=search&track=ais&uuid=c4b07a5e-184f-429b-89b0-c16596c21a23">Freepik</a>
+Image by <a href="https://www.freepik.com/">Freepik</a>
 
   

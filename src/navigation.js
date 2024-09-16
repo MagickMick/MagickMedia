@@ -7,7 +7,7 @@ export const headerData = {
       href: '/',
     },
     {
-      text: 'Over Ons',
+      text: 'Over ons',
       href: '/over-ons/',
     },
     {
@@ -59,6 +59,14 @@ export const headerData = {
         {
           text: 'SEO',
           href: getPermalink('seo', 'category'),
+        },
+        {
+          text: 'Google Ads',
+          href: getPermalink('google-ads', 'category'),
+        },
+        {
+          text: 'Hosting',
+          href: getPermalink('hosting', 'category'),
         },
       ],
     },

@@ -192,9 +192,44 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"email-verhuizen-met-outlook.md": {
+	id: "email-verhuizen-met-outlook.md";
+  slug: "email-verhuizen-met-outlook";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"gebruik-negatieve-zoekwoorden-google-ads-strategie.md": {
+	id: "gebruik-negatieve-zoekwoorden-google-ads-strategie.md";
+  slug: "gebruik-negatieve-zoekwoorden-google-ads-strategie";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "gratis-seo-handleiding-voor-beginners.md": {
 	id: "gratis-seo-handleiding-voor-beginners.md";
   slug: "gratis-seo-handleiding-voor-beginners";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"optimaliseer-google-ads-campagne-hoger-conversieratio.md": {
+	id: "optimaliseer-google-ads-campagne-hoger-conversieratio.md";
+  slug: "optimaliseer-google-ads-campagne-hoger-conversieratio";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"opvallen-zoekresultaten-rich-snippets.md": {
+	id: "opvallen-zoekresultaten-rich-snippets.md";
+  slug: "opvallen-zoekresultaten-rich-snippets";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"rank-math-of-yoast-seo-plugin.md": {
+	id: "rank-math-of-yoast-seo-plugin.md";
+  slug: "rank-math-of-yoast-seo-plugin";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">
@@ -209,6 +244,13 @@ declare module 'astro:content' {
 "wat-is-crawlen.md": {
 	id: "wat-is-crawlen.md";
   slug: "wat-is-crawlen";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wordpress-website-verhuizen-naar-andere-hosting.md": {
+	id: "wordpress-website-verhuizen-naar-andere-hosting.md";
+  slug: "wordpress-website-verhuizen-naar-andere-hosting";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">

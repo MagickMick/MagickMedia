@@ -5,7 +5,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 _Laatst geupdate_ : Februari 12, 2024
 
-Magickmedia.nl is onderdeel van WebhostinGuru (kvknr: 84696109 ), gevestigd aan Willy den Oudenstraat 121, 5026 DB Tilburg, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.
+Magick Media (kvknr: 84696109), gevestigd aan Willy den Oudenstraat 121, 5026 DB Tilburg, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.
 
 ## Wat zijn cookies precies?
 Een cookie is een klein tekstbestand dat een website op jouw computer of mobiel toestel opslaat wanneer je die site bezoekt. Zo onthoudt de website de pagina’s die je hebt bezocht en jouw voorkeuren (zoals gebruikersnaam, taal, lettergrootte en andere voorkeuren) zodat je die niet bij ieder bezoek aan de site opnieuw hoeft in te vullen.

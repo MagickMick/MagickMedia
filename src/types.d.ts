@@ -18,6 +18,10 @@ export interface Post {
 
   /**  */
   title: string;
+
+  /**  */
+  h1: string;
+
   /** Optional summary of post content. */
   excerpt?: string;
   /**  */
@@ -46,6 +50,7 @@ export interface Post {
 
 export interface MetaData {
   title?: string;
+  h1?: string;
   ignoreTitleTemplate?: boolean;
 
   canonical?: string;
@@ -102,6 +107,7 @@ export interface Widget {
 
 export interface Headline {
   title?: string;
+  h1?:string;
   subtitle?: string;
   tagline?: string;
   classes?: Record<string, string>;
@@ -129,8 +135,11 @@ export interface Stat {
 
 export interface Item {
   title?: string;
+  h1?: string;
   description?: string;
   icon?: string;
+  buttonText?: string;
+  href?: string;
   classes?: Record<string, string>;
   callToAction?: CallToAction;
   image?: Image;

@@ -48,13 +48,18 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     publishDate: rawPublishDate = new Date(),
     updateDate: rawUpdateDate,
     title,
+    h1,
     excerpt,
     image,
     tags: rawTags = [],
     category: rawCategory,
     author,
     draft = false,
-    metadata = {},
+    metadata = {
+      title: title,
+      //title: `Magick Media - Blog${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+      ignoreTitleTemplate: true,
+    },
   } = data;
 
   const slug = cleanSlug(rawSlug); // cleanSlug(rawSlug.split('/').pop());
@@ -72,6 +77,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     updateDate: updateDate,
 
     title: title,
+    h1: h1,
     excerpt: excerpt,
     image: image,
 

@@ -1,5 +1,5 @@
 ---
-publishDate: 2024-02-06T00:00:00Z
+publishDate: 2024-09-23T00:00:00Z
 title: Magick Media - Gratis SEO handleiding
 h1: Gratis SEO handleiding voor beginners
 excerpt: Leer in deze gratis SEO handleiding voor beginners hoe je je website op SEO gebied kunt optimaliseren en je vindbaarheid kunt vergroten.
@@ -41,7 +41,7 @@ In deze **SEO handleiding** gaan de volgende punten behandelen:
 ## Wat is SEO?
 
 ### Inleiding tot zoekmachine optimalisatie
-In de wereld van online zichtbaarheid en concurrentie is zoekmachineoptimalisatie (SEO) een onmisbaar instrument voor elke website-eigenaar. SEO is de kunst en wetenschap van het optimaliseren van je online inhoud, zodat zoekmachines zoals Google, Bing en Yahoo deze beter begrijpen, waarderen en rangschikken. Het doel? Het vergroten van je online zichtbaarheid, het trekken van relevante bezoekers naar je website en het uiteindelijk omzetten van deze bezoekers in waardevolle klanten.
+In de wereld van online zichtbaarheid en concurrentie is zoekmachineoptimalisatie (SEO) een onmisbaar instrument voor elke website-eigenaar. SEO is de kunst en wetenschap van het optimaliseren van je online inhoud, zodat zoekmachines zoals Google, Bing en Yahoo deze beter begrijpen, waarderen en rangschikken. Het doel? Het <a href="/zoekmachine-optimalisatie-seo/">vergroten van je online zichtbaarheid</a>, het trekken van relevante bezoekers naar je website en het uiteindelijk omzetten van deze bezoekers in waardevolle klanten.
 
 ### Waarom is SEO belangrijk?
 Tegenwoordig begint bijna elke online reis met een zoekopdracht. Of het nu gaat om het vinden van producten, informatie, of antwoorden op vragen, zoekmachines zijn de eerste plek waar mensen naartoe gaan. Het is daarom van essentieel belang dat je website bovenaan de zoekresultaten staat, vooral op de eerste pagina, omdat de meeste mensen zelden verder kijken.
@@ -61,7 +61,7 @@ In de blogpost over <a href="https://magickmedia.nl/zoekwoorden-analyseren-en-ho
 ### Gratis tools voor zoekwoordenonderzoek
 Een van de meest bekende gratis tool is de Google Zoekwoordplanner. Hoewel dit een handige tool is, hebben we gemerkt dat deze tool soms andere zoekvolumes weergeeft dan werkelijk het geval is. Vergeleken met betaalde tools geeft het ook beperkte informatie en vereist het dat je een Google Ads-account hebt. Dit kan een belemmering vormen voor beginners die eenvoudig toegang willen tot zoekwoordgegevens.
 
-Een meer toegankelijk alternatief voor beginners is Ubersuggest. Ubersuggest biedt de mogelijkheid om één gratis zoekopdracht per dag uit te voeren en heeft ook een proefperiode van 7 dagen waarin je toegang krijgt tot extra zoekopdrachten. Dit maakt Ubersuggest ideaal voor diegenen die willen experimenteren en vertrouwd willen raken met het proces van zoekwoordenonderzoek zonder kosten.
+Een meer toegankelijk alternatief voor beginners is <a href="https://neilpatel.com/nl/ubersuggest/" target="_blank" rel="noopener">Ubersuggest</a>. Ubersuggest biedt de mogelijkheid om één gratis zoekopdracht per dag uit te voeren en heeft ook een proefperiode van 7 dagen waarin je toegang krijgt tot extra zoekopdrachten. Dit maakt Ubersuggest ideaal voor diegenen die willen experimenteren en vertrouwd willen raken met het proces van zoekwoordenonderzoek zonder kosten.
 
 Als je besluit om <strong>SEO</strong> <b>serieuzer aan te pakken</b> en meer geavanceerde functies en analyse nodig hebt, is er de mogelijkheid om over te schakelen naar betaalde tools zoals SERanking. <a href="https://seranking.com/nl/?ga=2633144&amp;source=link" target="_blank" rel="noopener"><b>SERanking</b></a> biedt een breed scala aan SEO-functionaliteiten, waaronder rank tracking, concurrentieanalyse en uitgebreide rapportage. Als je meer wilt weten over SERanking en hoe het je kan helpen je SEO-doelen te bereiken, raden we om ons artikel te lezen hierover die binnenkort verschijnt, waarin we dieper ingaan op deze geavanceerde SEO-tool.
 
@@ -77,19 +77,19 @@ De title tag en meta description is het eerste wat de bezoeker ziet van je websi
 
 ![Voorbeeld van een title tag en meta description](src/assets/images/title-tag-en-meta-description-voorbeeld.jpg)
 
-Zelf maken we vaak onze websites in Wordpress, daar is een plugin beschikbaar genaamd <a href="https://yoast.com/wordpress/plugins/seo/" target="_blank" rel="noopener"><strong>YoastSEO</strong></a>. Hierbij voldoet de gratis versie in de meeste gevallen. Deze plugin is handig, want het laat je de Title tag en Meta description makkelijk instellen per pagina en geeft je direct advies over bijvoorbeeld de lengte en het gebruik van je zoekwoord.
+Zelf maken we vaak onze websites in Wordpress, daarin maken we gebruik van plugins als <a href="/rank-math-of-yoast-seo-plugin/">Rank Math of YoastSEO</a>. Hierbij voldoen de gratis versies in de meeste gevallen. Deze plugins zijn handig, want het laat je de Title tag en Meta description makkelijk instellen per pagina en geeft je direct advies over bijvoorbeeld de lengte en het gebruik van je zoekwoord.
 
-In de afbeelding hieronder zie je dat je de 'Title tag' kunt invulen bij het veld 'SEO title' en de meta description bij het soortgelijk genaamd inputveld. Je ziet ook de groene balken die aangeven of je de juiste lengte hebt voor de title en/of description.
+In de afbeelding hieronder zie je dat je de 'Title tag' kunt invulen bij het veld 'SEO title' en de meta description bij het soortgelijk genaamd inputveld. Je ziet ook de groene balken die aangeven of je de juiste lengte hebt voor de title en/of description. Dit is een voorbeeld van YoastSEO, Rank Math werkt ongeveer net zo.
 
 ![Voorbeeld YoastSEO plugin](src/assets/images/yoastSEO-voorbeeld.jpg)
 
 ### Content optimalisatie
-Het hart van On-Page SEO is content optimalisatie. Dit omvat het gebruik van relevante zoekwoorden in je tekst, maar ook het schrijven van waardevolle, informatieve, en boeiende inhoud. Zorg ervoor dat je content aansluit bij de zoekintentie van gebruikers. Gebruik koppen en subkoppen (H2, H3, enz.) om de inhoud te structureren en maak je tekst goed leesbaar met paragrafen, lijsten en afbeeldingen. Vergeet niet om interne links naar andere relevante pagina's op je site op te nemen, wat niet alleen de gebruikerservaring verbetert, maar ook zoekmachines helpt om de samenhang van je website te begrijpen.
+Het hart van On-Page SEO is content optimalisatie. Dit omvat het gebruik van relevante zoekwoorden in je tekst, maar ook het schrijven van waardevolle, informatieve, en boeiende inhoud. Zorg ervoor dat je content aansluit bij de zoekintentie van gebruikers. Gebruik koppen en subkoppen (H2, H3, enz.) om de inhoud te structureren en maak je tekst goed leesbaar met paragafen, lijsten en afbeeldingen. Vergeet niet om interne links naar andere relevante pagina's op je site op te nemen, wat niet alleen de gebruikerservaring verbetert, maar ook zoekmachines helpt om de samenhang van je website te begrijpen.
 
 Daarnaast is het belangrijk om je afbeeldingen een logische bestandsnaam te geven. Vaak zien we dat afbeeldingen, bijvoorbeeld gerelateerd aan de diensten die je aanbiedt, willekeurige bestandsnamen hebben zoals ‘123.jpg'. Naast deze bestandsnaam, is ook de alt-tekst van de afbeelding van belang. Deze alt-tekst is een tekst die de afbeelding dient te beschrijven. Google gebruikt deze tekst als de afbeelding niet goed laadt én voor mensen met een visuele beperking. In dat geval wordt de alt-tekst voorgelezen voor de gebruiker. Je wilt dus beschrijven wat er op de afbeelding te zien is. Als hier ook nog eens een zoekwoord in verwerkt is, scoor je extra pluspunten!
 
 ### Het belang van interne en outbound links
-Interne links zijn koppelingen vanaf een pagina op je website naar andere pagina's op dezelfde site. Deze links helpen zoekmachines om de hiërarchie en onderlinge relaties tussen je pagina's te begrijpen. Het is belangrijk om interne links te gebruiken om gebruikers te begeleiden naar gerelateerde inhoud en om zoekmachines te helpen bij het indexeren van je site.
+Interne links zijn koppelingen vanaf een pagina op je website naar andere pagina's op dezelfde site. Deze links helpen zoekmachines om de hiërarchie en onderlinge relaties tussen je pagina's te begrijpen. Het is belangrijk om interne links te gebruiken om gebruikers te begeleiden naar gerelateerde inhoud en om zoekmachines te helpen bij het <a href="https://support.google.com/programmable-search/answer/4513925?hl=nl" target="_blank" rel="noopener">indexeren</a> van je site.
 
 Outbound links zijn links vanaf je website naar andere betrouwbare en gezaghebbende websites. Deze links kunnen de geloofwaardigheid van je inhoud versterken, zolang ze relevant zijn voor je onderwerp. Het is belangrijk om kwaliteitsvolle en relevante outbound links toe te voegen, maar overdrijf het niet.
 
@@ -102,7 +102,7 @@ In de wereld van zoekmachineoptimalisatie is technische SEO het eerste onderdeel
 Met de groei van mobiel internet is het van vitaal belang dat je website mobiel vriendelijk is. Zoekmachines geven de voorkeur aan websites die goed werken op zowel desktops als mobiele apparaten. Mobiele vriendelijkheid heeft niet alleen invloed op je rangschikking, maar het beïnvloedt ook de gebruikerservaring. Zorg ervoor dat je website responsief is en dat de inhoud op alle schermformaten goed wordt weergegeven.
 
 ### Snelheidsoptimalisatie
-De snelheid van je website is een belangrijke factor voor zowel zoekmachines als gebruikers. Langzame laadtijden kunnen leiden tot een slechte gebruikerservaring en lagere rangschikkingen in zoekresultaten. Optimaliseer de laadsnelheid door afbeeldingen te comprimeren, onnodige code te verwijderen en caching te gebruiken. Een snellere website verbetert niet alleen de SEO, maar verhoogt ook de tevredenheid van je bezoekers.
+De snelheid van je website is een belangrijke factor voor zowel zoekmachines als gebruikers. Langzame laadtijden kunnen leiden tot een slechte gebruikerservaring en lagere rangschikkingen in zoekresultaten. Optimaliseer de laadsnelheid door afbeeldingen te comprimeren, onnodige code te verwijderen en <a href="/wat-is-caching/"><b>caching</b></a> te gebruiken. Een snellere website verbetert niet alleen de SEO, maar verhoogt ook de tevredenheid van je bezoekers.
 
 ### Crawlbare website-structuur
 Een goed georganiseerde website-structuur is van belang voor zowel zoekmachines als gebruikersnavigatie. Een duidelijke hiërarchie en interne linkstructuur helpen zoekmachines om je website effectiever te <a href="https://magickmedia.nl/wat-is-crawlen/"><b>crawlen</b></a> en dus te indexeren. Zorg ervoor dat je URL-structuur logisch is en dat je een sitemap hebt die zoekmachines helpt bij het begrijpen van de inhoud van je site.
@@ -127,10 +127,10 @@ Deze voordelen kun je behalen met linkbuilding;
 ### Google mijn bedrijf
 ![Voorbeeld van Google mijn bedrijf](src/assets/images/google-mijn-bedrijf.jpg)
 
-Om vooral de lokale vindbaarheid te vergroten, is het van belang om een Google mijn bedrijf account aan te maken. Dit is van belang voor bedrijven met fysieke locaties. Het is een krachtige tool waarmee je je bedrijfsvermelding kunt beheren, openingstijden kunt bijwerken, recensies kunt beheren en meer. Een goed geoptimaliseerd Google Mijn Bedrijf-profiel kan de zichtbaarheid in lokale zoekresultaten vergroten.
+Om vooral de lokale vindbaarheid te vergroten, is het van belang om een Google mijn bedrijf account aan te maken. Dit is van belang voor bedrijven met fysieke locaties. Het is een krachtige tool waarmee je je bedrijfsvermelding kunt beheren, openingstijden kunt bijwerken, recensies kunt beheren en meer. Een goed geoptimaliseerd <a href="https://www.google.com/intl/nl_nl/business/" target="_blank" rel="noopener">Google Mijn Bedrijf-profiel</a> kan de zichtbaarheid in lokale zoekresultaten vergroten.
 
 ### Gastbloggen
-Gastbloggen is een effectieve en veelgebruikte strategie voor off-page SEO, en het biedt tal van voordelen voor zowel bloggers als website-eigenaren. Hier zijn enkele redenen waarom gastbloggen een slimme zet is voor je SEO-strategie:
+<a href="/gastbloggen-linkbuilding-seo-strategie/"><b>Gastbloggen</b></a> is een effectieve en veelgebruikte strategie voor off-page SEO, en het biedt tal van voordelen voor zowel bloggers als website-eigenaren. Hier zijn enkele redenen waarom gastbloggen een slimme zet is voor je SEO-strategie:
 <ol>
  	<li><strong>Kwalitatieve Backlinks</strong>: Eén van de belangrijkste voordelen van gastbloggen is de mogelijkheid om kwalitatieve backlinks naar je eigen website te verkrijgen. Door waardevolle content te delen op andere websites in jouw branche, kun je in ruil daarvoor vaak een link naar je eigen site opnemen. Deze backlinks van betrouwbare bronnen dragen aanzienlijk bij aan je zoekmachine ranking.</li>
  	<li><strong>Vergroot je Autoriteit</strong>: Door regelmatig gastblogs te schrijven over onderwerpen waarin je deskundig bent, kun je jezelf positioneren als een autoriteit in je vakgebied. Dit leidt tot meer geloofwaardigheid en vertrouwen bij je publiek, wat gunstig is voor je merk en SEO.</li>

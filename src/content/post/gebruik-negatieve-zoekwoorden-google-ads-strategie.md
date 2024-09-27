@@ -2,7 +2,7 @@
 publishDate: 2024-09-13T00:00:00Z
 title: Magick Media - Negatieve zoekwoorden in jouw Google Ads strategie
 h1: Hoe je een negatief zoekwoordstrategie implementeert om kosten te besparen in Google Ads
-excerpt: Een negatief zoekwoordstrategie in Google Ads helpt je om irrelevante zoekopdrachten uit te sluiten en onnodige kosten te besparen. Leer hoe je deze strategie implementeert en optimaliseert om je advertenties alleen aan de juiste doelgroep te tonen.
+excerpt: Een negatief zoekwoordstrategie in Google Ads helpt je om irrelevante zoekopdrachten uit te sluiten en onnodige kosten te besparen.
 image: /_astro/negatieve-zoektermen-toevoegen-google-ads.25trZw94.jpg
 category: Google Ads
 tags:

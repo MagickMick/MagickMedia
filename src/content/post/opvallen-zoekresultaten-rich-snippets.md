@@ -45,7 +45,7 @@ Hieronder gaan we je laten zien hoe je technisch een Rich Snippet op je site kun
 ![voorbeeld van een product snippet in de zoekresultaten](src/assets/images/voorbeeld-product-snippet.jpg)
 Deze <a href="https://developers.google.com/search/docs/appearance/structured-data/product#:~:text=Product%20snippets%20are%20a%20richer,information%2C%20price%2C%20and%20availability" target="_blank" rel="noopener">product snippet</a> geeft extra informatie over je product. Je kunt hierin de beoordeling (reviews), prijs, beschikbaarheid, afbeelding en overige kenmerken plaatsen.
 
-Als je geen gebruikt maakt van een plugin zoals <b>YoastSEO</b> die deze snippet automatisch kan genereren, kun je dit stuk JSON code gebruiken: 
+Als je geen gebruikt maakt van plugins zoals <a href="/rank-math-of-yoast-seo-plugin/">YoastSEO of Rank Math</a> die deze snippet automatisch kunnen genereren, kun je dit stuk JSON code gebruiken:
 
  ```javascript
   {

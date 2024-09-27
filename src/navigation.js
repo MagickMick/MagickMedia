@@ -113,13 +113,21 @@ export const footerData = {
       title: 'Development',
       links: [
         {
-          text: 'Zelf een Wordpress website maken in deze 6 stappen',
+          text: 'Zelf een Wordpress website maken',
           href: getPermalink('/zelf-wordpress-website-maken/'),
         },
         {
-          text: 'Waarom wij Elementor gebruiken als Wordpress pagebuilder',
+          text: 'Waarom wij Elementor gebruiken',
           href: getPermalink('/elementor-als-wordpress-pagebuilder/'),
         },
+        {
+          text: 'Hoe bescherm je je WordPress website',
+          href: getPermalink('/beveilig-je-wordpress-website-tegen-hackers/'),
+        },
+        {
+          text: 'Hoe creëer je een meertalige website in WordPress',
+          href: getPermalink('/meertalige-website-wordpress-plugins/'),
+        }
       ],
     },
     {
@@ -138,8 +146,29 @@ export const footerData = {
           href: getPermalink('/zoekwoorden-analyseren-en-hogerop-in-google/'),
         },
         {
-          text: 'Wat is crawlen?',
-          href: getPermalink('/wat-is-crawlen/'),
+          text: 'Hoe gastbloggen je linkbuilding strategie kan versterken',
+          href: getPermalink('/gastbloggen-linkbuilding-seo-strategie/'),
+        },
+        {
+          text: 'Beter opvallen in de zoekresultaten met Rich Snippets',
+          href: getPermalink('/opvallen-zoekresultaten-rich-snippets/'),
+        },
+      ],
+    },
+    {
+      title: 'Google Ads',
+      links: [
+        {
+          text: 'Hoe optimaliseer je je Google Ads-campagnes?',
+          href: getPermalink('/optimaliseer-google-ads-campagne-hoger-conversieratio/'),
+        },
+        {
+          text: 'Hoe je een negatief zoekwoordstrategie implementeert in Google Ads',
+          href: getPermalink('/gebruik-negatieve-zoekwoorden-google-ads-strategie/'),
+        },
+        {
+          text: 'Hoe je een negatief zoekwoordstrategie implementeert in Google Ads',
+          href: getPermalink('/gebruik-negatieve-zoekwoorden-google-ads-strategie/'),
         },
       ],
     },

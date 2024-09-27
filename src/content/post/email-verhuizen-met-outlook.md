@@ -1,8 +1,8 @@
 ---
 publishDate: 2024-09-11T00:00:00Z
-title: Magick Media - Email verhuizen met Outlook backup en IMAP
+title: Magick Media - Email verhuizen met Outlook backup en IMAP migratie
 h1: E-mail verhuizen; Outlook backup maken en IMAP instellen voor een soepele migratie
-excerpt: Leer hoe je je e-mail kunt verhuizen naar een nieuwe server door middel van een Outlook-backup of door e-mails direct te verplaatsen via IMAP. Beide methoden zorgen ervoor dat je geen belangrijke berichten verliest en dat de migratie soepel verloopt.
+excerpt: Leer hoe je je e-mail kunt verhuizen naar een nieuwe server door middel van een Outlook-backup of door e-mails direct te verplaatsen via IMAP.
 image: /_astro/email-migratie-outlook._XB1Xw2B.jpg
 category: Hosting
 tags:

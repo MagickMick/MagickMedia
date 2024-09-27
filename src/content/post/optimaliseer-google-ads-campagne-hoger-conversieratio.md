@@ -2,7 +2,7 @@
 publishDate: 2024-09-12T00:00:00Z
 title: Magick Media - Hoger conversieratio bij Google Ads
 h1: Hoe optimaliseer je je Google Ads-campagnes voor een hoger conversieratio?
-excerpt: Het optimaliseren van Google Ads-campagnes kan een aanzienlijk hoger conversieratio opleveren door zoekwoorden, advertentieteksten en landingspagina’s op elkaar af te stemmen en continu te testen. In deze blogpost lees je zes manieren om je campagnes beter te laten presteren en je ROI te verhogen.
+excerpt: Verbeter je Google Ads-conversies door zoekwoorden, advertenties en landingspagina's op elkaar af te stemmen. Ontdek zes tips voor hogere ROI in deze blog!
 image: /_astro/conversie-optimaliseren-google-ads.x-ihdFXs.jpg
 category: Google Ads
 tags:

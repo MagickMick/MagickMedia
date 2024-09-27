@@ -185,6 +185,34 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"post": {
+"beveilig-je-wordpress-website-tegen-hackers.md": {
+	id: "beveilig-je-wordpress-website-tegen-hackers.md";
+  slug: "beveilig-je-wordpress-website-tegen-hackers";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"cdn-met-cloudflair-binnen-cpanel.md": {
+	id: "cdn-met-cloudflair-binnen-cpanel.md";
+  slug: "cdn-met-cloudflair-binnen-cpanel";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"contactformulier-met-nodejs-in-cpanel.md": {
+	id: "contactformulier-met-nodejs-in-cpanel.md";
+  slug: "contactformulier-met-nodejs-in-cpanel";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"coversies-maximaliseren-met-google-tag-manager.md": {
+	id: "coversies-maximaliseren-met-google-tag-manager.md";
+  slug: "coversies-maximaliseren-met-google-tag-manager";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "elementor-als-wordpress-pagebuilder.md": {
 	id: "elementor-als-wordpress-pagebuilder.md";
   slug: "elementor-als-wordpress-pagebuilder";
@@ -199,6 +227,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"gastbloggen-linkbuilding-seo-strategie.md": {
+	id: "gastbloggen-linkbuilding-seo-strategie.md";
+  slug: "gastbloggen-linkbuilding-seo-strategie";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "gebruik-negatieve-zoekwoorden-google-ads-strategie.md": {
 	id: "gebruik-negatieve-zoekwoorden-google-ads-strategie.md";
   slug: "gebruik-negatieve-zoekwoorden-google-ads-strategie";
@@ -209,6 +244,34 @@ declare module 'astro:content' {
 "gratis-seo-handleiding-voor-beginners.md": {
 	id: "gratis-seo-handleiding-voor-beginners.md";
   slug: "gratis-seo-handleiding-voor-beginners";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"hoe-a-b-testen-google-ads.md": {
+	id: "hoe-a-b-testen-google-ads.md";
+  slug: "hoe-a-b-testen-google-ads";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"hoe-een-cdn-website-sneller-maakt.md": {
+	id: "hoe-een-cdn-website-sneller-maakt.md";
+  slug: "hoe-een-cdn-website-sneller-maakt";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"invloed-webhosting-seo-en-vindbaarheid.md": {
+	id: "invloed-webhosting-seo-en-vindbaarheid.md";
+  slug: "invloed-webhosting-seo-en-vindbaarheid";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"meertalige-website-wordpress-plugins.md": {
+	id: "meertalige-website-wordpress-plugins.md";
+  slug: "meertalige-website-wordpress-plugins";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">
@@ -237,6 +300,13 @@ declare module 'astro:content' {
 "technische-seo-checklist.md": {
 	id: "technische-seo-checklist.md";
   slug: "technische-seo-checklist";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wat-is-caching.md": {
+	id: "wat-is-caching.md";
+  slug: "wat-is-caching";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">

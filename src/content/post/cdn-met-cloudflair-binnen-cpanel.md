@@ -3,7 +3,7 @@ publishDate: 2024-09-25T00:00:00Z
 title: Magick Media - CDN met Cloudflair in cPanel
 h1: Hoe je Cloudflare gebruikt en instelt via cPanel
 excerpt: Leer hoe je Cloudflare via cPanel instelt om je website sneller en veiliger te maken met een wereldwijd CDN.
-image: /_astro/cloudflare.5M1ggQcP.jpg
+image: /_astro/cloudflare.DkzWCBBw.jpg
 category: Hosting
 tags:
   - Hosting

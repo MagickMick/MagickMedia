@@ -3,7 +3,7 @@ publishDate: 2024-09-26T00:00:00Z
 title: Magick Media - Google Ads conversies maximaliseren met GTM
 h1: Een handleiding; Conversies bijhouden in Google Ads met Google Tag Manager
 excerpt: Leer hoe je Google Tag Manager inzet voor Google Ads conversietracking en maximaliseer je campagnes met tags, triggers en nauwkeurige conversiemeting!
-image: /_astro/google-tag-manager-handleiding.wYEw9-ZX.jpg
+image: /_astro/google-tag-manager-handleiding.DBgTD35l.jpg
 category: Google Ads
 tags:
   - Google Ads

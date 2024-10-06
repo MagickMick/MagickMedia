@@ -3,7 +3,7 @@ publishDate: 2024-09-24T00:00:00Z
 title: Magick Media - Wat is een CDN (Content Delivery Network)?
 h1: Hoe een CDN je website sneller maakt; alles wat je moet weten!
 excerpt: Een CDN versnelt je website door content via servers wereldwijd dichter bij je bezoekers aan te bieden.
-image: /_astro/wereldwijd-cdn-server-netwerk.PtGpaa40.jpg
+image: /_astro/wereldwijd-cdn-server-netwerk.-0alprjQ.jpg
 category: Hosting
 tags:
   - Hosting

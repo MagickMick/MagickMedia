@@ -3,7 +3,7 @@ publishDate: 2024-09-17T00:00:00Z
 title: Magick Media - Verbeter je SEO met gastbloggen als linkbuilding
 h1: Hoe gastbloggen je linkbuilding strategie kan versterken
 excerpt: Lees hoe en waarom wij gastblogging toepassen binnen onze linkbuilding strategie. Hiermee zorgen wij voor meer bezoekers bij onze klanten.
-image: /_astro/linkbuilding-door-gastblogging.eTlZ09GV.jpg
+image: /_astro/linkbuilding-door-gastblogging.B5OVnT0Z.jpg
 category: SEO
 tags:
   - SEO

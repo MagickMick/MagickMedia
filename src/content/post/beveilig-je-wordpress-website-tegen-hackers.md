@@ -3,7 +3,7 @@ publishDate: 2024-09-16T00:00:00Z
 title: Magick Media - Beveilig je Wordpress website tegen hackers
 h1: Beveiligingstips; hoe bescherm je je WordPress website tegen hackers?
 excerpt: Bescherm je WordPress-site tegen hackers; kies betrouwbare hosting, gebruik sterke wachtwoorden, en zorg voor updates en back-ups.
-image: /_astro/wordpress-website-security.M34JtP5c.jpg
+image: /_astro/wordpress-website-security.zfgm0_ly.jpg
 category: Development
 tags:
   - Security

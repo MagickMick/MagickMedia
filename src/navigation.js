@@ -107,6 +107,10 @@ export const footerData = {
           text: 'Grafisch ontwerp',
           href: getPermalink('/grafisch-ontwerp/'),
         },
+        {
+          text: 'Website laten maken Eindhoven',
+          href: getPermalink('/website-laten-maken-eindhoven/'),
+        },
       ],
     },
     {

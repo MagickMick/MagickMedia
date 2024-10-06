@@ -3,7 +3,7 @@ publishDate: 2024-09-23T00:00:00Z
 title: Magick Media - Caching, wat is het en hoe pas je het toe?
 h1: Wat is caching?
 excerpt: Caching versnelt websites door data tijdelijk op te slaan. In dit artikel leggen we dit verder uit.
-image: /_astro/snellere-wordpress-website-met-caching.VTO4r09_.jpg
+image: /_astro/snellere-wordpress-website-met-caching.BVM7ivT3.jpg
 category: Development
 tags:
   - Development

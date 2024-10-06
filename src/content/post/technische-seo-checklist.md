@@ -3,7 +3,7 @@ publishDate: 2024-02-06T00:00:00Z
 title: Magick Media - Technische SEO checklist
 h1: Dé Technische SEO checklist van 2024
 excerpt: In deze Technische SEO checklist lees je waar je op moet letten om je technische SEO te verbeteren. Dit verhoogt je vindbaarheid in Google.
-image: /_astro/technische-seo-checklist-header.7RRDgsqC.jpeg
+image: /_astro/technische-seo-checklist-header.DtFEOCyo.jpeg
 category: seo
 tags:
   - zoekmachine optimalisatie

@@ -3,7 +3,7 @@ publishDate: 2024-09-10T00:00:00Z
 title: Magick Media - Rank Math of Yoast SEO?
 h1: Rank Math of YoastSEO? Een vergelijking van SEO Plugins op WordPress
 excerpt: Wij vergelijken de twee populaire WordPress SEO-plugins, Yoast SEO en Rank Math, op gebieden zoals gebruiksgemak, functies en prijs.
-image: /_astro/yoastSEOorRankMath.7wl2yksL.png
+image: /_astro/yoastSEOorRankMath.DvCXbKSw.png
 category: seo
 tags:
   - zoekmachine optimalisatie

@@ -3,7 +3,7 @@ publishDate: 2024-02-06T00:00:00Z
 title: Magick Media - Hogerop in google
 h1: Zoekwoorden analyseren en hogerop komen in Google!​ (5 stappen)
 excerpt: In dit artikel nemen we je mee bij het analyseren van zoektermen en het gebruik daarvan in onze SEO strategie. Met als doel om hogerop in Google te komen.
-image: /_astro/zoekwoorden-analyseren-hogerop-google.RejKCVVM.jpg
+image: /_astro/zoekwoorden-analyseren-hogerop-google.BF6MoJVU.jpg
 category: seo
 tags:
   - zoekmachine optimalisatie

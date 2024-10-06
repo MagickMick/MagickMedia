@@ -3,7 +3,7 @@ publishDate: 2024-10-02T00:00:00Z
 title: Magick Media - SEO tips en tricks
 h1: Hoe bereik je klanten die niet weten dat ze jouw dienst nodig hebben?
 excerpt: Ontdek hoe je met Google Ads, affiliate marketing en gastbloggen klanten bereikt die niet weten dat jouw dienst bestaat!
-image: /_astro/leadgeneratie-met-google-ads._TVwSOF8.jpg
+image: /_astro/leadgeneratie-met-google-ads.D9NXBI4X.jpg
 category: google ads
 tags:
   - google ads

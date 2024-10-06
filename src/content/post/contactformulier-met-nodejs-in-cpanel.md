@@ -3,7 +3,7 @@ publishDate: 2024-09-27T00:00:00Z
 title: Magick Media - Nodejs contactformulier in cPanel
 h1: Bouw jouw contactformulier met NodeJS in cPanel
 excerpt: Leer hoe je een volledige Node.js server-side applicatie opzet in cPanel, met het opzetten van een contactformulier als voorbeeld.
-image: /_astro/nodejs-applicatie-cpanel.t-EklXWl.jpg
+image: /_astro/nodejs-applicatie-cpanel.C34SSVda.jpg
 category: Development
 tags:
   - NodeJS

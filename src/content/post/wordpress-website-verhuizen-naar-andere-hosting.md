@@ -3,7 +3,7 @@ publishDate: 2024-05-06T00:00:00Z
 title: Magick Media - Wordpress website verhuizen
 h1: Wordpress website verhuizen naar andere hosting
 excerpt: Hoe kun je het beste een WordPress-website naar een andere hostingprovider verhuizen? Bekijk onze handleiding over het verplaatsen van je site.
-image: https://magickmedia.nl/_astro/stappen-verhuizen-website-wordpress.zZnvfkhF.jpg
+image: https://magickmedia.nl/_astro/stappen-verhuizen-website-wordpress.DNme9-SE.jpg
 category: Hosting
 tags:
   - Wordpress

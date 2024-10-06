@@ -3,7 +3,7 @@ publishDate: 2024-09-21T00:00:00Z
 title: Magick Media - De invloed van je webhosting op je SEO
 h1: Hoeveel invloed heeft je webhosting op SEO en vindbaarheid?
 excerpt: De juiste webhosting heeft een directe invloed op de SEO-prestaties van je website, vooral op het gebied van snelheid, uptime en beveiliging.
-image: /_astro/inloed-webhosting-seo.3iP5D2vF.jpg
+image: /_astro/inloed-webhosting-seo.DeI_kPa8.jpg
 category: Hosting
 tags:
   - Hosting

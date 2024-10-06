@@ -3,7 +3,7 @@ publishDate: 2024-09-30T00:00:00Z
 title: Magick Media - SEO tips en tricks
 h1: Eenvoudige SEO tips en tricks die je website een boost geven
 excerpt: Ontdek 7 eenvoudige SEO-tips en tricks om je website hoger te laten scoren in zoekmachines en meer bezoekers te trekken. Start vandaag met optimaliseren!
-image: /_astro/seo-tips-en-tricks.uhTHFhiI.jpg
+image: /_astro/seo-tips-en-tricks.C6FMcWGI.jpg
 category: seo
 tags:
   - zoekmachine optimalisatie

@@ -3,7 +3,7 @@ publishDate: 2024-09-18T00:00:00Z
 title: Magick Media - Meertalige website in WordPress
 h1: Hoe creëer je een meertalige website in WordPress; Plugins en tips
 excerpt: Leer hoe je een meertalige website in WordPress kunt maken met behulp van plugins. Maak je website toegankelijker en optimaliseer je SEO.
-image: /_astro/meertalige-website-wordpress-plugins.l3Uoan5K.jpg
+image: /_astro/meertalige-website-wordpress-plugins.CXdShqfk.jpg
 category: Development
 tags:
   - WordPress

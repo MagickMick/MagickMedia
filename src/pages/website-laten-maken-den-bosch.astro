@@ -1,0 +1,537 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Prices3 from '~/components/widgets/Pricing3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Hero from '~/components/widgets/Hero.astro';
+
+const images = [
+    { url: "https://www.allooi.nl", imgSrc: "/_astro/allooi.C0F7zWvX.png", alt: "portfolio allooi website laten maken Den Bosch" },
+    { url: "https://tppbaak.nl", imgSrc: "/_astro/tppbaak.DpD3ExtC.png", alt: "website die gemaakt is voor TPPBaak (regio Den Bosch)" },
+    { url: "https://www.zvvzittert.nl", imgSrc: "/_astro/ZVV Zittert.BzWReYwv.png", alt: "website gemaakt voor regio Den Bosch" },
+    { url: "https://weggeefdeals.nl/", imgSrc: "/_astro/weggeefdeals.DZWuE7R0.png", alt: "Weggeefdeals Den Bosch" }
+  ];
+
+const metadata = {
+  title: 'Magick Media - Website laten maken Den Bosch',
+  description:'Een website die opvalt in de regio Den Bosch? Laat je online aanwezigheid door ons versterken.',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+
+  <!-- Hero Widget ******************* -->
+  <Hero
+    tagline="Website laten maken Den Bosch"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Plan een gesprek',
+        href: '/plan-een-gesprek/',
+      },
+      { text: 'Tarieven', href: '#tarieven' },
+    ]}
+  >
+    <Fragment slot="title">
+      Wil je een betaalbare website laten maken in de regio Den Bosch? <span class='text-accent dark:text-white highlight'>Magick Media</span> levert professionele websites tegen lage kosten!
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="sm:inline">
+        Wil je goedkoop een <b>website laten maken in regio Den Bosch</b> zonder concessies aan kwaliteit? Magick Media verwelkomt je graag!
+        </span>
+    </Fragment>
+  </Hero>
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Dit kun je van ons verwachten"
+    subtitle="Wanneer je ons kiest voor jouw website, ben je verzekerd van kwaliteit en professionaliteit op alle fronten."
+    columns={2}
+    items={[
+      {
+        title: 'Gebruiksgemak voorop',
+        description: 'Wij zorgen dat jouw bezoekers eenvoudig en snel door de website kunnen navigeren.',
+        icon: 'tabler:mood-smile-beam',
+      },
+      {
+        title: 'Eenvoudig uitbreiden',
+        description: 'Of je nu een blog toevoegt of nieuwe paginas aanmaakt, jouw website groeit moeiteloos mee.',
+        icon: 'tabler:copy',
+      },
+      {
+        title: 'Up-to-date technologie',
+        description: 'We werken met de nieuwste technologieen om jouw website aan alle moderne eisen te laten voldoen.',
+        icon: 'tabler:cpu',
+      },
+      {
+        title: '100% responsive design',
+        description: 'Jouw website ziet er op ieder apparaat goed uit, van smartphone tot groot scherm.',
+        icon: 'tabler:devices',
+      },
+      {
+        title: 'Snelle performance',
+        description: `Snelheid is essentieel. Wij zorgen voor een optimale laadtijd, zodat bezoekers niet afhaken.`,
+        icon: 'tabler:brand-speedtest',
+      },
+      {
+        title: 'Persoonlijke service',
+        description: 'Wij bieden snelle, persoonlijke support en zorgen ervoor dat je nooit lang op een antwoord hoeft te wachten.',
+        icon: 'tabler:headset',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+  
+  
+  <!-- Pricing2 Widget ******************* -->
+
+  <Prices3
+    title="Onze prijzen"
+    subtitle="Kies het pakket dat bij je past"
+    id="tarieven"
+    prices={[
+      {
+        title: 'Starter',
+        subtitle: 'Tijdelijke aanbieding',
+        price: 0,
+        period: 'eenmalig',
+        items: [
+          { 
+            description: 'Bij hostingpakket van €49,99 p/m',
+          }, 
+          {
+            description: 'Ontwerp naar wens',
+          },
+          {
+            description: 'Wordpress CMS',
+          },
+          {
+            description: "Tot 5 pagina's",
+          },
+        ],
+        callToAction: {
+          text: 'Plan een gesprek',
+          href: '/plan-een-gesprek/',
+        },
+        hasRibbon: true,
+        ribbonTitle: 'Actie',
+      },
+      {
+        title: 'Premium',
+        subtitle: 'Perfect voor MKB & ZZP',
+        price: 499,
+        period: 'eenmalig',
+        items: [
+          { 
+            description: 'Bij hostingpakket van €49,99 p/m',
+          }, 
+          {
+            description: 'Ontwerp naar wens',
+          },
+          {
+            description: 'Wordpress CMS',
+          },
+          {
+            description: "Tot 5 pagina's",
+          },
+        ],
+        callToAction: {
+          text: 'Plan een gesprek',
+          href: '/plan-een-gesprek/',
+        },
+      },
+      {
+        title: 'Pro',
+        subtitle: 'Voor ambitieuze ondernemers',
+        price: 1499,
+        period: 'vanafprijs',
+        items: [
+          {
+            description: 'Bij hostingpakket van €49,99 p/m',
+          },
+          {
+            description: 'Razendsnel en SEO geoptimaliseerd',
+          },
+          {
+            description: 'Unieke website op maat',
+          },
+          {
+            description: 'Gratis intake en offerte',
+          }
+        ],
+        callToAction: {
+          text: 'Plan een gesprek',
+          href: '/plan-een-gesprek/',
+        }
+      }
+    ]}
+  />
+
+  <!-- Steps Widget ****************** -->
+
+  <Steps
+    title="Jouw website in 8 simpele stappen live"
+    tagline="ons proces"
+    isReversed={true}
+    items={[
+      {
+        title: 'Kennismakingsgesprek en intake',
+        icon: 'tabler:number-1',
+      },
+      {
+        title: 'Offerte met duidelijke scope',
+        icon: 'tabler:number-2',
+      },
+      {
+        title: 'Website wordt gebouwd met dummy content',
+        icon: 'tabler:number-3',
+      },
+      {
+        title: 'Klant geeft goedkeuring op het design',
+        icon: 'tabler:number-4',
+      },
+      {
+        title: 'Eerste factuur en hosting van start',
+        icon: 'tabler:number-5',
+      },
+      {
+        title: 'Aanleveren van definitieve teksten en afbeeldingen',
+        icon: 'tabler:number-6',
+      },
+      {
+        title: 'Validatie door de klant',
+        icon: 'tabler:number-7',
+      },
+      {
+        title: 'Website gaat live',
+        icon: 'tabler:number-8',
+      },
+    ]}
+    image={{
+      src: '/_astro/den-bosch-website-laten-maken.CVBBbfCD.jpg',
+      alt: 'Website laten maken in Den Bosch proces',
+    }}
+  />
+
+  
+  <div class="container">
+    <h2 class="font-bold leading-tighter tracking-tighter font-heading text-heading text-3xl md:text-4xl">Deze bedrijven gingen je voor in regio Den Bosch</h2>
+    <div class="image-gallery">
+      {images.map(image => (
+        <a href={image.url} target="_blank" rel="noopener noreferrer">
+          <img src={image.imgSrc} alt={image.alt} />
+        </a>
+      ))}
+    </div>
+  </div>
+  
+  <style>
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px; /* Voeg witruimte links en rechts toe */
+  text-align: center;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Ruimte tussen de afbeeldingen */
+  margin-bottom: 40px; /* Extra ruimte onder de afbeeldingen */
+  margin-top: 40px; /* Ruimte van 40px tussen de titel en de afbeeldingen */
+}
+
+.image-gallery a {
+  flex: 1;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05); /* Vergroot de afbeelding licht bij hover */
+}
+
+/* Responsieve weergave voor mobiele apparaten */
+@media (max-width: 768px) {
+  .image-gallery {
+    flex-direction: column; /* Zet de afbeeldingen onder elkaar */
+    gap: 20px; /* Ruimte tussen de afbeeldingen op mobiel */
+  }
+
+  .image-gallery a {
+    flex: none; /* Zet de afbeeldingen op volledige breedte op mobiel */
+  }
+}
+</style>
+  
+
+<!-- Testimonials Widget *********** -->
+
+<Testimonials
+title="Wat onze klanten in regio Den Bosch zeggen"
+testimonials={[
+  {
+    testimonial: `De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen.`,
+    name: 'Cora',
+    job: 'Pink Roccade',
+  },
+  {
+    testimonial: `Ik ken Mick van Magick Media als een iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort.`,
+    name: 'Marco',
+    job: 'Work in Flow',
+  },
+  {
+    testimonial: `De hosting van mijn website heb ik via Magick Media geregeld, ik ben erg blij met hoe snel en gemakkelijk dit geregeld is. Ik ben zelf webdesigner dus een goede hosting partij is voor mij erg belangrijk. Daarnaast heb ik af en toe wat vragen of extra wensen en tot nu toe werd er dan telkens snel geschakeld. Echt een super goede service en korte lijntjes, ik ben blij dat ik voor Magick Media gekozen heb en ga hem ook aanraden voor mijn eigen klanten die een (nieuwe) hosting partij zoeken.`,
+    name: 'Ronne',
+    job: 'Ronne Design',
+  },
+  {
+    testimonial: `Als eigenaar van boekhoudkantoor Allooi ben ik zeer tevreden met de website gemaakt door Magick Media. Dankzij hun aandacht voor detail, creativiteit en technische expertise hebben we een aantrekkelijke en functionele site gekregen. Dankzij het persoonlijk contact, responsieve houding en bereidheid tot aanpassingen hebben we onze online aanwezigheid geoptimaliseerd, wat heeft geleid tot een toename van klanten. Ik beveel Magick Media dus zeker aan.`,
+    name: 'Leroy',
+    job: 'Allooi Boekhouders & Belastingadviseurs',
+  },
+  {
+    testimonial: `Super tevreden!! Duidelijke communicatie en no noncense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍`,
+    name: 'Belinda',
+    job: 'Ribadogfood & more',
+  },
+]}
+/>
+
+<!-- Structured data reviews ******* -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Magick Media",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "5"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Cora"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Marco"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Ik ken Mick van Magick Media als iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Ronne"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van mijn website heb ik via Magick Media geregeld, ik ben erg blij met hoe snel en gemakkelijk dit geregeld is. Ik ben zelf webdesigner dus een goede hosting partij is voor mij erg belangrijk. Daarnaast heb ik af en toe wat vragen of extra wensen en tot nu toe werd er dan telkens snel geschakeld. Echt een super goede service en korte lijntjes, ik ben blij dat ik voor Magick Media gekozen heb en ga hem ook aanraden voor mijn eigen klanten die een (nieuwe) hosting partij zoeken."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Leroy"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Als eigenaar van boekhoudkantoor Allooi ben ik zeer tevreden met de website gemaakt door Magick Media. Dankzij hun aandacht voor detail, creativiteit en technische expertise hebben we een aantrekkelijke en functionele site gekregen. Dankzij het persoonlijk contact, responsieve houding en bereidheid tot aanpassingen hebben we onze online aanwezigheid geoptimaliseerd, wat heeft geleid tot een toename van klanten. Ik beveel Magick Media dus zeker aan."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Belinda"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Super tevreden!! Duidelijke communicatie en no nonsense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍"
+      }
+    ]
+  }
+  </script>
+
+<!-- HighlightedPosts Widget ******* -->
+
+<BlogLatestPosts
+title="Onze laatste blogposts"
+/>
+
+<!-- CallToAction Widget *********** -->
+
+<CallToAction
+title="Klaar voor een  <span class='text-accent dark:text-white highlight'>Magische</span> website?"
+subtitle="Wacht niet langer en neem contact met ons op.</br> Wij gaan graag voor jou aan de slag!"
+actions={[
+  {
+    variant: 'primary',
+    text: 'Plan een gesprek',
+    href: '/plan-een-gesprek/',
+  },
+]}
+/>
+
+<!-- FAQs Widget ******************* -->
+
+<FAQs
+title="Wat klanten willen weten"
+subtitle="Het is belangrijk dat al jouw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact/' title='Neem contact op voor vragen aan Magick Media' class='text-link dark:text-link'>contact</a> met ons op."
+tagline="Veelgestelde vragen"
+classes={{ container: 'max-w-6xl' }}
+items={[
+  {
+    title: 'Is een hosting en beheer pakket perse nodig?',
+    description:
+      "Door ons <a href='/hosting-en-beheer/' title='Meer informatie over ons hostingpakket' class='text-link dark:text-link'>hostingpakket</a>  kunnen wij er voor blijven zorgen dat je website optimaal blijft presteren. Hoewel wij het niet aanraden, kunnen wij ook een website voor je maken zonder hostingpakket. In dat geval gelden andere prijzen dan hierboven aangegeven.",
+  },
+  {
+    title: 'Waarom factureren jullie al bij stap 5?',
+    description:
+    'In deze stap is de website technisch eigenlijk al klaar en wachten we alleen nog op de inhoud (teksten en afbeeldingen). Na deze stap zijn we afhankelijk van de klant die deze teksten en afbeeldingen aanleverd. Helaas zien we te vaak dat het best lang kan duren voordat we inhoud krijgen aangeleverd. Vaak omdat de klant het erg druk heeft, wat natuurlijk erg fijn is. Om hier financieel niet afhankelijk van te zijn, hebben we er voor gekozen om al bij stap 5 te factureren.',
+  },
+  {
+    title: 'Kan ik zelf aanpassingen doen aan de website?',
+    description:
+      "Dat is niet nodig! Wij passen met liefde de website voor je aan, als dat nodig is. Het enige wat jij hoeft te doen, is een bericht te sturen met de aanpassing! Zijn het grote aanpassingen? Bij meer dan 30 minuten werk per maand, werken wij met ons uurtarief. Dit doen wij omdat wij een volledige ontzorging belangrijk vinden. Omdat jij het al druk genoeg hebt met ondernemen!",
+  },
+  {
+    title: "Ben ik voor 100% de eigenaar van de website die jullie voor mij maken?",
+    description:
+      "Ja, nadat je de eenmalige kosten hebt betaald voor je website ben je hiervan 100% de eigenaar van. De enige uitzondering is de aanbieding voor Starters. In deze aanbieding ben je de eigenaar van het product nadat je abonnement minimaal twee jaar oud is bij ons. Wil je toch eerder weg? Dan kun je je product altijd afkopen. Het is wel belangrijk om te weten dat voor de Wordpress website betaalde plugins worden gebruikt, daar betalen wij dus jaarlijks voor. Mocht je je site willen overnemen, dan zijn deze kosten ook voor eigen beheer. ",
+  },
+  {
+    title: "Moet ik de domeinregistratie zelf doen?",
+    description:
+      "Als je al een domein hebt gekocht, sluiten we de nieuwe website graag daar op aan. Heb je dit niet? Dan regelen wij graag de domeinnaam voor je. Geen extra kosten aan verbonden, alleen de kosten die wij betalen bij het aanschaffen van de domeinnaam.",
+  },
+  {
+    title: "Hoe lang duurt het gemiddeld om een website te laten ontwikkelen?",
+    description:
+      "Bij het Premium pakket lukt het ons om gemiddeld binnen een maand de website live te hebben, mits er aan de klant kant geen vertraging is met het geven van feedback en opleveren van de inhoud (teksten en afbeeldingen). Bij het Pro pakket is het afhankelijk van de groote van de website. De kleinst mogelijk website is in ongeveer twee maanden live.",
+  },
+  {
+    title: "Waarom zou ik voor Pro kiezen in plaats van Premium?",
+    description:
+      "Voor de meeste ondernemers is het Premium pakket ruim voldoende. Ook bij het Premium pakket krijg je een, voor het menselijk oog, snelle website. Wil je echt het verschil gaan maken op SEO gebied of wil je qua vormgeving net dat stapje extra? Dan is een Pro pakket aan te raden. De snelheid van deze website is razendsnel, wat belangrijk is voor SEO. En dan praten we over milisecondes, iets waar Google wel naar kijkt, maar het menselijk oog vaak niet merkt.",
+  },
+  {
+    title: "Zorgen jullie voor zoekmachineoptimalisatie (SEO) tijdens het ontwikkelproces?",
+    description:
+      "Bij het Premium pakket worden er plugins geinstalleerd die de website sneller maken. Echter valt de snelheid, wat belangrijk is voor SEO, niet te vergelijken met een website van het Pro pakket. Bij het Pro pakket wordt er technisch rekening gehouden met SEO. Dat betekend dat wij de website zo maken dat deze razendsnel is en technisch goed in elkaar zit. Als je met je website echt wilt focussen op SEO, zijn naast de technische kant van de website nog een aantal dingen belangrijk. Alleen Technische SEO is dus niet genoeg om je website bovenaan in Google te krijgen op concurrerende zoekwoorden. Wij kunnen je helpen om een SEO strategie te ontwikkelen en toe te passen. Meer hierover vind je op de pagina <a href='/zoekmachine-optimalisatie-seo/' title='Meer informatie over Zoekmachine Optimalisatie SEO'class='text-link dark:text-link'>Zoekmachine optimalisatie (SEO)</a>"
+  }
+]}
+/>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is een hosting en beheer pakket perse nodig?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Door ons hostingpakket kunnen wij er voor blijven zorgen dat je website optimaal blijft presteren. Hoewel wij het niet aanraden, kunnen wij ook een website voor je maken zonder hostingpakket. In dat geval gelden andere prijzen dan hierboven aangegeven."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Waarom factureren jullie al bij stap 5?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In deze stap is de website technisch eigenlijk al klaar en wachten we alleen nog op de inhoud (teksten en afbeeldingen). Na deze stap zijn we afhankelijk van de klant die deze teksten en afbeeldingen aanlevert. Helaas zien we te vaak dat het best lang kan duren voordat we inhoud krijgen aangeleverd. Vaak omdat de klant het erg druk heeft, wat natuurlijk erg fijn is. Om hier financieel niet afhankelijk van te zijn, hebben we ervoor gekozen om al bij stap 5 te factureren."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan ik zelf aanpassingen doen aan de website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dat is niet nodig! Wij passen met liefde de website voor je aan, als dat nodig is. Het enige wat jij hoeft te doen, is een bericht te sturen met de aanpassing! Zijn het grote aanpassingen? Bij meer dan 30 minuten werk per maand, werken wij met ons uurtarief. Dit doen wij omdat wij een volledige ontzorging belangrijk vinden. Omdat jij het al druk genoeg hebt met ondernemen!"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ben ik voor 100% de eigenaar van de website die jullie voor mij maken?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, nadat je de eenmalige kosten hebt betaald voor je website ben je hiervan 100% de eigenaar van. De enige uitzondering is de aanbieding voor Starters. In deze aanbieding ben je de eigenaar van het product nadat je abonnement minimaal twee jaar actief is bij ons. Als je eerder wilt vertrekken, heb je de mogelijkheid om je product eerder af te kopen. Het is wel belangrijk om te weten dat voor de Wordpress website betaalde plugins worden gebruikt, daar betalen wij dus jaarlijks voor. Mocht je je site willen overnemen, dan zijn deze kosten ook voor eigen beheer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Moet ik de domeinregistratie zelf doen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Als je al een domein hebt gekocht, sluiten we de nieuwe website graag daar op aan. Heb je dit niet? Dan regelen wij graag de domeinnaam voor je. Geen extra kosten aan verbonden, alleen de kosten die wij betalen bij het aanschaffen van de domeinnaam."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hoe lang duurt het gemiddeld om een website te laten ontwikkelen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bij het Premium pakket lukt het ons om gemiddeld binnen een maand de website live te hebben, mits er aan de klant kant geen vertraging is met het geven van feedback en opleveren van de inhoud (teksten en afbeeldingen). Bij het Pro pakket is het afhankelijk van de groote van de website. De kleinst mogelijk website is in ongeveer twee maanden live."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Waarom zou ik voor Pro kiezen in plaats van Premium?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Voor de meeste ondernemers is het Premium pakket ruim voldoende. Ook bij het Premium pakket krijg je een, voor het menselijk oog, snelle website. Wil je echt het verschil gaan maken op SEO gebied of wil je qua vormgeving net dat stapje extra? Dan is een Pro pakket aan te raden. De snelheid van deze website is razendsnel, wat belangrijk is voor SEO. En dan praten we over milisecondes, iets waar Google wel naar kijkt, maar het menselijk oog vaak niet merkt."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Zorgen jullie voor zoekmachineoptimalisatie (SEO) tijdens het ontwikkelproces?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bij het Premium pakket worden er plugins geïnstalleerd die de website sneller maken. Echter valt de snelheid, wat belangrijk is voor SEO, niet te vergelijken met een website van het Pro pakket. Bij het Pro pakket wordt er technisch rekening gehouden met SEO. Dat betekent dat wij de website zo maken dat deze razendsnel is en technisch goed in elkaar zit. Als je met je website echt wilt focussen op SEO, zijn naast de technische kant van de website nog een aantal dingen belangrijk. Alleen Technische SEO is dus niet genoeg om je website bovenaan in Google te krijgen op concurrerende zoekwoorden. Wij kunnen je helpen om een SEO strategie te ontwikkelen en toe te passen. Meer hierover vind je op de pagina Zoekmachine optimalisatie (SEO)."
+        }
+      }
+    ]
+  }
+  </script>
+</Layout>

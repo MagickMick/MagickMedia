@@ -107,36 +107,15 @@ export const footerData = {
           text: 'Grafisch ontwerp',
           href: getPermalink('/grafisch-ontwerp/'),
         },
-        {
-          text: 'Website laten maken Eindhoven',
-          href: getPermalink('/website-laten-maken-eindhoven/'),
-        },
       ],
     },
     {
-      title: 'Development',
+      title: 'Populaire blogs',
       links: [
         {
           text: 'Zelf een Wordpress website maken',
           href: getPermalink('/zelf-wordpress-website-maken/'),
         },
-        {
-          text: 'Waarom wij Elementor gebruiken',
-          href: getPermalink('/elementor-als-wordpress-pagebuilder/'),
-        },
-        {
-          text: 'Hoe bescherm je je WordPress website',
-          href: getPermalink('/beveilig-je-wordpress-website-tegen-hackers/'),
-        },
-        {
-          text: 'Hoe creëer je een meertalige website in WordPress',
-          href: getPermalink('/meertalige-website-wordpress-plugins/'),
-        }
-      ],
-    },
-    {
-      title: 'SEO',
-      links: [
         {
           text: 'Gratis SEO handleiding voor beginners',
           href: getPermalink('/gratis-seo-handleiding-voor-beginners/'),
@@ -150,12 +129,41 @@ export const footerData = {
           href: getPermalink('/zoekwoorden-analyseren-en-hogerop-in-google/'),
         },
         {
-          text: 'Hoe gastbloggen je linkbuilding strategie kan versterken',
-          href: getPermalink('/gastbloggen-linkbuilding-seo-strategie/'),
+          text: 'Hoe optimaliseer je je Google Ads-campagnes?',
+          href: getPermalink('/optimaliseer-google-ads-campagne-hoger-conversieratio/'),
         },
         {
-          text: 'Beter opvallen in de zoekresultaten met Rich Snippets',
-          href: getPermalink('/opvallen-zoekresultaten-rich-snippets/'),
+          text: 'Hoe je een negatief zoekwoordstrategie implementeert in Google Ads',
+          href: getPermalink('/gebruik-negatieve-zoekwoorden-google-ads-strategie/'),
+        },
+      ],
+    },
+    {
+      title: 'Website laten maken',
+      links: [
+        {
+          text: 'Website laten maken Eindhoven',
+          href: getPermalink('/website-laten-maken-eindhoven/'),
+        },
+        {
+          text: 'Website laten maken Tilburg',
+          href: getPermalink('/website-laten-maken-tilburg/'),
+        },
+        {
+          text: 'Website laten maken Breda',
+          href: getPermalink('/website-laten-maken-breda/'),
+        },
+        {
+          text: 'Website laten maken Den Bosch',
+          href: getPermalink('/website-laten-maken-den-bosch/'),
+        },
+        {
+          text: 'Website laten maken Nijmegen',
+          href: getPermalink('/website-laten-maken-nijmegen/'),
+        },
+        {
+          text: 'Website laten maken Waalwijk',
+          href: getPermalink('/website-laten-maken-waalwijk/'),
         },
       ],
     },

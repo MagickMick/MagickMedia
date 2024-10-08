@@ -1,0 +1,355 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+
+const metadata = {
+  title: 'Magick Media - Online Marketing Bureau Tilburg',
+  description: 'Magick Media, hét online marketing bureau uit Tilburg. Wij helpen je bij het ontwikkelen en optimaliseren van de vindbaarheid van jouw website of webshop.',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Meer over ons',
+        href: '/over-ons/',
+      },
+      { text: 'Diensten', href: '#diensten' },
+    ]}
+    image={{ src: '~/assets/images/hero.png', alt: 'Magick Media Hero' }}
+  >
+    <Fragment slot="title">
+      Maximaliseer je online succes met <span class="text-accent dark:text-white highlight"> Magick Media</span>, hét online marketing bureau in Tilburg.
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="sm:inline">
+        Wij zijn experts in webontwikkeling, SEO, SEA, leadgeneratie, hosting en het grafisch ontwerp van jouw media-uitingen!
+        </span>
+    </Fragment>
+  </Hero>
+
+  <!-- Note Widget ******************* -->
+
+  <Note />
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="diensten"
+    tagline="Diensten"
+    title="Hoe wij onze klanten in regio Tilburg ondersteunen"
+    subtitle="Magick Media biedt expertise in de volgende diensten:"
+    items={[
+      {
+        title: 'Website ontwikkeling',
+        description:
+          "Voor slechts €499 bouwen wij een professionele en betaalbare website met templates die we naar jouw voorkeur aanpassen. Wil je liever een op maat gemaakte website? Na een intakegesprek ontvang je van ons een vrijblijvende offerte. <a href='/website-laten-maken/' title='Meer informatie over een website laten maken door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+        icon: 'tabler:code',
+
+      },
+      {
+        title: 'Webshop ontwikkeling',
+        description:
+          "Al vanaf €799 creëren wij een gebruiksklare, professionele webshop met een geintegreerd betaalsysteem. Producten toevoegen zit niet in de prijs inbegrepen, maar we staan klaar om je daarbij te helpen. <a href='/webshop-laten-maken/' title='Meer informatie over een webshop laten maken door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+        icon: 'tabler:shopping-cart',
+      },
+      {
+        title: 'Zoekmachine optimalisatie (SEO)',
+        description:
+          "Wil je beter gevonden worden in zoekmachines zoals Google? Met onze SEO-expertise zorgen we ervoor dat jouw bedrijf online perfect zichtbaar is voor jouw doelgroep. <a href='/zoekmachine-optimalisatie-seo/' title='Meer informatie over zoekmachine optimalisatie door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+        icon: 'tabler:seo',
+      },
+      {
+        title: 'Google Ads (SEA)',
+        description:
+          "Wil je direct bovenaan de zoekresultaten staan? Met Google Ads zetten wij een resultaatgerichte strategie op, optimaliseren we je campagnes en zorgen we voor het beste rendement. <a href='/google-ads-sea/' title='Meer informatie over Google Ads SEA door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+        icon: 'tabler:badge-ad',
+      },
+      {
+        title: 'Leadgeneratie',
+        description:
+          "Trek meer klanten aan met affiliate marketing! Je betaalt pas bij een lead of sale en kunt je doelgroep gericht bereiken met een flexibel budget. <a href='/leadgeneratie/' title='Meer informatie over leadgeneratie door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+        icon: 'tabler:magnet',
+      },
+      {
+        title: 'Hosting & beheer',
+        description:
+          "Wij nemen het beheer van je website of webshop volledig uit handen. Onze snelle SSD-servers zorgen voor stabiele hosting, wat bijdraagt aan een betere vindbaarheid. <a href='/hosting-en-beheer/' title='Meer informatie over hosting en beheer door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+        icon: 'tabler:server',
+      },
+      {
+        title: 'Grafisch ontwerp',
+        description:
+          "Wij helpen je bij het ontwerpen van al je media-uitingen, van websites en logos tot visitekaartjes en flyers, zodat je altijd een professionele indruk maakt. <a href='/grafisch-ontwerp/' title='Meer informatie over grafisch ontwerp door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+        icon: 'tabler:vector',
+      },
+    ]}
+  />
+
+  <Steps
+    title="Benieuwd wat wij voor <span class='text-accent dark:text-white highlight'>jou</span> kunnen doen? Vraag gratis advies op maat aan."
+    items={[
+      {
+        title: 'Stap 1: <span class="font-medium">Plan een afspraak</span>',
+        description:
+          "Wij zijn benieuwd hoe we je kunnen helpen. Plan een afspraak met ons, en we zien je graag bij de intake! Liever een ander contactmoment? Bezoek onze <a href='/contact/' title='Contact met Magick Media' class='text-link dark:text-link'>contactpagina</a> voor meer mogelijkheden.",
+        icon: 'tabler:at',
+        buttonText: 'Plan een afspraak',
+        href:'/plan-een-gesprek/',
+      },
+      {
+        title: 'Stap 2: <span class="font-medium">Intakegesprek</em>',
+        description:
+          "Geweldig dat je interesse hebt in onze diensten! Tijdens het intakegesprek, in persoon of online, bespreken we jouw wensen. Op basis daarvan geven wij advies op maat.",
+        icon: 'tabler:video',
+      },
+      {
+        title: 'Stap 3: <span class="font-medium">Persoonlijk advies</span>',
+        description:
+          'Na de intake ontvang je gratis persoonlijk advies, samen met een vrijblijvende offerte. Zo kun je alles op je gemak overwegen.',
+        icon: 'tabler:gift',
+      },
+      {
+        title: 'Actie!',
+        description:
+          'Klinkt het advies goed? Dan kunnen we direct aan de slag en starten we een succesvolle samenwerking!',
+        icon: 'tabler:check',
+      },
+    ]}
+    image={{
+      src: '_astro/online-marketing-bureau-tilburg.BlelQGaI.jpg', 
+      alt: 'Advies op maat bij online marketing bureau in Tilburg Magick Media',
+    }}
+  />
+
+  <!-- Testimonials Widget *********** -->
+
+<Testimonials
+title="Wat onze klanten in regio Tilburg zeggen"
+testimonials={[
+  {
+    testimonial: `De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen.`,
+    name: 'Cora',
+    job: 'Pink Roccade',
+  },
+  {
+    testimonial: `Ik ken Mick van Magick Media als een iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort.`,
+    name: 'Marco',
+    job: 'Work in Flow',
+  },
+  {
+    testimonial: `De hosting van mijn website heb ik via Magick Media geregeld, ik ben erg blij met hoe snel en gemakkelijk dit geregeld is. Ik ben zelf webdesigner dus een goede hosting partij is voor mij erg belangrijk. Daarnaast heb ik af en toe wat vragen of extra wensen en tot nu toe werd er dan telkens snel geschakeld. Echt een super goede service en korte lijntjes, ik ben blij dat ik voor Magick Media gekozen heb en ga hem ook aanraden voor mijn eigen klanten die een (nieuwe) hosting partij zoeken.`,
+    name: 'Ronne',
+    job: 'Ronne Design',
+  },
+  {
+    testimonial: `Als eigenaar van boekhoudkantoor Allooi ben ik zeer tevreden met de website gemaakt door Magick Media. Dankzij hun aandacht voor detail, creativiteit en technische expertise hebben we een aantrekkelijke en functionele site gekregen. Dankzij het persoonlijk contact, responsieve houding en bereidheid tot aanpassingen hebben we onze online aanwezigheid geoptimaliseerd, wat heeft geleid tot een toename van klanten. Ik beveel Magick Media dus zeker aan.`,
+    name: 'Leroy',
+    job: 'Allooi Boekhouders & Belastingadviseurs',
+  },
+  {
+    testimonial: `Super tevreden!! Duidelijke communicatie en no noncense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍`,
+    name: 'Belinda',
+    job: 'Ribadogfood & more',
+  },
+]}
+/>
+
+<!-- Structured data reviews ******* -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Magick Media",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "5"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Cora"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Marco"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Ik ken Mick van Magick Media als iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Ronne"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van mijn website heb ik via Magick Media geregeld, ik ben erg blij met hoe snel en gemakkelijk dit geregeld is. Ik ben zelf webdesigner dus een goede hosting partij is voor mij erg belangrijk. Daarnaast heb ik af en toe wat vragen of extra wensen en tot nu toe werd er dan telkens snel geschakeld. Echt een super goede service en korte lijntjes, ik ben blij dat ik voor Magick Media gekozen heb en ga hem ook aanraden voor mijn eigen klanten die een (nieuwe) hosting partij zoeken."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Leroy"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Als eigenaar van boekhoudkantoor Allooi ben ik zeer tevreden met de website gemaakt door Magick Media. Dankzij hun aandacht voor detail, creativiteit en technische expertise hebben we een aantrekkelijke en functionele site gekregen. Dankzij het persoonlijk contact, responsieve houding en bereidheid tot aanpassingen hebben we onze online aanwezigheid geoptimaliseerd, wat heeft geleid tot een toename van klanten. Ik beveel Magick Media dus zeker aan."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Belinda"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Super tevreden!! Duidelijke communicatie en no nonsense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍"
+      }
+    ]
+  }
+  </script>
+
+  <!-- HighlightedPosts Widget ******* -->
+
+  <BlogLatestPosts
+    title="Onze laatste blogposts"
+  />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    title="Klaar voor een  <span class='text-accent dark:text-white highlight'>Magische</span> website?"
+    subtitle="Wacht niet langer en neem contact met ons op.</br> Wij gaan graag voor jou aan de slag!"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Plan een gesprek',
+        href: '/plan-een-gesprek/',
+      },
+    ]}
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Wat klanten willen weten"
+    subtitle="Het is belangrijk dat al jouw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact/' title='neem contact op voor vragen aan Magick Media' class='text-link dark:text-link'>contact</a> met ons op."
+    tagline="Veelgestelde vragen"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'Waarom zou ik moeten samenwerken met Magick Media?',
+        description:
+          "Bij Magick Media profiteer je van: persoonlijk contact, lage prijzen, hoge kwaliteit en een volledige ontzorging van je online marketing. Ons team luistert naar jouw wensen en behoeftes. Wij werken met zorg om jouw media-uitingen, bijvoorbeeld een website of webshop, te creëren. Eén die perfect aansluit bij jouw bedrijf. We bieden betaalbare tarieven zonder dat dit ten koste gaat van kwaliteit. Kortom: wij zorgen ervoor dat je platform en online marketing professioneel, gebruiksvriendelijk en geoptimaliseerd is.",
+      },
+      {
+        title: 'Staan jullie met Magick Media ingeschreven bij de KVK?',
+        description:
+          'Bij de Kamer van Koophandel staan we ingeschreven onder de naam Magick Media (KVK-nummer 84696109). In 2021 is Magick Media gestart. Destijds was het hosten van websites onze enige dienstverlening maar over de tijd heen zijn onze diensten gegroeid.',
+      },
+      {
+        title: 'Wat zijn jullie vakgebieden en expertise?',
+        description:
+          "Wij hebben een breed scala van expertises in huis. De gebieden waarin wij opleidingen hebben gevolgd zijn onder andere ICT, online marketing en grafische vormgeving. Binnen online marketing hebben we ons gespecaliseerd in SEO, SEA en leadgeneratie. De eerste twee zorgen ervoor dat jouw website of webshop beter gevonden wordt in zoekmachines. Met leadgeneratie zorgen wij voor nieuwe kwalitatieve klanten van jouw product of dienst.",
+      },
+      {
+        title: "Ben ik volledige de eigenaar van de website of webshop die jullie voor mij maken?",
+        description:
+          "Ja, nadat je de eenmalige kosten hebt betaald voor je website of webshop ben je hiervoor 100% de eigenaar van. De enige uitzondering is de aanbieding voor Starters. In deze aanbieding ben je de eigenaar van het product nadat je abonnement minimaal twee jaar oud is bij ons. Wil je toch eerder weg? Dan kun je je product altijd afkopen. Het is wel belangrijk om te weten dat voor de Wordpress website betaalde plugins worden gebruikt, daar betalen wij dus jaarlijks voor. Mocht je je site willen overnemen, dan zijn deze kosten ook voor eigen beheer. ",
+      },
+    ]}
+  />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Waarom zou ik moeten samenwerken met Magick Media?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bij Magick Media profiteer je van: persoonlijk contact, lage prijzen, hoge kwaliteit en een volledige ontzorging van je online marketing. Ons team luistert naar jouw wensen en behoeftes. Wij werken met zorg om jouw media-uitingen, bijvoorbeeld een website of webshop, te creëren. Eén die perfect aansluit bij jouw bedrijf. We bieden betaalbare tarieven zonder dat dit ten koste gaat van kwaliteit. Kortom: wij zorgen ervoor dat je platform en online marketing professioneel, gebruiksvriendelijk en geoptimaliseerd is."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Staan jullie met Magick Media ingeschreven bij de KVK?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bij de Kamer van Koophandel staan we ingeschreven onder de naam Magick Media (KVK-nummer 84696109). In 2021 is Magick Media gestart. Destijds was het hosten van websites onze enige dienstverlening. Omdat onze diensten over de tijd heen gegroeid zijn, hebben we een re-branding gehad naar Magick Media. Zo is de naam in ieder geval niet meer verwarrend in de communicatie van onze dienstverleningen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat zijn jullie vakgebieden en expertise?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wij hebben een breed scala van expertises in huis. De gebieden waarin wij opleidingen hebben gevolgd zijn onder andere ICT, online marketing en grafische vormgeving. Binnen online marketing hebben we ons gespecialiseerd in SEO, SEA en leadgeneratie. De eerste twee zorgen ervoor dat jouw website of webshop beter gevonden wordt in zoekmachines. Met leadgeneratie zorgen wij voor nieuwe kwalitatieve klanten van jouw product of dienst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ben ik volledige de eigenaar van de website of webshop die jullie voor mij maken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, nadat je de eenmalige kosten hebt betaald voor je website of webshop ben je hiervoor 100% de eigenaar van. De enige uitzondering is de aanbieding voor Starters. In deze aanbieding ben je de eigenaar van het product nadat je abonnement minimaal twee jaar oud is bij ons. Wil je toch eerder weg? Dan kun je je product altijd afkopen. Het is wel belangrijk om te weten dat voor de Wordpress website betaalde plugins worden gebruikt, daar betalen wij dus jaarlijks voor. Mocht je je site willen overnemen, dan zijn deze kosten ook voor eigen beheer."
+          }
+        }
+      ]
+    }
+    </script>
+    
+
+  <!-- Stats Widget
+
+  <Stats
+    stats={[
+      { title: 'Downloads', amount: '132K' },
+      { title: 'Stars', amount: '24.8K' },
+      { title: 'Forks', amount: '10.3K' },
+      { title: 'Users', amount: '48.4K' },
+    ]}
+  />
+  -->
+</Layout>

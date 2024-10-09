@@ -10,8 +10,8 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 
 const metadata = {
-  title: 'Magick Media - Online Marketing Bureau Tilburg',
-  description: 'Magick Media, hét online marketing bureau uit Tilburg. Wij helpen je bij het ontwikkelen en optimaliseren van de vindbaarheid van jouw website of webshop.',
+  title: 'Magick Media - Online Marketing Bureau Nijmegen',
+  description: 'Bij Magick Media, online marketing bureau in regio Nijmegen, richten wij ons op het creëren en verbeteren van de vindbaarheid van jouw website of webshop.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -27,15 +27,15 @@ const metadata = {
       },
       { text: 'Diensten', href: '#diensten' },
     ]}
-    image={{ src: '~/assets/images/hero.png', alt: 'Magick Media regio Tilburg Hero' }}
+    image={{ src: '~/assets/images/hero.png', alt: 'Magick Media regio Nijmegen Hero' }}
   >
     <Fragment slot="title">
-      Maximaliseer je online succes met <span class="text-accent dark:text-white highlight"> Magick Media</span>, hét online marketing bureau in Tilburg.
+      Versterk je digitale strategie met <span class="text-accent dark:text-white highlight"> Magick Media</span>, het toonaangevende online marketing bureau uit regio Nijmegen.
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="sm:inline">
-        Wij zijn experts in webontwikkeling, SEO, SEA, leadgeneratie, hosting en het grafisch ontwerp van jouw mediauitingen in regio Tilburg!
+        Van webontwikkeling tot SEO, SEA, leadgeneratie en hosting, wij creëren de perfecte online aanwezigheid in regio Nijmegen.
         </span>
     </Fragment>
   </Hero>
@@ -49,94 +49,95 @@ const metadata = {
   <Features
     id="diensten"
     tagline="Diensten"
-    title="Hoe wij onze klanten in regio Tilburg ondersteunen"
-    subtitle="Magick Media biedt expertise in de volgende diensten:"
+    title="Hoe wij jouw bedrijf in regio Nijmegen vooruit helpen"
+    subtitle="Magick Media biedt de volgende specialisaties aan:"
     items={[
       {
-        title: 'Zoekmachine optimalisatie (SEO)',
+        title: 'SEO',
         description:
-          "Wil je beter gevonden worden in zoekmachines zoals Google? Met onze SEO-expertise zorgen we ervoor dat jouw bedrijf online perfect zichtbaar is voor jouw doelgroep. <a href='/zoekmachine-optimalisatie-seo/' title='Meer informatie over zoekmachine optimalisatie door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+          "Goed vindbaar zijn op Google is cruciaal. Met onze SEO-kennis zorgen we dat jouw website optimaal gevonden wordt door je doelgroep. <a href='/zoekmachine-optimalisatie-seo/' title='Meer informatie over zoekmachine optimalisatie door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
         icon: 'tabler:seo',
       },
       {
-        title: 'Google Ads (SEA)',
+        title: 'Google Ads',
         description:
-          "Wil je direct bovenaan de zoekresultaten staan? Met Google Ads zetten wij een resultaatgerichte strategie op, optimaliseren we je campagnes en zorgen we voor het beste rendement. <a href='/google-ads-sea/' title='Meer informatie over Google Ads SEA door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+          "Met Google Ads ben je direct zichtbaar. Wij bouwen een conversiegerichte strategie en beheren je campagnes voor de beste resultaten. <a href='/google-ads-sea/' title='Meer informatie over Google Ads SEA door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
         icon: 'tabler:badge-ad',
+      },
+      {
+        title: 'Leadgeneratie',
+        description:
+          "Haal meer klanten binnen met affiliate marketing. Je betaalt alleen voor leads of sales en behoudt volledige controle over je budget. <a href='/leadgeneratie/' title='Meer informatie over leadgeneratie door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+        icon: 'tabler:magnet',
+      },
+      {
+        title: 'Grafisch ontwerp',
+        description:
+          "We creëren niet alleen je website,  maar helpen ook met het ontwerpen van logos, flyers en visitekaartjes, zodat jouw merk er altijd professioneel uitziet. <a href='/grafisch-ontwerp/' title='Meer informatie over grafisch ontwerp door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+        icon: 'tabler:vector',
       },
       {
         title: 'Website ontwikkeling',
         description:
-          "Voor slechts €499 bouwen wij een professionele en betaalbare website met templates die we naar jouw voorkeur aanpassen. Wil je liever een op maat gemaakte website? Na een intakegesprek ontvang je van ons een vrijblijvende offerte. <a href='/website-laten-maken/' title='Meer informatie over een website laten maken door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+          "Al vanaf €499 bouwen wij een betaalbare, professionele website die we met enkele templates naar wens aanpassen. Wil je een unieke website? Vraag een vrijblijvende offerte aan na ons intakegesprek. <a href='/website-laten-maken/' title='Meer informatie over een website laten maken door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
         icon: 'tabler:code',
       },
       {
         title: 'Webshop ontwikkeling',
         description:
-          "Al vanaf €799 creëren wij een gebruiksklare, professionele webshop met een geintegreerd betaalsysteem. Producten toevoegen zit niet in de prijs inbegrepen, maar we staan klaar om je daarbij te helpen. <a href='/webshop-laten-maken/' title='Meer informatie over een webshop laten maken door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+          "Vanaf slechts €799 zetten we een volledig functionele webshop voor je op, inclusief betaalsysteem. Voor hulp met producttoevoegingen staan we uiteraard voor je klaar. <a href='/webshop-laten-maken/' title='Meer informatie over een webshop laten maken door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
         icon: 'tabler:shopping-cart',
-      },
-      {
-        title: 'Leadgeneratie',
-        description:
-          "Trek meer klanten aan met affiliate marketing! Je betaalt pas bij een lead of sale en kunt je doelgroep gericht bereiken met een flexibel budget. <a href='/leadgeneratie/' title='Meer informatie over leadgeneratie door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
-        icon: 'tabler:magnet',
       },
       {
         title: 'Hosting & beheer',
         description:
-          "Wij nemen het beheer van je website of webshop volledig uit handen. Onze snelle SSD-servers zorgen voor stabiele hosting, wat bijdraagt aan een betere vindbaarheid. <a href='/hosting-en-beheer/' title='Meer informatie over hosting en beheer door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
+          "Wij verzorgen super snelle hosting en volledig beheer van jouw website. Zo heb jij geen zorgen en is je site altijd snel en goed bereikbaar. <a href='/hosting-en-beheer/' title='Meer informatie over hosting en beheer door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
         icon: 'tabler:server',
       },
-      {
-        title: 'Grafisch ontwerp',
-        description:
-          "Wij helpen je bij het ontwerpen van al je media-uitingen, van websites en logos tot visitekaartjes en flyers, zodat je altijd een professionele indruk maakt. <a href='/grafisch-ontwerp/' title='Meer informatie over grafisch ontwerp door Magick Media' class='text-link dark:text-link'>Meer info &raquo;</a>",
-        icon: 'tabler:vector',
-      },
+      
     ]}
   />
 
   <Steps
-    title="Benieuwd wat wij voor <span class='text-accent dark:text-white highlight'>jou</span> kunnen doen? Vraag gratis advies op maat aan."
+    title="Ontdek wat wij voor <span class='text-accent dark:text-white highlight'>jou</span> kunnen betekenen! Vraag gratis advies op maat aan."
     items={[
       {
-        title: 'Stap 1: <span class="font-medium">Plan een afspraak</span>',
+        title: 'Stap 1: <span class="font-medium">Plan een gesprek</span>',
         description:
-          "Wij zijn benieuwd hoe we je kunnen helpen. Plan een afspraak met ons, en we zien je graag bij de intake! Liever een ander contactmoment? Bezoek onze <a href='/contact/' title='Contact met Magick Media' class='text-link dark:text-link'>contactpagina</a> voor meer mogelijkheden.",
+          "We horen graag hoe we je kunnen ondersteunen. Plan een gesprek en wij ontmoeten je bij de intake! Wil je liever op een andere manier contact? Bekijk onze <a href='/contact/' title='Contact met Magick Media' class='text-link dark:text-link'>contactpagina</a> voor de mogelijkheden.",
         icon: 'tabler:at',
         buttonText: 'Plan een afspraak',
         href:'/plan-een-gesprek/',
       },
       {
-        title: 'Stap 2: <span class="font-medium">Intakegesprek</em>',
+        title: 'Stap 2: <span class="font-medium">Intake</em>',
         description:
-          "Geweldig dat je interesse hebt in onze diensten! Tijdens het intakegesprek, in persoon of online, bespreken we jouw wensen. Op basis daarvan geven wij advies op maat.",
+          "Super dat je geinteresseerd bent! In een persoonlijk of  online gesprek bespreken we jouw wensen en geven wij advies op basis van jouw input.",
         icon: 'tabler:video',
       },
       {
-        title: 'Stap 3: <span class="font-medium">Persoonlijk advies</span>',
+        title: 'Stap 3: <span class="font-medium">Advies op maat</span>',
         description:
-          'Na de intake ontvang je gratis persoonlijk advies, samen met een vrijblijvende offerte. Zo kun je alles op je gemak overwegen.',
+          'Na de intake sturen we je gratis advies op maat, samen met een vrijblijvende offerte. Je hebt alle tijd om er rustig over na te denken.',
         icon: 'tabler:gift',
       },
       {
-        title: 'Actie!',
+        title: 'Tijd om te starten!',
         description:
-          'Klinkt het advies goed? Dan kunnen we direct aan de slag en starten we een succesvolle samenwerking!',
+          'Is het advies wat je zocht? Dan kunnen we direct aan de slag voor een succesvolle samenwerking!',
         icon: 'tabler:check',
       },
     ]}
     image={{
-      src: '/_astro/online-marketing-bureau-tilburg.BlelQGaI.jpg', 
-      alt: 'Advies op maat bij online marketing bureau in Tilburg Magick Media',
+      src: '/_astro/online-marketing-bureau-nijmegen.CaKQ2bZx.jpg', 
+      alt: 'Online marketing bureau Nijmegen met persoolijk advies',
     }}
   />
 
   <!-- Testimonials Widget *********** -->
 
 <Testimonials
-title="Wat onze klanten in regio Tilburg zeggen"
+title="Wat onze klanten in regio Nijmegen zeggen"
 testimonials={[
   {
     testimonial: `De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen.`,
@@ -270,7 +271,7 @@ testimonials={[
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Wat klanten in regio Tilburg wilde weten"
+    title="Wat klanten in regio Nijmegen wilde weten"
     subtitle="Het is belangrijk dat al jouw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact/' title='neem contact op voor vragen aan Magick Media' class='text-link dark:text-link'>contact</a> met ons op."
     tagline="Veelgestelde vragen"
     classes={{ container: 'max-w-6xl' }}
@@ -337,5 +338,5 @@ testimonials={[
         }
       ]
     }
-    </script>
+  </script>
 </Layout>

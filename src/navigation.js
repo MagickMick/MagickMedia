@@ -168,19 +168,31 @@ export const footerData = {
       ],
     },
     {
-      title: 'Google Ads',
+      title: 'Online marketing bureau',
       links: [
         {
-          text: 'Hoe optimaliseer je je Google Ads-campagnes?',
-          href: getPermalink('/optimaliseer-google-ads-campagne-hoger-conversieratio/'),
+          text: 'Online marketing bureau Tilburg',
+          href: getPermalink('/online-marketing-bureau-tilburg/'),
         },
         {
-          text: 'Hoe je een negatief zoekwoordstrategie implementeert in Google Ads',
-          href: getPermalink('/gebruik-negatieve-zoekwoorden-google-ads-strategie/'),
+          text: 'Online marketing bureau Breda',
+          href: getPermalink('/online-marketing-bureau-breda/'),
         },
         {
-          text: 'Hoe je een negatief zoekwoordstrategie implementeert in Google Ads',
-          href: getPermalink('/gebruik-negatieve-zoekwoorden-google-ads-strategie/'),
+          text: 'Online marketing bureau Nijmegen',
+          href: getPermalink('/online-marketing-bureau-nijmegen/'),
+        },
+        {
+          text: 'Online marketing bureau Den Bosch',
+          href: getPermalink('/online-marketing-bureau-den-bosch/'),
+        },
+        {
+          text: 'Online marketing bureau Eindhoven',
+          href: getPermalink('/online-marketing-bureau-eindhoven/'),
+        },
+        {
+          text: 'Online marketing bureau Waalwijk',
+          href: getPermalink('/online-marketing-bureau-waalwijk/'),
         },
       ],
     },

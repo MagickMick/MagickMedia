@@ -151,6 +151,13 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"post": {
+"belang-van-interne-link-structuur-voor-je-seo.md": {
+	id: "belang-van-interne-link-structuur-voor-je-seo.md";
+  slug: "belang-van-interne-link-structuur-voor-je-seo";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "beveilig-je-wordpress-website-tegen-hackers.md": {
 	id: "beveilig-je-wordpress-website-tegen-hackers.md";
   slug: "beveilig-je-wordpress-website-tegen-hackers";

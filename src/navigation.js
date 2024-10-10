@@ -77,64 +77,31 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Diensten',
+      title: 'SEO Specialist',
       links: [
         {
-          text: 'Website laten maken',
-          href: getPermalink('/website-laten-maken/'),
+          text: 'SEO Specialist Breda',
+          href: getPermalink('/seo-specialist-breda/'),
         },
         {
-          text: 'Webshop laten maken',
-          href: getPermalink('/webshop-laten-maken/'),
+          text: 'SEO Specialist Tilburg',
+          href: getPermalink('/seo-specialist-tilburg/'),
         },
         {
-          text: 'Zoekmachine optimalisatie (SEO)',
-          href: getPermalink('/zoekmachine-optimalisatie-seo/'),
+          text: 'SEO Specialist Eindhoven',
+          href: getPermalink('/seo-specialist-eindhoven/'),
         },
         {
-          text: 'Google Ads (SEA)',
-          href: getPermalink('/google-ads-sea/'),
+          text: 'SEO Specialist Den Bosch',
+          href: getPermalink('/seo-specialist-den-bosch/'),
         },
         {
-          text: 'Leadgeneratie (B2C)',
-          href: getPermalink('/leadgeneratie/'),
+          text: 'SEO Specialist Nijmegen',
+          href: getPermalink('/seo-specialist-nijmegen/'),
         },
         {
-          text: 'Hosting & beheer',
-          href: getPermalink('/hosting-en-beheer/'),
-        },
-        {
-          text: 'Grafisch ontwerp',
-          href: getPermalink('/grafisch-ontwerp/'),
-        },
-      ],
-    },
-    {
-      title: 'Populaire blogs',
-      links: [
-        {
-          text: 'Zelf een Wordpress website maken',
-          href: getPermalink('/zelf-wordpress-website-maken/'),
-        },
-        {
-          text: 'Gratis SEO handleiding voor beginners',
-          href: getPermalink('/gratis-seo-handleiding-voor-beginners/'),
-        },
-        {
-          text: 'Dé technische SEO checklist van 2024',
-          href: getPermalink('/technische-seo-checklist/'),
-        },
-        {
-          text: 'Zoekwoorden analyseren in deze 5 stappen en kom hogerop in Google!',
-          href: getPermalink('/zoekwoorden-analyseren-en-hogerop-in-google/'),
-        },
-        {
-          text: 'Hoe optimaliseer je je Google Ads-campagnes?',
-          href: getPermalink('/optimaliseer-google-ads-campagne-hoger-conversieratio/'),
-        },
-        {
-          text: 'Hoe je een negatief zoekwoordstrategie implementeert in Google Ads',
-          href: getPermalink('/gebruik-negatieve-zoekwoorden-google-ads-strategie/'),
+          text: 'SEO Specialist Waalwijk',
+          href: getPermalink('/seo-specialist-waalwijk/'),
         },
       ],
     },
@@ -193,6 +160,35 @@ export const footerData = {
         {
           text: 'Online marketing bureau Waalwijk',
           href: getPermalink('/online-marketing-bureau-waalwijk/'),
+        },
+      ],
+    },
+    {
+      title: 'Populaire blogs',
+      links: [
+        {
+          text: 'Zelf een Wordpress website maken',
+          href: getPermalink('/zelf-wordpress-website-maken/'),
+        },
+        {
+          text: 'Gratis SEO handleiding voor beginners',
+          href: getPermalink('/gratis-seo-handleiding-voor-beginners/'),
+        },
+        {
+          text: 'Dé technische SEO checklist van 2024',
+          href: getPermalink('/technische-seo-checklist/'),
+        },
+        {
+          text: 'Zoekwoorden analyseren in deze 5 stappen en kom hogerop in Google!',
+          href: getPermalink('/zoekwoorden-analyseren-en-hogerop-in-google/'),
+        },
+        {
+          text: 'Hoe optimaliseer je je Google Ads-campagnes?',
+          href: getPermalink('/optimaliseer-google-ads-campagne-hoger-conversieratio/'),
+        },
+        {
+          text: 'Hoe je een negatief zoekwoordstrategie implementeert in Google Ads',
+          href: getPermalink('/gebruik-negatieve-zoekwoorden-google-ads-strategie/'),
         },
       ],
     },

@@ -57,7 +57,7 @@ Het schrijven van een gastblog vereist iets meer planning dan een standaard blog
   <li><b>Bied waarde:</b> Je wilt niet simpelweg een verkooppraatje schrijven. Deel waardevolle informatie, tips of inzichten die nuttig zijn voor het publiek van de gastwebsite. Dit punt wordt steeds belangrijker in voor SEO.</li>
   <li><b>Wees uniek:</b> Probeer originele content te schrijven die niet al op andere websites staat. Dit vergroot de kans dat je gastblog goed wordt ontvangen en gedeeld.</li>
   <li><b>Optimaliseer voor SEO:</b> Vergeet niet om je gastblog te <a href="/gratis-seo-handleiding-voor-beginners/#on-page-seo">optimaliseren voor zoekmachines</a>. Gebruik <a href="/zoekwoorden-analyseren-en-hogerop-in-google/">relevante zoekwoorden</a> en zorg voor een duidelijke, leesbare structuur.</li>
-  <li><b>Link strategisch:</b> Naast de backlink naar jouw website, kun je ook interne links toevoegen naar relevante content op de website waarop je gastblogt. Dit laat zien dat je hun content waardeert en verhoogt de kans op een langdurige samenwerking. Denk daarnaast ook aan de anchorteksten waarmee je naar jouw website linkt, varieer daar per gastblog mee.</li>
+  <li><b>Link strategisch:</b> Naast de backlink naar jouw website, kun je ook <a href="/belang-van-interne-link-structuur-voor-je-seo/">interne links</a> toevoegen naar relevante content op de website waarop je gastblogt. Dit laat zien dat je hun content waardeert en verhoogt de kans op een langdurige samenwerking. Denk daarnaast ook aan de anchorteksten waarmee je naar jouw website linkt, varieer daar per gastblog mee.</li>
 </ul>
 
 [[Top]](#top)

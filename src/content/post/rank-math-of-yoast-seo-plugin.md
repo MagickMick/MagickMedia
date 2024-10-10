@@ -57,7 +57,7 @@ Lichter in termen van brongebruik vergeleken met Yoast. Het is ontworpen met pre
 ## Prijs
 ### Yoast SEO
 <li>Gratis versie biedt veel functionaliteit, maar het aantal opties is beperkt in vergelijking met Rank Math.</li>
-<li>Yoast Premium kost ongeveer €99 per jaar en voegt functies toe zoals meerdere focus zoekwoorden, interne link suggesties en ondersteuning.</li>
+<li>Yoast Premium kost ongeveer €99 per jaar en voegt functies toe zoals meerdere focus zoekwoorden, <a href="/belang-van-interne-link-structuur-voor-je-seo/">interne link</a> suggesties en ondersteuning.</li>
 
 ### Rank Math
 <li>Biedt een zeer uitgebreide gratis versie die al veel functies bevat die bij Yoast in de premium-versie zitten.</li>

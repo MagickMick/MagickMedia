@@ -1,0 +1,420 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Prices3 from '~/components/widgets/Pricing3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Hero from '~/components/widgets/Hero.astro';
+
+const metadata = {
+  title: 'Magick Media - SEO specialist in regio Tilburg',
+  description:'Zoekmachine optimalisatie in Tilburg nodig? Wij helpen je website hoger in Google te scoren en meer klanten te bereiken',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+
+  <!-- Hero Widget ******************* -->
+  <Hero
+    tagline="SEO Specialist Tilburg"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Plan een gesprek',
+        href: '/plan-een-gesprek/',
+      },
+      { text: 'Tarieven', href: '#tarieven' },
+    ]}
+  >
+    <Fragment slot="title">
+      <span class='text-accent dark:text-white highlight'>SEO specialist in Tilburg</span> zorgt voor jouw zoekmachine optimalisatie en betere rankings in Google.
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="sm:inline">
+        Wij begrijpen hoe belangrijk het is om in <b>Tilburg</b> of nationaal zichtbaar te zijn. Als <b>SEO specialist</b> zorgen wij voor een betere vindbaarheid van jouw website of webshop!
+      </span>
+    </Fragment>
+  </Hero>
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Zoekmachine Optimalisatie (SEO) voor <span class='text-accent dark:text-white highlight'>Tilburg</span>: de voordelen bij Magick Media"
+    columns={2}
+    items={[
+      {
+        title: 'Meer verkeer',
+        description: 'Hoe hoger je website in de zoekresultaten staat, hoe meer verkeer je naar je site trekt. Dit komt doordat gebruikers geneigd zijn eerder op de topresultaten te klikken.',
+        icon: 'tabler:device-analytics',
+      },
+      {
+        title: 'Gebruiksvriendelijk',
+        description: 'Een goede SEO-strategie zorgt ervoor dat je website gebruiksvriendelijker wordt. Google houdt rekening met factoren zoals de laadsnelheid van je site en de navigatiestructuur.',
+        icon: 'tabler:mood-smile-beam',
+      },
+      {
+        title: 'Lange termijn resultaten',
+        description: 'Hoewel SEO tijd nodig heeft om effect te laten zien, is het een duurzame strategie die langdurige resultaten oplevert. Na enkele maanden begint je website meer organisch verkeer aan te trekken.',
+        icon: 'tabler:chart-line',
+      },
+      {
+        title: 'Maandelijkse rapportages',
+        description: 'Met maandelijkse rapportages houden we je op de hoogte van de voortgang en verbeteringen. Zo blijf je precies op de hoogte van de resultaten van de SEO-strategie.',
+        icon: 'tabler:chart-pie',
+      },
+      {
+        title: 'Lage kosten',
+        description: 'SEO is een kosteneffectieve manier om je website te promoten, zeker vergeleken met betaalde campagnes zoals Google Ads. Op de lange termijn biedt SEO vaak betere ROI.',
+        icon: 'tabler:coin-euro',
+      },
+      {
+        title: 'Vindbaarheid',
+        description: 'Zoekmachine optimalisatie zorgt ervoor dat jouw website beter zichtbaar wordt in zoekmachines zoals Google. Dit maakt het eenvoudiger voor klanten om jouw bedrijf te vinden.',
+        icon: 'tabler:world-search',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+  
+  
+  <!-- Pricing2 Widget ******************* -->
+
+  <Prices3
+    title="SEO kosten voor de regio <span class='text-accent dark:text-white highlight'>Tilburg</span>"
+    subtitle="Vind het pakket dat het beste bij jouw situatie past."
+    id="tarieven"
+    prices={[
+      {
+        title: 'Strategie',
+        subtitle: 'Een plan van aanpak hoe jij goed gevonden gaat worden in Google',
+        price: 499,
+        period: 'eenmalig',
+        items: [
+          { 
+            description: 'Rapportage van huidige website',
+          }, 
+          {
+            description: 'Zoekwoorden onderzoek',
+          },
+          {
+            description: 'High value zoekwoorden bepalen',
+          },
+          {
+            description: "Presentatie van de strategie",
+          },
+        ],
+        callToAction: {
+          text: 'Plan een gesprek',
+          href: '/plan-een-gesprek/',
+        },
+      },
+      {
+        title: 'Implementatie',
+        subtitle: 'De strategie die we hebben ontwikkeld, implementeren wij voor jou',
+        price: 799,
+        period: 'vanafprijs',
+        items: [
+          { 
+            description: 'Installeren van plugins',
+          }, 
+          {
+            description: 'Schrijven van SEO-teksten',
+          },
+          {
+            description: 'Optimaliseren van bestaande pagina`s',
+          },
+          {
+            description: 'Hulp bij inrichten Google Mijn Bedrijf',
+          },
+        ],
+        callToAction: {
+          text: 'Plan een gesprek',
+          href: '/plan-een-gesprek/',
+        }
+      },
+      {
+        title: 'Monitoring & Optimalisatie',
+        subtitle: 'Het is erg belangrijk om je website up-to-date te houden en te optimaliseren',
+        price: 149,
+        period: 'vanafprijs per maand',
+        items: [
+          {
+            description: "Linkbuilding",
+          },
+          {
+            description: 'SEO-proof maken van nieuwe artikelen',
+          },
+          {
+            description: 'Technische fouten oplossen',
+          },
+          {
+            description: 'Monitoren van nieuwe kansen',
+          },
+          {
+            description: 'Maandelijkse rapportages',
+          }
+        ],
+        callToAction: {
+          text: 'Plan een gesprek',
+          href: '/plan-een-gesprek/',
+        }
+      }
+    ]}
+  />
+
+  <!-- Steps Widget ****************** -->
+
+  <Steps
+    title="Beter vindbaar in <span class='text-accent dark:text-white highlight'>Tilburg</span>? In deze 6 stappen."
+    tagline="ons proces"
+    isReversed={true}
+    items={[
+      {
+        title: 'Kennismaking en intake',
+        icon: 'tabler:number-1',
+      },
+      {
+        title: 'Offerte met scope',
+        icon: 'tabler:number-2',
+      },
+      {
+        title: 'Onderzoek en analyse',
+        icon: 'tabler:number-3',
+      },
+      {
+        title: 'Strategie',
+        icon: 'tabler:number-4',
+      },
+      {
+        title: 'Implementatie en uitvoering',
+        icon: 'tabler:number-5',
+      },
+      {
+        title: 'Monitoring en optimalisatie',
+        icon: 'tabler:number-6',
+      },
+    ]}
+    image={{
+      src: '/_astro/seo-specialist-tilburg-proces.CFB65m5Q.jpg',
+      alt: 'proces SEO specialist Tilburg',
+    }}
+  />
+
+<!-- Testimonials Widget *********** -->
+
+<Testimonials
+title="Wat onze klanten in regio <span class='text-accent dark:text-white highlight'>Tilburg</span> zeggen"
+testimonials={[
+  {
+    testimonial: `De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen.`,
+    name: 'Cora',
+    job: 'Pink Roccade',
+  },
+  {
+    testimonial: `Ik ken Mick van Magick Media als een iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort.`,
+    name: 'Marco',
+    job: 'Work in Flow',
+  },
+  {
+    testimonial: `De hosting van mijn website heb ik via Magick Media geregeld, ik ben erg blij met hoe snel en gemakkelijk dit geregeld is. Ik ben zelf webdesigner dus een goede hosting partij is voor mij erg belangrijk. Daarnaast heb ik af en toe wat vragen of extra wensen en tot nu toe werd er dan telkens snel geschakeld. Echt een super goede service en korte lijntjes, ik ben blij dat ik voor Magick Media gekozen heb en ga hem ook aanraden voor mijn eigen klanten die een (nieuwe) hosting partij zoeken.`,
+    name: 'Ronne',
+    job: 'Ronne Design',
+  },
+  {
+    testimonial: `Als eigenaar van boekhoudkantoor Allooi ben ik zeer tevreden met de website gemaakt door Magick Media. Dankzij hun aandacht voor detail, creativiteit en technische expertise hebben we een aantrekkelijke en functionele site gekregen. Dankzij het persoonlijk contact, responsieve houding en bereidheid tot aanpassingen hebben we onze online aanwezigheid geoptimaliseerd, wat heeft geleid tot een toename van klanten. Ik beveel Magick Media dus zeker aan.`,
+    name: 'Leroy',
+    job: 'Allooi Boekhouders & Belastingadviseurs',
+  },
+  {
+    testimonial: `Super tevreden!! Duidelijke communicatie en no noncense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍`,
+    name: 'Belinda',
+    job: 'Ribadogfood & more',
+  },
+]}
+/>
+
+<!-- Structured data reviews ******* -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Magick Media",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "5"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Cora"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Marco"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Ik ken Mick van Magick Media als iemand die een goed gevoel heeft voor wat zijn klanten willen en daar flexibel op in weet te spelen. Hij is betrokken, heeft kennis van zaken en is open. Door de persoonlijke aanpak staat Magick Media voor mij apart van het gros van de andere partijen waar je nadat een dienst bij ze afneemt, nooit meer iets van hoort."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Ronne"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "De hosting van mijn website heb ik via Magick Media geregeld, ik ben erg blij met hoe snel en gemakkelijk dit geregeld is. Ik ben zelf webdesigner dus een goede hosting partij is voor mij erg belangrijk. Daarnaast heb ik af en toe wat vragen of extra wensen en tot nu toe werd er dan telkens snel geschakeld. Echt een super goede service en korte lijntjes, ik ben blij dat ik voor Magick Media gekozen heb en ga hem ook aanraden voor mijn eigen klanten die een (nieuwe) hosting partij zoeken."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Leroy"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Als eigenaar van boekhoudkantoor Allooi ben ik zeer tevreden met de website gemaakt door Magick Media. Dankzij hun aandacht voor detail, creativiteit en technische expertise hebben we een aantrekkelijke en functionele site gekregen. Dankzij het persoonlijk contact, responsieve houding en bereidheid tot aanpassingen hebben we onze online aanwezigheid geoptimaliseerd, wat heeft geleid tot een toename van klanten. Ik beveel Magick Media dus zeker aan."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Belinda"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "datePublished": "2024-02-21",
+        "reviewBody": "Super tevreden!! Duidelijke communicatie en no nonsense!!! Heldere afspraken en geen gedoe! Zeer zeker een aanrader!!!!👍"
+      }
+    ]
+  }
+  </script>
+  
+
+<!-- HighlightedPosts Widget ******* -->
+
+<BlogLatestPosts
+title="Onze laatste blogposts"
+/>
+
+<!-- CallToAction Widget *********** -->
+
+<CallToAction
+title="Klaar voor <span class='text-accent dark:text-white highlight'>Magische</span> </br> Zoekmachine Optimalisatie?"
+subtitle="Wacht niet langer en neem contact met ons op.</br> Wij gaan graag voor jou aan de slag!"
+actions={[
+  {
+    variant: 'primary',
+    text: 'Plan een gesprek',
+    href: '/plan-een-gesprek/',
+  },
+]}
+/>
+
+<!-- FAQs Widget ******************* -->
+
+<FAQs
+title="Wat klanten in <span class='text-accent dark:text-white highlight'>Tilburg</span> willen weten"
+subtitle="Het is belangrijk dat al jouw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact/' title='Neem contact op voor vragen aan Magick Media' class='text-link dark:text-link'>contact</a> met ons op."
+tagline="Veelgestelde vragen"
+classes={{ container: 'max-w-6xl' }}
+items={[
+  {
+    title: 'Kunnen jullie garanderen dat ik bovenaan in Google kom?',
+    description:
+      "Het feit dat je bovenaankomt in Google hangt van veel verschillende factoren af. Zo is de concurrentie erg belangrijk en speelt je de technische staat van je website ook een belangrijke rol. Omdat wij niet altijd overal invloed op hebben, doordat je website bijvoorbeeld is gemaakt door een andere partij, kunnen wij helaas geen beloftes doen.",
+  },
+  {
+    title: 'Wanneer kan ik resultaat verwachten?',
+    description:
+      "We zien heel vaak dat het al snel langer dan 6 maanden duurt voordat de klant iets merkt in de toename van bezoekers op zijn/haar website. SEO is dus echt voor de langere termijn. Toch op zoek naar snel resultaat? Dan is wellicht <a href='/google-ads-sea/' title='Meer informatie over Google Ads SEA'class='text-link dark:text-link'>Google Ads (SEA)</a> een betere keus!",
+  },
+  {
+    title: "Wat kan ik zelf doen?",
+    description:
+      "In principe kun je met de strategie die wij voor je ontwikkelen, al een heel eind komen als je de implementatie zelf doet. Echter kost het je waarschijnlijk een stuk meer tijd dan als wij het voor je zouden doen. Daarom nemen we deze last ook graag voor je uit handen, zodat jij je kunt concentreren op je eigen onderneming.",
+  },
+  {
+    title: "Waar hebben jullie mij nog voor nodig?",
+    description:
+      "Een heel groot deel van de zoekmachine optimalisatie zullen we zelf voor je doen. Echter willen we ook inhoudelijke blogposts/artikelen gaan plaatsen op je website. Daar hebben wij jou voor nodig, omdat jij natuurlijk de kennishouden bent van jouw bedrijf en dus weet of de teksten kloppen. Wij zullen de artikelen natuurlijk SEO-proof maken!",
+  },
+  {
+    title: "Meer weten over SEO?",
+    description:
+      "Wij schrijven geregeld blogs over dit onderwerp. Zo is er bijvoorbeeld een <a href='/gratis-seo-handleiding-voor-beginners/' title='Gratis SEO handleiding voor beginners'class='text-link dark:text-link'>gratis beginners handleiding</a> en leren we je meer over <a href='/gastbloggen-linkbuilding-seo-strategie/' title='Gastbloggen als linbuilding'class='text-link dark:text-link'>linkbuilding</a>, het <a href='/belang-van-interne-link-structuur-voor-je-seo/' title='Meer informatie over interne links'class='text-link dark:text-link'>belang van een interne linkstructuur</a> en leer je het <a href='/technische-seo-checklist/' title='Technische SEO checklist'class='text-link dark:text-link'>technisch aspect van SEO</a>. Bekijk voor meer informatie al onze <a href='/category/seo/' title='Onze SEO blogs'class='text-link dark:text-link'>SEO blogs</a>.",
+  },
+]}
+/>
+
+<!-- Structured data FAQ ******* -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Kunnen jullie garanderen dat ik bovenaan in Google kom?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Het feit dat je bovenaankomt in Google hangt van veel verschillende factoren af. Zo is de concurrentie erg belangrijk en speelt je de technische staat van je website ook een belangrijke rol. Omdat wij niet altijd overal invloed op hebben, doordat je website bijvoorbeeld is gemaakt door een andere partij, kunnen wij helaas geen beloftes doen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wanneer kan ik resultaat verwachten?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We zien heel vaak dat het al snel langer dan 6 maanden duurt voordat de klant iets merkt in de toename van bezoekers op zijn/haar website. SEO is dus echt voor de langere termijn. Toch op zoek naar snel resultaat? Dan is wellicht Google Ads (SEA) een betere keus!"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat kan ik zelf doen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In principe kun je met de Strategie die wij voor je ontwikkelen, al een heel eind komen als je de implementatie zelf doet. Echter kost het je waarschijnlijk een stuk meer tijd dan als wij het voor je zouden doen. Daarom nemen we deze last ook graag voor je uit handen, zodat jij je kunt concentreren op je eigen onderneming."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Waar hebben jullie mij nog voor nodig?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Een heel groot deel van de zoekmachine optimalisatie zullen we zelf voor je doen. Echter willen we ook inhoudelijke blogposts/artikelen gaan plaatsen op je website. Daar hebben wij jou voor nodig, omdat jij natuurlijk de kennishouden bent van jouw bedrijf en dus weet of de teksten kloppen. Wij zullen de artikelen natuurlijk SEO-proof maken!"
+        }
+      }
+    ]
+  }
+  </script>
+</Layout>

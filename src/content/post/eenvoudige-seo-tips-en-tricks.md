@@ -35,7 +35,7 @@ Controleer of je website mobielvriendelijk is en zorg ervoor dat je ontwerp resp
 [[Top]](#top)
 
 ## Maak gebruik van interne links
-Interne links helpen zoekmachines om te begrijpen hoe je content is gestructureerd en hoe belangrijk bepaalde pagina’s zijn. Het is slim om te linken naar relevante artikelen binnen je eigen website. Dit helpt niet alleen bij SEO, maar zorgt er ook voor dat gebruikers langer op je site blijven doordat ze klikken naar andere pagina's.
+<a href="/belang-van-interne-link-structuur-voor-je-seo/">Interne links</a> helpen zoekmachines om te begrijpen hoe je content is gestructureerd en hoe belangrijk bepaalde pagina’s zijn. Het is slim om te linken naar relevante artikelen binnen je eigen website. Dit helpt niet alleen bij SEO, maar zorgt er ook voor dat gebruikers langer op je site blijven doordat ze klikken naar andere pagina's.
 
 <b>Tip: Gebruik duidelijke en relevante anchor teksten in je interne links, zodat zoekmachines weten waar de gelinkte pagina’s over gaan. Varieer ook een beetje in de anchor teksten.</b>
 

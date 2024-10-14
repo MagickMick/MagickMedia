@@ -25,7 +25,7 @@ Interne links zijn <a href="https://nl.wikipedia.org/wiki/Hyperlink" target="_bl
 [[Top]](#top)
 
 ## SEO-voordelen van interne links
-Zoekmachines zoals Google gebruiken <a href="/wat-is-crawlen/">crawlers</a> om je website te <a href="https://support.google.com/programmable-search/answer/4513925?hl=nl" target="_blank" rel="noopener">indexeren</a> en te bepalen hoe de pagina's met elkaar in verband staan. Een goed gestructureerd netwerk van interne links helpt deze crawlers de inhoud beter te begrijpen en kan bijdragen aan een hogere positie in de zoekresultaten. Hier zijn enkele belangrijke SEO-voordelen van interne links:
+Zoekmachines zoals Google gebruiken <a href="/wat-is-crawlen/">crawlers</a> om je website te <a href="/wat-is-indexeren/">indexeren</a> en te bepalen hoe de pagina's met elkaar in verband staan. Een goed gestructureerd netwerk van interne links helpt deze crawlers de inhoud beter te begrijpen en kan bijdragen aan een hogere positie in de zoekresultaten. Hier zijn enkele belangrijke SEO-voordelen van interne links:
 <ul>
   <li><b>Verdeling van linkwaarde (link juice)</b>: Interne links helpen de autoriteit van een pagina te verspreiden over je hele website. Wanneer een pagina met een hoge autoriteit interne links heeft naar andere pagina's, verdeelt het een deel van die waarde, wat de SEO prestaties van die pagina's kan verbeteren.</li>
   <li><b>Beter indexeren:</b> Door relevante interne links aan te bieden, zorg je ervoor dat zoekmachines alle belangrijke paginas van je site kunnen vinden en indexeren, wat helpt om de zichtbaarheid van je website in zoekmachines te verbeteren.</li>

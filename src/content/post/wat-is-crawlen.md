@@ -15,7 +15,7 @@ In dit artikel gaan we dieper in op de **betekenis van crawlen**:
 - [2. Crawlbudget](#crawlbudget)
 
 ## Betekenis crawlen
-Crawlen is een proces waarbij zoekmachines zoals Google webpagina's ontdekken en indexeren. Het begint met een zoekmachinebot, ook wel bekend als een crawler of spider, die door het web surft en links volgt van de ene pagina naar de andere. 
+Crawlen is een proces waarbij zoekmachines zoals Google webpagina's ontdekken en <a href="/wat-is-indexeren/">indexeren</a>. Het begint met een zoekmachinebot, ook wel bekend als een crawler of spider, die door het web surft en links volgt van de ene pagina naar de andere. 
 
 Tijdens het crawlproces worden webpagina's gelezen en geanalyseerd om informatie over hun inhoud, structuur en andere relevante gegevens te verkrijgen. Dit stelt zoekmachines in staat om een uitgebreide index van webpagina's samen te stellen en deze later te kunnen tonen in zoekresultaten. 
 

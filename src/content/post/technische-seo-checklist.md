@@ -27,7 +27,7 @@ In deze **Technische SEO checklist** gaan de volgende punten behandelen:
   - [Google Rich Results Test](#google-rich-results-test)
 
 ## Wat valt er onder technische SEO?
-Dit deel van SEO omvat het verbeteren van de laadsnelheid van de site, het optimaliseren van de sitestructuur en URL's, het gebruik van structured data voor betere zoekresultaten, het aanpakken van dubbele inhoudsproblemen, het zorgen voor een mobiel vriendelijk ontwerp, het optimaliseren van de XML-sitemaps en robots.txt-bestanden, en het beheren van redirects. Technische SEO is een belangrijk aspect in het waarborgen van een gezonde online aanwezigheid en het zorgt ervoor dat zoekmachines de website gemakkelijker kunnen indexeren en ranken, wat uiteindelijk leidt tot een verbeterde vindbaarheid en gebruikerservaring.
+Dit deel van SEO omvat het verbeteren van de laadsnelheid van de site, het optimaliseren van de sitestructuur en URL's, het gebruik van structured data voor betere zoekresultaten, het aanpakken van dubbele inhoudsproblemen, het zorgen voor een mobiel vriendelijk ontwerp, het optimaliseren van de XML-sitemaps en robots.txt-bestanden, en het beheren van redirects. Technische SEO is een belangrijk aspect in het waarborgen van een gezonde online aanwezigheid en het zorgt ervoor dat zoekmachines de website gemakkelijker kunnen <a href="/wat-is-indexeren/">indexeren</a> en ranken, wat uiteindelijk leidt tot een verbeterde vindbaarheid en gebruikerservaring.
 
 [[Top]](#top)
 

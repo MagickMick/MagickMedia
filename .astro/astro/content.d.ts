@@ -207,6 +207,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"gap-analyse-concurrentie-seo.md": {
+	id: "gap-analyse-concurrentie-seo.md";
+  slug: "gap-analyse-concurrentie-seo";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "gastbloggen-linkbuilding-seo-strategie.md": {
 	id: "gastbloggen-linkbuilding-seo-strategie.md";
   slug: "gastbloggen-linkbuilding-seo-strategie";
@@ -301,6 +308,13 @@ declare module 'astro:content' {
 "wat-is-crawlen.md": {
 	id: "wat-is-crawlen.md";
   slug: "wat-is-crawlen";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wat-is-indexeren.md": {
+	id: "wat-is-indexeren.md";
+  slug: "wat-is-indexeren";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">

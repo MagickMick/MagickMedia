@@ -3,7 +3,7 @@ publishDate: 2024-09-20T00:00:00Z
 title: Magick Media - A/B testen in Google Ads
 h1: Hoe test je verschillende advertentievarianten met A/B-testen in Google Ads?
 excerpt: A/B-testen in Google Ads helpt je verschillende advertentievarianten te testen om te ontdekken welke het meest effectief is.
-image: /_astro/a-b-testen-google-ads.BPutWU9M
+image: /_astro/a-b-testen-google-ads.BPutWU9M.jpg
 category: Google Ads
 tags:
   - Google Ads

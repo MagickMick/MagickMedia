@@ -24,12 +24,12 @@ Als je pagina niet wordt geïndexeerd, zal deze niet in de zoekresultaten versch
 ## Hoe gaan zoekmachines te werk?
 Het indexeren van een pagina gebeurt niet zomaar. Het begint met een geautomatiseerd proces dat "<a href="/wat-is-crawlen/">crawlen</a>" heet. Zo werkt het:
 
-1. Crawlen
+1. <b>Crawlen</b><br>
 Zoekmachines hebben een soort robots (ook wel "bots" of "spiders" genoemd) die constant het internet afspeuren op zoek naar nieuwe of gewijzigde webpagina's. Deze bots volgen links, net zoals jij dat doet wanneer je van de ene naar de andere pagina klikt. Ze komen op jouw website terecht via links of een sitemap (een soort routekaart van je website).
 
 De bots kijken naar de inhoud van je pagina, zoals de tekst, afbeeldingen en video’s. Ze noteren ook de links naar andere pagina’s en beoordelen hoe je website is gestructureerd.
 
-2. Het analyseren van de inhoud
+2. <b>Het analyseren van de inhoud</b><br>
 Nadat je pagina is gecrawld, begint de zoekmachine de inhoud te analyseren. Hierbij kijken ze naar:
 <ul>
   <li><b>Relevantie</b>: Is de inhoud van je pagina relevant voor bepaalde zoekopdrachten?</li>
@@ -38,10 +38,10 @@ Nadat je pagina is gecrawld, begint de zoekmachine de inhoud te analyseren. Hier
   <li><b>Links:</b> Hoeveel andere websites linken naar jouw pagina en welke kwaliteit hebben die links? Dit zijn bijvoorbeeld <a href="/gastbloggen-linkbuilding-seo-strategie/">gastblogs</a> die je hebt geschreven.</li>
 </ul>
 
-3. Opslaan in de index
+3. <b>Opslaan in de index</b><br>
 Als alles goed is, slaat de zoekmachine jouw pagina op in hun index. Dit is de plek waar ze alle informatie bewaren die ze hebben gevonden. Wanneer iemand nu zoekt naar iets dat te maken heeft met de inhoud van jouw pagina, kan de zoekmachine jouw site vinden en weergeven in de zoekresultaten.
 
-4. Rangschikken
+4. <b>Rangschikken</b><br>
 Je pagina is nu geïndexeerd, maar daar stopt het niet. De zoekmachine gaat ook bepalen hoe hoog jouw pagina moet komen te staan voor bepaalde zoektermen. Hier spelen factoren zoals het aantal zoekwoorden, de kwaliteit van je content, en de links naar je pagina een belangrijke rol in. Hoe beter alles scoort, hoe hoger je pagina komt te staan in de resultaten.
 
 ## Hoe zorg je ervoor dat je pagina snel wordt geindexeerd?

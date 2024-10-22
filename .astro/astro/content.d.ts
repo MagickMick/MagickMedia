@@ -228,6 +228,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"google-ads-klant-casus-sol-stijlvol-hekwerk.md": {
+	id: "google-ads-klant-casus-sol-stijlvol-hekwerk.md";
+  slug: "google-ads-klant-casus-sol-stijlvol-hekwerk";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "gratis-seo-handleiding-voor-beginners.md": {
 	id: "gratis-seo-handleiding-voor-beginners.md";
   slug: "gratis-seo-handleiding-voor-beginners";
@@ -284,6 +291,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"quality-score-kwaliteitsscore-google-ads.md": {
+	id: "quality-score-kwaliteitsscore-google-ads.md";
+  slug: "quality-score-kwaliteitsscore-google-ads";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "rank-math-of-yoast-seo-plugin.md": {
 	id: "rank-math-of-yoast-seo-plugin.md";
   slug: "rank-math-of-yoast-seo-plugin";
@@ -308,6 +322,13 @@ declare module 'astro:content' {
 "wat-is-crawlen.md": {
 	id: "wat-is-crawlen.md";
   slug: "wat-is-crawlen";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
+"wat-is-een-sitemap.md": {
+	id: "wat-is-een-sitemap.md";
+  slug: "wat-is-een-sitemap";
   body: string;
   collection: "post";
   data: InferEntrySchema<"post">

@@ -222,7 +222,7 @@ const metadata = {
 
   
   <div class="container">
-    <h2 class="font-bold leading-tighter tracking-tighter font-heading text-heading text-3xl md:text-4xl">Deze bedrijven gingen je voor in regio Nijmegen</h2>
+    <h2 class="font-bold leading-tighter tracking-tighter font-heading text-heading text-3xl md:text-4xl">Deze bedrijven gingen je voor in regio <span class='text-accent dark:text-white highlight'>Nijmegen</span></h2>
     <div class="image-gallery">
       {images.map(image => (
         <a href={image.url} target="_blank" rel="noopener noreferrer">
@@ -280,7 +280,7 @@ const metadata = {
 <!-- Testimonials Widget *********** -->
 
 <Testimonials
-title="Wat onze klanten in regio Nijmegen zeggen"
+title="Wat onze klanten in regio <span class='text-accent dark:text-white highlight'>Nijmegen</span> zeggen"
 testimonials={[
   {
     testimonial: `De hosting van de website 'jouw gemeente mijn gemeente' hosten we sinds een tijdje via Magick Media. We zijn daar erg tevreden over. De lijntjes zijn kort. Dit resulteert in snelle antwoorden op onze vragen.`,
@@ -414,7 +414,7 @@ actions={[
 <!-- FAQs Widget ******************* -->
 
 <FAQs
-title="Wat klanten willen weten"
+title="Wat klanten in <span class='text-accent dark:text-white highlight'>Nijmegen</span> willen weten"
 subtitle="Het is belangrijk dat al jouw vragen beantwoord zijn. Daarom hebben we een aantal veelgestelde vragen hieronder neer gezet. Toch nog andere vragen? Neem dan gerust <a href='/contact/' title='Neem contact op voor vragen aan Magick Media' class='text-link dark:text-link'>contact</a> met ons op."
 tagline="Veelgestelde vragen"
 classes={{ container: 'max-w-6xl' }}

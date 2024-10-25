@@ -228,6 +228,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"gebruikerservaring-landingspagina-voor-succesvolle-google-ads.md": {
+	id: "gebruikerservaring-landingspagina-voor-succesvolle-google-ads.md";
+  slug: "gebruikerservaring-landingspagina-voor-succesvolle-google-ads";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "google-ads-klant-casus-sol-stijlvol-hekwerk.md": {
 	id: "google-ads-klant-casus-sol-stijlvol-hekwerk.md";
   slug: "google-ads-klant-casus-sol-stijlvol-hekwerk";

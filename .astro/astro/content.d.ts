@@ -347,6 +347,13 @@ declare module 'astro:content' {
   collection: "post";
   data: InferEntrySchema<"post">
 } & { render(): Render[".md"] };
+"wat-is-google-maps.md": {
+	id: "wat-is-google-maps.md";
+  slug: "wat-is-google-maps";
+  body: string;
+  collection: "post";
+  data: InferEntrySchema<"post">
+} & { render(): Render[".md"] };
 "wat-is-indexeren.md": {
 	id: "wat-is-indexeren.md";
   slug: "wat-is-indexeren";
